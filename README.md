@@ -7,7 +7,9 @@ A headless WP installation with a React frontend search form fetching data from 
 - WP installation with 2019 child-theme
 - use ACF for custom fields
 - custom REST endpoints
-- React app to display search form
+- create post from CF7 form sumbit
+- publish posts automatically
+- React app to fetch WP data and display search form
 - ...
 
 ## Instructions

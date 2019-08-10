@@ -6,7 +6,7 @@ A headless WP installation with a React frontend search form fetching data from 
 
 - WP installation with 2019 child-theme
 - use ACF for custom fields
-- custom REST endpoints
+- ~~custom REST endpoints~~
 - create post from CF7 form sumbit
 - publish posts automatically
 - React app to fetch WP data and display search form
@@ -21,4 +21,33 @@ A headless WP installation with a React frontend search form fetching data from 
 - create a 2019 child-theme
 - install ACF and CF7 plugins
 - create custom fields in ACF for the React search form and for the CF7 input form
+  - `business_name`
+  - `business_contact`
+  - `business_address`
+  - `business_etc..`
+- add custom endpoints in `functions.php` for `/?rest_route=/bim-business/v1/posts`
+
+```
+// Custom ACF endpoint for headless wp-react app
+function ssws_business_endpoint($request_data)
+{
+    $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => -1,
+        'numberposts' => -1,
+    );
+    $posts = get_posts($args);
+    foreach ($posts as $key => $post) {
+        $posts[$key]->acf = get_fields($post->ID);
+    }
+    return $posts;
+}
+add_action('rest_api_init', function () {
+    register_rest_route('bim-business/v1', '/posts/', array(
+        'methods' => 'GET',
+        'callback' => 'ssws_business_endpoint',
+    ));
+});
+```
+
 - ...

@@ -15,25 +15,12 @@
  */
 
 get_header();
-
-// function dumpData($data)
-// {
-//     echo '<pre>';
-//     var_dump($data);
-//     echo '</pre>';
-
-//     die();
-// }
 ?>
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		<?php
-
-// $wp_user = new WP_User(wp_get_current_user()->get_site_id());
-// dumpData($wp_user);
-
+<?php
 if (have_posts()) {
 
     // Load posts loop.

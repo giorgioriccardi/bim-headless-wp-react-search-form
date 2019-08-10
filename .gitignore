@@ -3,8 +3,10 @@
 wp-config-local.php
 wp-cli.local.yml
 wp-content/uploads
-uploads
-themes/twentynineteen
+uploads/
+themes/twentynineteen/
+plugins/advanced-custom-fields/
+plugins/contact-form-7/
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/

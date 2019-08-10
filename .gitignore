@@ -4,6 +4,7 @@ wp-config-local.php
 wp-cli.local.yml
 wp-content/uploads
 uploads
+themes/twentynineteen
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/
@@ -15,6 +16,7 @@ wp-content/wp-cache-config.php
 sitemap.xml
 sitemap.xml.gz
 *.log
+package-lock.json
 
 # @TODO writable paths
 wp-content/cache/

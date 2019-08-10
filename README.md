@@ -50,4 +50,4 @@ add_action('rest_api_init', function () {
 });
 ```
 
-- ...
+- add Post My CF7 Form plugin

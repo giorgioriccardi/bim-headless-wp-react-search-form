@@ -1,0 +1,16 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://en-gb.wordpress.org/themes/twentynineteen/
+Author: Giorgio Riccardi
+Author URI: https://ssws.ca
+Description: WordPress Twenty Nineteen child theme.
+Template: twentynineteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: twentynineteen-child
+*/
+
+.debug {
+    border: red solid thin;
+}

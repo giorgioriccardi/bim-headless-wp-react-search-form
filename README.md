@@ -5,6 +5,7 @@ A headless WP installation with a React frontend search form fetching data from 
 ## TODO
 
 - WP installation with 2019 child-theme
+- use ACF for custom fields
 - custom REST endpoints
 - React app to display search form
 - ...
@@ -15,3 +16,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - move all repo files and folders within wp-content folder
 - make sure to clean up plugins and themes that we are not using
 - or alternatively add all those plugins and themes in `.gitignore`
+- create a 2019 child-theme
+- install ACF and CF7 plugins
+- create custom fields in ACF for the React search form and for the CF7 input form
+- ...

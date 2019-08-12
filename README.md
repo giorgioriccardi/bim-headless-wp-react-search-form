@@ -10,6 +10,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - create post from CF7 form sumbit
 - publish posts automatically
 - React app to fetch WP data and display search form
+- ~~add ACF export json data~~
 - ...
 
 ## Instructions

@@ -21,6 +21,7 @@ sitemap.xml
 sitemap.xml.gz
 *.log
 package-lock.json
+yarn.lock
 
 # @TODO writable paths
 wp-content/cache/

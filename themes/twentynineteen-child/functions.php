@@ -41,3 +41,4 @@ add_action('rest_api_init', function () {
         'callback' => 'ssws_business_endpoint',
     ));
 });
+// /?rest_route=/bim-business/v1/posts

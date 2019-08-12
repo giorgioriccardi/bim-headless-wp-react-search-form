@@ -1,4 +1,5 @@
 <?php
+
 // 2019 Child Theme Functions File
 
 add_action('wp_enqueue_scripts', 'ssws_enqueue_wp_child_theme');
@@ -42,3 +43,24 @@ add_action('rest_api_init', function () {
     ));
 });
 // /?rest_route=/bim-business/v1/posts
+
+// Set all posts status to published, so when submit CF7 form it gets published right away
+
+add_action('init', 'ssws_update_draft_posts_to_publish');
+
+function ssws_update_draft_posts_to_publish()
+{
+    $args = array('post_type' => 'post',
+        'post_status' => 'draft',
+        'posts_per_page' => -1,
+    );
+    $published_posts = get_posts($args);
+
+    foreach ($published_posts as $post_to_draft) {
+        $query = array(
+            'ID' => $post_to_draft->ID,
+            'post_status' => 'publish',
+        );
+        wp_update_post($query, true);
+    }
+}

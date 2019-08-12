@@ -8,7 +8,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - use ACF for custom fields
 - ~~custom REST endpoints~~
 - create post from CF7 form sumbit
-- publish posts automatically
+- ~~publish posts automatically~~
 - React app to fetch WP data and display search form
 - ~~add ACF export json data~~
 - ...
@@ -19,10 +19,11 @@ A headless WP installation with a React frontend search form fetching data from 
 - move all repo files and folders within wp-content folder
 - make sure to clean up plugins and themes that we are not using
 - or alternatively add all those plugins and themes in `.gitignore`
-- create a 2019 child-theme
+- create a WP2019 child-theme
 - install [ACF](https://wordpress.org/plugins/advanced-custom-fields/) and [CF7](https://wordpress.org/plugins/contact-form-7/) plugins
 - create custom fields in ACF for the React search form and for the CF7 input form
   - `business_name`
+  - `business_owner`
   - `business_contact`
   - `business_address`
   - `business_etc..`

@@ -55,7 +55,7 @@ if (!function_exists('ssws_enqueue_files')) {
 
     function ssws_enqueue_files()
     {
-        wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY', null, '1.0', true);
+        wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY', null, '1.0', true); // don't bother copying this API Key, is restricted!
     }
     add_action('wp_enqueue_scripts', 'ssws_enqueue_files');
 }
@@ -63,7 +63,7 @@ if (!function_exists('ssws_enqueue_files')) {
 if (!function_exists('sswsGoogleMapKey')) {
     function sswsGoogleMapKey($api)
     {
-        $api['key'] = 'AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY';
+        $api['key'] = 'AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY'; // don't bother copying this API Key, is restricted!
         return $api;
     }
     add_filter('acf/fields/google_map/api', 'sswsGoogleMapKey');

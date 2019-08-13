@@ -56,4 +56,5 @@ add_action('rest_api_init', function () {
 - config the CF7 form to reflect the data structure and custom fields
 - create a react app within `wp-content`with `npx create-react-app bimsearch`
 - install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data and to navigate to the single business page
+- run `yarn start` and after `yarn build` to test live if it's running
 -

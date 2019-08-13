@@ -11,6 +11,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - ~~publish posts automatically~~
 - React app to fetch WP data and display search form
 - ~~add ACF export json data~~
+- change React default logos and favicon in public folder
 - ...
 
 ## Instructions

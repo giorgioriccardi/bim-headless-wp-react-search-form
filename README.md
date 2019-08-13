@@ -82,5 +82,5 @@ add_action('rest_api_init', function () {
 - add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
 - **the FlyWheel url changes all the time!**
-- remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!
--
+- _remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!_
+- include in `package.json` a proxy so we don't have to include it in our request `"proxy": "http://localhost:8000"`

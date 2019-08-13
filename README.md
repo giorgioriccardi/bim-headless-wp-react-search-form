@@ -22,11 +22,33 @@ A headless WP installation with a React frontend search form fetching data from 
 - create a WP2019 child-theme
 - install [ACF](https://wordpress.org/plugins/advanced-custom-fields/) and [CF7](https://wordpress.org/plugins/contact-form-7/) plugins
 - create custom fields in ACF for the React search form and for the CF7 input form
+
   - `business_name`
   - `business_owner`
   - `business_contact`
-  - `business_address`
-  - `business_etc..`
+  - `business_address` this will require a **GMAPS API Key** and a function(s) to [enable GMaps in ACF](https://www.advancedcustomfields.com/resources/google-map/)
+
+    ```
+    function ssws_enqueue_files()
+    {
+        wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY', null, '1.0', true);
+        // don't bother copying this API Key, has been cancelled and the new one is restricted!
+    }
+    add_action('wp_enqueue_scripts', 'ssws_enqueue_files');
+
+    function sswsGoogleMapKey($api)
+    {
+        $api['key'] = 'AIzaSyBjDsJj-aXpawLG_MPPZZcpjOYvdoZGsPY';
+        // don't bother copying this API Key, has been cancelled and the new one is restricted!
+        return $api;
+    }
+    add_filter('acf/fields/google_map/api', 'sswsGoogleMapKey');
+    // https://www.advancedcustomfields.com/resources/google-map/
+    ```
+
+  - `business_category` // from a dropdown list
+  - `business_etc...`
+
 - add custom endpoints in `functions.php` for `/?rest_route=/bim-business/v1/posts`
 
 ```

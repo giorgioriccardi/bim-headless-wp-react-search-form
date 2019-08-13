@@ -77,9 +77,10 @@ add_action('rest_api_init', function () {
 - add [Post My CF7 Form](https://wordpress.org/plugins/post-my-contact-form-7/) plugin
 - config the CF7 form to reflect the data structure and custom fields
 - create a react app within `wp-content`with `npx create-react-app bimsearch`
-- install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data and to navigate to the single business page
+- install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data (or make our requests) and to navigate to the single business page
 - run `yarn start` and after `yarn build` to test live if it's running
 - add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
 - **the FlyWheel url changes all the time!**
+- remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!
 -

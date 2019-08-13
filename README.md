@@ -57,4 +57,7 @@ add_action('rest_api_init', function () {
 - create a react app within `wp-content`with `npx create-react-app bimsearch`
 - install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data and to navigate to the single business page
 - run `yarn start` and after `yarn build` to test live if it's running
+- add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
+- test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
+- **the FlyWheel url changes all the time!**
 -

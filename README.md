@@ -53,3 +53,7 @@ add_action('rest_api_init', function () {
 ```
 
 - add [Post My CF7 Form](https://wordpress.org/plugins/post-my-contact-form-7/) plugin
+- config the CF7 form to reflect the data structure and custom fields
+- create a react app within `wp-content`with `npx create-react-app bimsearch`
+- install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data and to navigate to the single business page
+-

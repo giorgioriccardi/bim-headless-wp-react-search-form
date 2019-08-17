@@ -27,6 +27,7 @@ function ssws_business_endpoint($request_data)
 {
     $args = array(
         'post_type' => 'post',
+        // 'post_type'     => array('event', 'post'),
         'posts_per_page' => -1,
         'numberposts' => -1,
     );
@@ -36,8 +37,9 @@ function ssws_business_endpoint($request_data)
     }
     return $posts;
 }
+
 add_action('rest_api_init', function () {
-    register_rest_route('bim-business/v1', '/posts/', array(
+    register_rest_route('bim-business/v1', '/posts', array(
         'methods' => 'GET',
         'callback' => 'ssws_business_endpoint',
     ));

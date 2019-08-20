@@ -11,6 +11,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - ~~publish posts automatically~~
 - React app to fetch WP data and display search form
 - ~~add ACF export json data~~
+- change React default logos and favicon in public folder
 - ...
 
 ## Instructions
@@ -49,11 +50,11 @@ A headless WP installation with a React frontend search form fetching data from 
   - `business_category` // from a dropdown list
   - `business_etc...`
 
-- add custom endpoints in `functions.php` for `/?rest_route=/bim-business/v1/posts`
+- add custom endpoints in `functions.php` for `/?rest_route=/bim-businesses/v1/posts`
 
 ```
 // Custom ACF endpoint for headless wp-react app
-function ssws_business_endpoint($request_data)
+function ssws_businesses_endpoint($request_data)
 {
     $args = array(
         'post_type' => 'post',
@@ -67,9 +68,9 @@ function ssws_business_endpoint($request_data)
     return $posts;
 }
 add_action('rest_api_init', function () {
-    register_rest_route('bim-business/v1', '/posts/', array(
+    register_rest_route('bim-businesses/v1', '/posts', array(
         'methods' => 'GET',
-        'callback' => 'ssws_business_endpoint',
+        'callback' => 'ssws_businesses_endpoint',
     ));
 });
 ```
@@ -82,5 +83,5 @@ add_action('rest_api_init', function () {
 - add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
 - **the FlyWheel url changes all the time!**
-- remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!
--
+- _remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!_
+- include in `package.json` a proxy so we don't have to include it in our request `"proxy": "http://localhost:8000"`

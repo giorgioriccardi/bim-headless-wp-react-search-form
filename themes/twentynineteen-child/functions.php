@@ -23,7 +23,7 @@ function ssws_enqueue_wp_child_theme()
 // Custom ACF endpoint for headless wp-react app
 // https://snipcart.com/blog/reactjs-wordpress-rest-api-example
 
-function ssws_business_endpoint($request_data)
+function ssws_businesses_endpoint($request_data)
 {
     $args = array(
         'post_type' => 'post',
@@ -36,13 +36,14 @@ function ssws_business_endpoint($request_data)
     }
     return $posts;
 }
+
 add_action('rest_api_init', function () {
-    register_rest_route('bim-business/v1', '/posts/', array(
+    register_rest_route('bim-businesses/v1', '/posts', array(
         'methods' => 'GET',
-        'callback' => 'ssws_business_endpoint',
+        'callback' => 'ssws_businesses_endpoint',
     ));
 });
-// /?rest_route=/bim-business/v1/posts
+// /?rest_route=/bim-businesses/v1/posts
 
 // Set all posts status to published, so when submit CF7 form it gets published right away
 

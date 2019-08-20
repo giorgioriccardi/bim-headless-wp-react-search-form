@@ -29,7 +29,7 @@ export class Businesses extends Component {
       return (
         <div>
           {businesses.map(business => (
-            <h2>{business.post_title}</h2>
+            <h2>{business.acf.business_name}</h2>
           ))}
         </div>
       );

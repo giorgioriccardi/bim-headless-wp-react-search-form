@@ -30,7 +30,7 @@ export class Businesses extends Component {
       return (
         <div>
           {businesses.map(business => (
-            <BusinessItem key={business.id} business={business} />
+            <BusinessItem key={business.ID} business={business} />
           ))}
         </div>
       );

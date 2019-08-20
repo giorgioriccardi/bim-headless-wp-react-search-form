@@ -12,6 +12,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - React app to fetch WP data and display search form
 - ~~add ACF export json data~~
 - change React default logos and favicon in public folder
+- ~~add ACF to REST API plugin to show AFC endpoints in default WP rest~~
 - ...
 
 ## Instructions
@@ -75,6 +76,7 @@ add_action('rest_api_init', function () {
 });
 ```
 
+- add [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) plugin to show ACF endpoints in default WP rest
 - add [Post My CF7 Form](https://wordpress.org/plugins/post-my-contact-form-7/) plugin
 - config the CF7 form to reflect the data structure and custom fields
 - create a react app within `wp-content`with `npx create-react-app bimsearch`

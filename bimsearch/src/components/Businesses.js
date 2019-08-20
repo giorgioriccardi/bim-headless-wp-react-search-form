@@ -9,7 +9,10 @@ export class Businesses extends Component {
 
   componentDidMount() {
     axios
-      .get('http://bim-business-search.local/wp-json/bim-business/v1/posts')
+      //   .get('http://bim-business-search.local/wp-json/bim-businesses/v1/posts')
+      .get(
+        'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'
+      )
       .then(res =>
         this.setState({
           businesses: res.data,
@@ -22,16 +25,16 @@ export class Businesses extends Component {
   render() {
     console.log(this.state);
     const { businesses, isLoaded } = this.state;
-    if(isLoaded) {
-        return (
-            <div>
-                { businesses. 27'50"
-
-                }
-            </div>
-
-        );
+    if (isLoaded) {
+      return (
+        <div>
+          {businesses.map(business => (
+            <h2>{business.post_title}</h2>
+          ))}
+        </div>
+      );
     }
+    return <h3>Loading BIM Businesses Data...</h3>;
   }
 }
 

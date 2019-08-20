@@ -50,11 +50,11 @@ A headless WP installation with a React frontend search form fetching data from 
   - `business_category` // from a dropdown list
   - `business_etc...`
 
-- add custom endpoints in `functions.php` for `/?rest_route=/bim-business/v1/posts`
+- add custom endpoints in `functions.php` for `/?rest_route=/bim-businesses/v1/posts`
 
 ```
 // Custom ACF endpoint for headless wp-react app
-function ssws_business_endpoint($request_data)
+function ssws_businesses_endpoint($request_data)
 {
     $args = array(
         'post_type' => 'post',
@@ -68,9 +68,9 @@ function ssws_business_endpoint($request_data)
     return $posts;
 }
 add_action('rest_api_init', function () {
-    register_rest_route('bim-business/v1', '/posts', array(
+    register_rest_route('bim-businesses/v1', '/posts', array(
         'methods' => 'GET',
-        'callback' => 'ssws_business_endpoint',
+        'callback' => 'ssws_businesses_endpoint',
     ));
 });
 ```

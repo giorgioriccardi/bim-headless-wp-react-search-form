@@ -6,7 +6,11 @@ export class BusinessItem extends Component {
     // check that the business input did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
-      return <p>{post_title} is missing some information</p>;
+      return (
+        <div className='warning-message'>
+          {post_title} is missing some information
+        </div>
+      );
     }
     return (
       <div>

@@ -9,6 +9,8 @@ plugins/advanced-custom-fields/
 plugins/post-my-contact-form-7/
 plugins/ssws-wordpress-plugin-snippets-collection
 plugins/contact-form-7/
+plugins/acf-to-rest-api/
+plugins/cf7-google-map/
 mu-plugins/local-by-flywheel-demo-urls.php
 wp-content/blogs.dir/
 wp-content/upgrade/

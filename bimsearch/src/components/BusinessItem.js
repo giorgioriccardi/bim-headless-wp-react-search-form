@@ -20,6 +20,7 @@ export class BusinessItem extends Component {
         </h4>
         {/* <div>Address: {acf.business_address.address}</div> */}
         <div>Address: {acf.business_address}</div>
+        <p>The GMAP will be implemented at a later stage, eventually</p>
       </div>
     );
   }

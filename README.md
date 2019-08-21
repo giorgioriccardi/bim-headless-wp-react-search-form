@@ -13,6 +13,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - ~~add ACF export json data~~
 - change React default logos and favicon in public folder
 - ~~add ACF to REST API plugin to show AFC endpoints in default WP rest~~
+- Evaluate this plugin for future Gmaps implementation [Google Map for Contact Form 7](https://wordpress.org/plugins/cf7-google-map/)
 - ...
 
 ## Instructions

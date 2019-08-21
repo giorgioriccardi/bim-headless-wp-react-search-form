@@ -6,4 +6,5 @@ body {
 
 .warning-message {
     color: red;
+    padding: 1em 0;
 }

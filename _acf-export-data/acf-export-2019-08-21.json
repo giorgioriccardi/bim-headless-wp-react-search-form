@@ -46,7 +46,7 @@
                 "label": "Business Address",
                 "name": "business_address",
                 "type": "google_map",
-                "instructions": "",
+                "instructions": "E.G. 981 Artisan Ln, Bowen Island, BC V0N 1G2, Canada",
                 "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
@@ -54,8 +54,8 @@
                     "class": "",
                     "id": ""
                 },
-                "center_lat": "",
-                "center_lng": "",
+                "center_lat": "49.37936597934192",
+                "center_lng": "-123.34282868430705",
                 "zoom": "",
                 "height": ""
             }

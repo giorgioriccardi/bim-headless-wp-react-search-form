@@ -18,6 +18,7 @@ export class BusinessItem extends Component {
         <h4>
           Owner: <em>{acf.business_owner}</em>
         </h4>
+        {/* <div>Address: {acf.business_address.address}</div> */}
         <div>Address: {acf.business_address}</div>
       </div>
     );

@@ -72,6 +72,7 @@ add_action('rest_api_init', function () {
         'methods' => 'GET',
         'callback' => 'ssws_businesses_endpoint',
     ));
+
     register_rest_route('bim-businesses/v1', 'posts/(?P<slug>[a-zA-Z0-9-]+)', array(
         'methods' => 'GET',
         'callback' => 'ssws_businesses_endpoint_slug',

@@ -14,6 +14,7 @@ plugins/cf7-google-map/
 plugins/debug-bar/
 plugins/developer/
 plugins/show-current-template/
+plugins/
 mu-plugins/local-by-flywheel-demo-urls.php
 wp-content/blogs.dir/
 wp-content/upgrade/
@@ -28,6 +29,10 @@ sitemap.xml.gz
 *.log
 package-lock.json
 yarn.lock
+
+# Back End #
+#############
+.env
 
 # @TODO writable paths
 wp-content/cache/

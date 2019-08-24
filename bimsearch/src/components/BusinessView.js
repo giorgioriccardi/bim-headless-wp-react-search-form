@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class BusinessItem extends Component {
+export class BusinessView extends Component {
   render() {
     const { acf, post_title } = this.props.business;
     // check that the business input did not have any issue with ACF
@@ -26,4 +26,4 @@ export class BusinessItem extends Component {
   }
 }
 
-export default BusinessItem;
+export default BusinessView;

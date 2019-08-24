@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BusinessItem from './BusinessItem';
+import BusinessView from './BusinessView';
 import axios from 'axios';
 
 export class Businesses extends Component {
@@ -30,7 +30,7 @@ export class Businesses extends Component {
       return (
         <div>
           {businesses.map(business => (
-            <BusinessItem key={business.ID} business={business} />
+            <BusinessView key={business.ID} business={business} />
           ))}
         </div>
       );

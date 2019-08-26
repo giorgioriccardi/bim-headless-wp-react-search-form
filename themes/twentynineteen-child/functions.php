@@ -38,17 +38,18 @@ function ssws_businesses_endpoint($request_data)
     // }
     // return $posts;
 
-    $data = [];
+    $wpData = [];
     $i = 0;
-    foreach ($posts as $post) {
-        $data[$i]['id'] = $post->ID;
-        $data[$i]['title'] = $post->post_title;
-        $data[$i]['content'] = $post->post_content;
-        $data[$i]['slug'] = $post->post_name;
-        $data[$i]['acf'] = get_fields($post->ID);
+    // foreach ($posts as $post) {
+    foreach ($posts as $i => $post) {
+        $wpData[$i]['id'] = $post->ID;
+        $wpData[$i]['title'] = $post->post_title;
+        $wpData[$i]['content'] = $post->post_content;
+        $wpData[$i]['slug'] = $post->post_name;
+        $wpData[$i]['acf'] = get_fields($post->ID);
         $i++;
     }
-    return $data;
+    return $wpData;
 }
 
 function ssws_businesses_endpoint_slug($slug)
@@ -58,13 +59,13 @@ function ssws_businesses_endpoint_slug($slug)
         'post_type' => 'post',
     ];
     $post = get_posts($args);
-    $data['id'] = $post[0]->ID;
-    $data['title'] = $post[0]->post_title;
-    $data['content'] = $post[0]->post_content;
-    $data['slug'] = $post[0]->post_name;
-    $data['acf'] = get_fields($post[0]->ID);
+    $wpData['id'] = $post[0]->ID;
+    $wpData['title'] = $post[0]->post_title;
+    $wpData['content'] = $post[0]->post_content;
+    $wpData['slug'] = $post[0]->post_name;
+    $wpData['acf'] = get_fields($post[0]->ID);
 
-    return $data;
+    return $wpData;
 }
 
 add_action('rest_api_init', function () {
@@ -82,7 +83,7 @@ add_action('rest_api_init', function () {
 
 // Set all posts status to published, so when submit CF7 form it gets published right away
 
-add_action('init', 'ssws_update_draft_posts_to_publish');
+add_action('wp_loaded', 'ssws_update_draft_posts_to_publish');
 
 function ssws_update_draft_posts_to_publish()
 {

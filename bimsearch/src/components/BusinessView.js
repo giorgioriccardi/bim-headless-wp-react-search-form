@@ -2,13 +2,16 @@ import React, { Component } from 'react';
 
 export class BusinessView extends Component {
   render() {
-    const { acf, post_title } = this.props.business;
+    const { acf, title } = this.props.business;
     // check that the business input did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
       return (
         <div className='warning-message'>
-          {post_title} is missing some information
+          {title}: is missing some information
+          <pre>
+            <code>acf === false</code>
+          </pre>
         </div>
       );
     }

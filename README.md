@@ -7,13 +7,14 @@ A headless WP installation with a React frontend search form fetching data from 
 - ~~WP installation with 2019 child-theme~~
 - use ACF for custom fields
 - ~~custom REST endpoints~~
-- create post from CF7 form sumbit
+- ~~create post from CF7 form sumbit~~
 - ~~publish posts automatically~~
 - React app to fetch WP data and display search form
 - ~~add ACF export json data~~
 - change React default logos and favicon in public folder
 - ~~add ACF to REST API plugin to show AFC endpoints in default WP rest~~
 - Evaluate this plugin for future Gmaps implementation [Google Map for Contact Form 7](https://wordpress.org/plugins/cf7-google-map/)
+- Styles using Burma sass
 - ...
 
 ## Instructions
@@ -112,6 +113,8 @@ add_action('rest_api_init', function () {
 - config the CF7 form to reflect the data structure and custom fields
 - create a react app within `wp-content`with `npx create-react-app bimsearch`
 - install react dependencies `cd bimsearch` and `npm i axios react-router-dom` to fetch our json data (or make our requests) and to navigate to the single business page
+- Add Burma and Sass `yarn add bulma` , `yarn add node-sass`
+- Create a file `App.sass` and add to App.js `import './App.sass';`
 - run `yarn start` and after `yarn build` to test live if it's running
 - add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)

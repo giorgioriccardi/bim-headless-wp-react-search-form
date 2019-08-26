@@ -14,13 +14,13 @@ export class Businesses extends Component {
       .get(
         'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'
       )
-      .then(res =>
+      .then(response =>
         this.setState({
-          businesses: res.data,
+          businesses: response.data,
           isLoaded: true
         })
       )
-      .catch(err => console.log(err));
+      .catch(error => console.log(error));
   }
 
   render() {
@@ -30,7 +30,7 @@ export class Businesses extends Component {
       return (
         <div>
           {businesses.map(business => (
-            <BusinessView key={business.ID} business={business} />
+            <BusinessView key={business.id} business={business} />
           ))}
         </div>
       );

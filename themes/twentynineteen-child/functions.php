@@ -72,6 +72,7 @@ add_action('rest_api_init', function () {
         'methods' => 'GET',
         'callback' => 'ssws_businesses_endpoint',
     ));
+
     register_rest_route('bim-businesses/v1', 'posts/(?P<slug>[a-zA-Z0-9-]+)', array(
         'methods' => 'GET',
         'callback' => 'ssws_businesses_endpoint_slug',
@@ -93,7 +94,7 @@ function ssws_update_draft_posts_to_publish()
 
     foreach ($published_posts as $post_to_draft) {
         $query = array(
-            'id' => $post_to_draft->ID,
+            'ID' => $post_to_draft->ID,
             'post_status' => 'publish',
         );
         wp_update_post($query, true);

@@ -4,17 +4,17 @@ wp-config-local.php
 wp-cli.local.yml
 wp-content/uploads
 uploads/
-themes/twentynineteen/
-plugins/advanced-custom-fields/
-plugins/post-my-contact-form-7/
-plugins/ssws-wordpress-plugin-snippets-collection
-plugins/contact-form-7/
-plugins/acf-to-rest-api/
-plugins/cf7-google-map/
-plugins/debug-bar/
-plugins/developer/
-plugins/show-current-template/
-plugins/
+# themes/twentynineteen/
+# plugins/advanced-custom-fields/
+# plugins/post-my-contact-form-7/
+# plugins/ssws-wordpress-plugin-snippets-collection
+# plugins/contact-form-7/
+# plugins/acf-to-rest-api/
+# plugins/cf7-google-map/
+# plugins/debug-bar/
+# plugins/developer/
+# plugins/show-current-template/
+# plugins/
 mu-plugins/local-by-flywheel-demo-urls.php
 wp-content/blogs.dir/
 wp-content/upgrade/

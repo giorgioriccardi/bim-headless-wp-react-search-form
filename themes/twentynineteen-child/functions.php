@@ -82,9 +82,7 @@ add_action('rest_api_init', function () {
 // /?rest_route=/bim-businesses/v1/posts
 
 // Set all posts status to published, so when submit CF7 form it gets published right away
-
 // add_action('wp_loaded', 'ssws_update_draft_posts_to_publish');
-
 function ssws_update_draft_posts_to_publish()
 {
     $args = array('post_type' => 'post',
@@ -101,3 +99,6 @@ function ssws_update_draft_posts_to_publish()
         wp_update_post($query, true);
     }
 }
+// note that this function will not publish custom fields unless
+// the double click publish button is disabled in the Gutenberg options
+// by default Gutenberg will ask to re-click the publish button to make sure you checked everything twice (rather annoying!)

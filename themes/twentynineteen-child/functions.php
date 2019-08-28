@@ -104,8 +104,25 @@ function ssws_update_draft_posts_to_publish()
 // the double click publish button is disabled in the Gutenberg options
 // by default Gutenberg will ask to re-click the publish button to make sure you checked everything twice (rather annoying!)
 
+// Hook acf/save_post applied to all custom fields
+add_action('save_post', 'my_autosave_acf');
+
+function my_autosave_acf($post_id)
+{
+    // check if is autosave
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+        // verify nonce
+        if (isset($_POST['acf_nonce'], $_POST['fields']) && wp_verify_nonce($_POST['acf_nonce'], 'input')) {
+            // update the post (may even be a revision / autosave preview)
+            do_action('acf/save_post', $post_id);
+        }
+    }
+}
+
 // Export API Data to JSON, another method
-add_action('publish_post', function ($ID, $post) {
+add_action('publish_post', 'export_wp_rest_api_data_to_json', 10, 2);
+function export_wp_rest_api_data_to_json($ID, $post)
+{
     $wp_uri = get_site_url();
     $bimEndpoint = '/?rest_route=/bim-businesses/v1/posts';
     $url = $wp_uri . $bimEndpoint; // http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts
@@ -113,5 +130,5 @@ add_action('publish_post', function ($ID, $post) {
     $response = wp_remote_get($url);
     $responseData = json_encode($response); // saved under the wp root installation
     file_put_contents('bim_business_data_backup.json', $responseData);
-}, 10, 2);
+}
 // https://stackoverflow.com/questions/46082213/wordpress-save-api-json-after-publish-a-post

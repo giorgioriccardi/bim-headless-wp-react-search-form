@@ -15,6 +15,8 @@ A headless WP installation with a React frontend search form fetching data from 
 - ~~add ACF to REST API plugin to show AFC endpoints in default WP rest~~
 - Evaluate this plugin for future Gmaps implementation [Google Map for Contact Form 7](https://wordpress.org/plugins/cf7-google-map/)
 - Styles using Burma sass
+- update snippets and documentation
+- add note about switching ACF business_address from text to gmaps, having the address posted in the content by default so it can be easily copied over when the field is again a gmap.
 - ...
 
 ## Instructions

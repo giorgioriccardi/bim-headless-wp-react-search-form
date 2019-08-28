@@ -22,6 +22,7 @@ function ssws_enqueue_wp_child_theme()
 
 // Custom ACF endpoint for headless wp-react app
 // https://snipcart.com/blog/reactjs-wordpress-rest-api-example
+// used: https://gist.github.com/giorgioriccardi/c3eb89900e747c15292a70a538b4f730
 
 function ssws_businesses_endpoint($request_data)
 {

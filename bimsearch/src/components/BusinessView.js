@@ -17,12 +17,13 @@ export class BusinessView extends Component {
     }
     return (
       <div>
-        <h2>{acf.business_name}</h2>
+        <h2 className='warning-message'>{title}</h2>
+        {/* <h2>{acf.business_name}</h2> */}
         <h4>
           Owner: <em>{acf.business_owner}</em>
         </h4>
-        {/* <div>Address: {acf.business_address.address}</div> */}
-        <div>Address: {acf.business_address}</div>
+        <div>Address: {acf.business_address.address}</div>
+        {/* <div>Address: {acf.business_address}</div> */}
         <p>The GMAP will be implemented at a later stage, eventually</p>
       </div>
     );

@@ -83,7 +83,7 @@ add_action('rest_api_init', function () {
 // /?rest_route=/bim-businesses/v1/posts
 
 // Set all posts status to published, so when submit CF7 form it gets published right away
-// add_action('wp_loaded', 'ssws_update_draft_posts_to_publish');
+add_action('init', 'ssws_update_draft_posts_to_publish');
 function ssws_update_draft_posts_to_publish()
 {
     $args = array('post_type' => 'post',

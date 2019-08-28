@@ -23,7 +23,7 @@ export class BusinessView extends Component {
           Owner: <em>{acf.business_owner}</em>
         </h4>
         <div>Address: {acf.business_address}</div>
-        <div>GMAP address: {acf.business_address.address}</div>
+        {/* <div>GMAP address: {acf.business_address.address}</div> */}
         <p>The GMAP will be implemented at a later stage, eventually</p>
       </div>
     );

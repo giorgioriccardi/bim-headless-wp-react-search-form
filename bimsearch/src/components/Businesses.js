@@ -35,7 +35,7 @@ export class Businesses extends Component {
         </div>
       );
     }
-    return <h3>Loading BIM Businesses Data...</h3>;
+    return <h3>Loading BIM Business Data...</h3>;
   }
 }
 

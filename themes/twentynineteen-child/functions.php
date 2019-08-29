@@ -83,7 +83,7 @@ add_action('rest_api_init', function () {
 // /?rest_route=/bim-businesses/v1/posts
 
 // Set all posts status to published, so when submit CF7 form it gets published right away
-add_action('init', 'ssws_update_draft_posts_to_publish');
+// add_action('init', 'ssws_update_draft_posts_to_publish');
 function ssws_update_draft_posts_to_publish()
 {
     $args = array('post_type' => 'post',
@@ -105,9 +105,9 @@ function ssws_update_draft_posts_to_publish()
 // by default Gutenberg will ask to re-click the publish button to make sure you checked everything twice (rather annoying!)
 
 // Hook acf/save_post applied to all custom fields
-add_action('save_post', 'my_autosave_acf');
+add_action('acf/save_post', 'save_post', 20);
 
-function my_autosave_acf($post_id)
+function save_post($post_id)
 {
     // check if is autosave
     if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
@@ -117,9 +117,38 @@ function my_autosave_acf($post_id)
             do_action('acf/save_post', $post_id);
         }
     }
-}
 
-// Export API Data to JSON, another method
+    // Remove the hook to avoid infinite loop. Please make sure that it has
+    // the same priority (20)
+    remove_action('acf/save_post', 'save_post', 20);
+
+    // Update the post
+    wp_update_post($new_post);
+
+    // Add the hook back
+    add_action('acf/save_post', 'save_post', 20);
+}
+// https://support.advancedcustomfields.com/forums/topic/hook-acfsave_post-not-applied-for-all/#post-45195
+
+add_action('save_post', 'my_autosave_acf');
+
+function my_autosave_acf($post_id)
+{
+
+    // check if is autosave
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+
+        // verify nonce
+        if (isset($_POST['acf_nonce'], $_POST['fields']) && wp_verify_nonce($_POST['acf_nonce'], 'input')) {
+
+            // update the post (may even be a revision / autosave preview)
+            do_action('acf/save_post', $post_id);
+        }
+    }
+}
+// https://github.com/elliotcondon/acf/issues/585
+
+// Export API Data to JSON, another method (BIM version)
 add_action('publish_post', 'export_wp_rest_api_data_to_json', 10, 2);
 function export_wp_rest_api_data_to_json($ID, $post)
 {

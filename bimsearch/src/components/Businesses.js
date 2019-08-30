@@ -10,7 +10,8 @@ export class Businesses extends Component {
 
   componentDidMount() {
     axios
-      //   .get('http://bim-business-search.local/wp-json/bim-businesses/v1/posts')
+      // .get('http://bim-business-search.local/wp-json/bim-businesses/v1/posts')
+      // .get('http://9210c8c3.ngrok.io/?rest_route=/bim-businesses/v1/posts') // test remote flywheel
       .get(
         'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'
       )

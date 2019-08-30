@@ -40,15 +40,15 @@ function ssws_businesses_endpoint($request_data)
     // return $posts;
 
     $wpData = [];
-    $i = 0;
+    $key = 0;
     // foreach ($posts as $post) {
-    foreach ($posts as $i => $post) {
-        $wpData[$i]['id'] = $post->ID;
-        $wpData[$i]['title'] = $post->post_title;
-        $wpData[$i]['content'] = $post->post_content;
-        $wpData[$i]['slug'] = $post->post_name;
-        $wpData[$i]['acf'] = get_fields($post->ID);
-        $i++;
+    foreach ($posts as $key => $post) {
+        $wpData[$key]['id'] = $post->ID;
+        $wpData[$key]['title'] = $post->post_title;
+        $wpData[$key]['content'] = $post->post_content;
+        $wpData[$key]['slug'] = $post->post_name;
+        $wpData[$key]['acf'] = get_fields($post->ID);
+        $key++;
     }
     return $wpData;
 }
@@ -81,72 +81,6 @@ add_action('rest_api_init', function () {
     ));
 });
 // /?rest_route=/bim-businesses/v1/posts
-
-// Set all posts status to published, so when submit CF7 form it gets published right away
-// add_action('init', 'ssws_update_draft_posts_to_publish');
-function ssws_update_draft_posts_to_publish()
-{
-    $args = array('post_type' => 'post',
-        'post_status' => 'draft',
-        'posts_per_page' => -1,
-    );
-    $published_posts = get_posts($args);
-
-    foreach ($published_posts as $post_to_draft) {
-        $query = array(
-            'ID' => $post_to_draft->ID,
-            'post_status' => 'publish',
-        );
-        wp_update_post($query, true);
-    }
-}
-// note that this function will not publish custom fields unless
-// the double click publish button is disabled in the Gutenberg options
-// by default Gutenberg will ask to re-click the publish button to make sure you checked everything twice (rather annoying!)
-
-// Hook acf/save_post applied to all custom fields
-add_action('acf/save_post', 'save_post', 20);
-
-function save_post($post_id)
-{
-    // check if is autosave
-    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
-        // verify nonce
-        if (isset($_POST['acf_nonce'], $_POST['fields']) && wp_verify_nonce($_POST['acf_nonce'], 'input')) {
-            // update the post (may even be a revision / autosave preview)
-            do_action('acf/save_post', $post_id);
-        }
-    }
-
-    // Remove the hook to avoid infinite loop. Please make sure that it has
-    // the same priority (20)
-    remove_action('acf/save_post', 'save_post', 20);
-
-    // Update the post
-    wp_update_post($new_post);
-
-    // Add the hook back
-    add_action('acf/save_post', 'save_post', 20);
-}
-// https://support.advancedcustomfields.com/forums/topic/hook-acfsave_post-not-applied-for-all/#post-45195
-
-add_action('save_post', 'my_autosave_acf');
-
-function my_autosave_acf($post_id)
-{
-
-    // check if is autosave
-    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
-
-        // verify nonce
-        if (isset($_POST['acf_nonce'], $_POST['fields']) && wp_verify_nonce($_POST['acf_nonce'], 'input')) {
-
-            // update the post (may even be a revision / autosave preview)
-            do_action('acf/save_post', $post_id);
-        }
-    }
-}
-// https://github.com/elliotcondon/acf/issues/585
 
 // Export API Data to JSON, another method (BIM version)
 add_action('publish_post', 'export_wp_rest_api_data_to_json', 10, 2);

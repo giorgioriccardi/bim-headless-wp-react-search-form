@@ -23,10 +23,10 @@ A headless WP installation with a React frontend search form fetching data from 
 
 ## Instructions
 
-- clone this repo in the root of your WP installation
+- clone this [repo](https://github.com/giorgioriccardi/bim-headless-wp-react-search-form) in the root of your WP installation
 - move all repo files and folders within wp-content folder
-- make sure to clean up plugins and themes that we are not using
-- or alternatively add all those plugins and themes in `.gitignore`
+- make sure to clean-up plugins and themes that we are not going to use
+- or alternatively list all those plugins and themes in `.gitignore`
 - create a WP2019 child-theme
 - install [ACF](https://wordpress.org/plugins/advanced-custom-fields/) and [CF7](https://wordpress.org/plugins/contact-form-7/) plugins
 - create custom fields in ACF for the React search form and for the CF7 input form
@@ -124,4 +124,4 @@ add_action('rest_api_init', function () {
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
 - **the FlyWheel url changes all the time!**
 - _remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!_
-- include in `package.json` a proxy so we don't have to include it in our request `"proxy": "http://localhost:8000"`
+- include in `package.json` a proxy so we don't have to include it in all our requests `"proxy": "http://localhost:8000"`

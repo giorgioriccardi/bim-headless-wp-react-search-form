@@ -90,10 +90,15 @@ function export_wp_rest_api_data_to_json($ID, $post)
     $bimEndpoint = '/?rest_route=/bim-businesses/v1/posts';
     $url = $wp_uri . $bimEndpoint; // http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts
     // $url = 'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'; // use this full path variable in case you want to use an absolute path
+
     $response = wp_remote_get($url);
     $responseData = stripslashes(json_encode($response, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK));
+
+    // the body obj gets wrapped in "[]" like this:
+    // "body": "[ ]" which renders as a string, so we have to clean-up the mess with a regex:
+    $responseData = str_replace('"[', '[', $responseData); // remove initial quotes
+    $responseData = str_replace(']"', ']', $responseData); // remove final quotes
+
     file_put_contents('bim_business_data_backup.json', $responseData); // saved under the wp root installation
-    // $cleanResponseData = json_decode($responseData, true);
-    // file_put_contents('bim_business_data_backup.json', $cleanResponseData); // this outputs an array
 }
 // https://stackoverflow.com/questions/46082213/wordpress-save-api-json-after-publish-a-post

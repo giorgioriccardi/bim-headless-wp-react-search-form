@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export class BusinessView extends Component {
   render() {
-    const { id, acf, title } = this.props.business; // id will become Licence #
-    // check that the business input did not have any issue with ACF
+    const { acf, title } = this.props.business; // id will become Licence #
+    // check that the business inputs did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
       return (
@@ -16,6 +16,18 @@ export class BusinessView extends Component {
         </div>
       );
     }
+    // if for some reason ACF are not rendered it will output acf=''
+    if (acf.licence_number === '') {
+      return (
+        <div className='warning-message'>
+          {title}: is missing some information
+          <pre>
+            <code>acf.licence_number === ''</code>
+          </pre>
+        </div>
+      );
+    }
+    // this error check has to be done programatically
     return (
       <div>
         <h2 className='warning-message'>{title}</h2>
@@ -26,7 +38,7 @@ export class BusinessView extends Component {
         <div>Address: {acf.business_address}</div>
         {/* <div>GMAP address: {acf.business_address.address}</div> */}
         <p>The GMAP will be implemented at a later stage, eventually</p>
-        <Link to={`/business/${id}`}>Business Link</Link>
+        <Link to={`/business/${acf.licence_number}`}>Business # Link</Link>
       </div>
     );
   }

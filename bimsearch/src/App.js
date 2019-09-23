@@ -49,7 +49,11 @@ export class App extends Component {
           </header>
           {/* <Businesses /> */}
           <Route exact path='/' component={Businesses} />
-          <Route exact path='/business/:id' component={BusinessPage} />
+          <Route
+            exact
+            path='/business/:licence_number'
+            component={BusinessPage}
+          />
           {/* id will become Licence # */}
         </Fragment>
       </Router>

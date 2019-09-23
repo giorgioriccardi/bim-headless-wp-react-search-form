@@ -12,7 +12,7 @@ export class App extends Component {
           <header className='App-header'>
             <Header />
             <div className='debug'>
-              <h1 className='title'>Bulma</h1>
+              <h1 className='title'>Bulma styles</h1>
               <p className='subtitle'>
                 CSS framework based on{' '}
                 <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox'>
@@ -50,6 +50,7 @@ export class App extends Component {
           {/* <Businesses /> */}
           <Route exact path='/' component={Businesses} />
           <Route exact path='/business/:id' component={BusinessPage} />
+          {/* id will become Licence # */}
         </Fragment>
       </Router>
     );

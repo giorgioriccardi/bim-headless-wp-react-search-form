@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class BusinessView extends Component {
   render() {
-    const { acf, title } = this.props.business;
+    const { id, acf, title } = this.props.business;
     // check that the business input did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
@@ -25,6 +26,7 @@ export class BusinessView extends Component {
         <div>Address: {acf.business_address}</div>
         {/* <div>GMAP address: {acf.business_address.address}</div> */}
         <p>The GMAP will be implemented at a later stage, eventually</p>
+        <Link to={`/business/${id}`}>Business Link</Link>
       </div>
     );
   }

@@ -11,7 +11,7 @@ function App() {
         <div className='debug'>
           <h1 className='title'>Bulma</h1>
           <p className='subtitle'>
-            Modern CSS framework based on{' '}
+            CSS framework based on{' '}
             <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox'>
               Flexbox
             </a>

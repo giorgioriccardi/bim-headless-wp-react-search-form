@@ -120,8 +120,8 @@ add_action('rest_api_init', function () {
 - Add Burma and Sass `yarn add bulma` , `yarn add node-sass`
 - Create a file `App.sass` and add to App.js `import './App.sass';`
 - run `yarn start` and after `yarn build` to test live if it's running
-- add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url)
+- add to `package.json` `"homepage" : "http://72fa633e.ngrok.io/wp-content/bimsearch/build"` (this is my live FlyWheel url!)
 - test url at [http://72fa633e.ngrok.io/wp-content/bimsearch/build](http://72fa633e.ngrok.io/wp-content/bimsearch/build)
 - **the FlyWheel url changes all the time!**
-- _remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless application!_
-- include in `package.json` a proxy so we don't have to include it in all our requests `"proxy": "http://localhost:8000"`
+- _remember to disable comments and to make the WP installation non indexable by search engines, after all is a headless web application!_
+- include in `package.json` a proxy so we don't have to include it in all our requests `"proxy": "http://localhost:8000"`, though in this case we fetch the data not from local but from another url!

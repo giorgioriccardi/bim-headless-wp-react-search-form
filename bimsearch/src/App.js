@@ -54,7 +54,6 @@ export class App extends Component {
             path='/business/:licence_number'
             component={BusinessPage}
           />
-          {/* id will become Licence # */}
         </Fragment>
       </Router>
     );

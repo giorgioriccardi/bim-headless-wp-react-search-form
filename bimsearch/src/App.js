@@ -49,9 +49,10 @@ export class App extends Component {
           </header>
           {/* <Businesses /> */}
           <Route exact path='/' component={Businesses} />
+          <Route exact path='/business/:id' component={BusinessPage} />
           <Route
             exact
-            path='/business/:licence_number'
+            path='/business/:acf/:licence_number'
             component={BusinessPage}
           />
         </Fragment>

@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-export class BusinessView extends Component {
+export class BusinessItem extends Component {
   render() {
-    const { acf, title } = this.props.business;
+    const { id, acf, title } = this.props.business;
     // check that the business inputs did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
       return (
         <div className='warning-message'>
-          {title}: is missing some information
+          {title.rendered}: is missing some information
           <pre>
             <code>acf === false</code>
           </pre>
@@ -27,10 +27,10 @@ export class BusinessView extends Component {
         </div>
       );
     }
-    // this error check has to be done programatically
+    // this errors check has to be done programatically
     return (
       <div>
-        <Link to={`/business/${title.rendered}`}>
+        <Link to={`/business/${id}`}>
           <h2 className='warning-message'>{title.rendered}</h2>
         </Link>
         {/* <h2>{acf.business_name}</h2> */}
@@ -40,11 +40,11 @@ export class BusinessView extends Component {
         <div>Licence #: {acf.licence_number}</div>
         <div>Address: {acf.business_address}</div>
         {/* <div>GMAP address: {acf.business_address.address}</div> */}
-        <p>The GMAP will be implemented at a later stage, eventually</p>
+        {/* <p>The GMAP will be implemented at a later stage, eventually</p> */}
         <Link to={`/business/${acf.licence_number}`}>Business # Link</Link>
       </div>
     );
   }
 }
 
-export default BusinessView;
+export default BusinessItem;

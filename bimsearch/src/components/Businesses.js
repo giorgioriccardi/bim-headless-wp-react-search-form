@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BusinessView from './BusinessesList';
+import BusinessItem from './BusinessItem';
 import axios from 'axios';
 
 export class Businesses extends Component {
@@ -17,12 +17,12 @@ export class Businesses extends Component {
         // 'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts' // Disable custom endpoints in favour of WP Rest API
         'http://bim-business-search.local/wp-json/wp/v2/posts'
       )
-      .then(response =>
+      .then(response => {
         this.setState({
           businesses: response.data,
           isLoaded: true
-        })
-      )
+        });
+      })
       .catch(error => console.log(error));
   }
 
@@ -33,7 +33,7 @@ export class Businesses extends Component {
       return (
         <div>
           {businesses.map(business => (
-            <BusinessView key={business.id} business={business} />
+            <BusinessItem key={business.id} business={business} />
           ))}
         </div>
       );

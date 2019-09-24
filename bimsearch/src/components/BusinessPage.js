@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export class BusinessPage extends Component {
   state = {
-    busines: {},
+    business: {},
     isLoaded: false
   };
 
@@ -14,13 +14,13 @@ export class BusinessPage extends Component {
         // `http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts/${this.props.match.params.id}` // Disable custom endpoints in favour of WP Rest API
         `http://bim-business-search.local/wp-json/wp/v2/posts/${this.props.match.params.id}`
       )
-      .then(res =>
+      .then(response => {
         this.setState({
-          business: res.data,
+          business: response.data,
           isLoaded: true
-        })
-      )
-      .catch(err => console.log(err));
+        });
+      })
+      .catch(error => console.log(error));
   }
 
   render() {

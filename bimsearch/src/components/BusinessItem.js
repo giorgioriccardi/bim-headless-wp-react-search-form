@@ -8,8 +8,8 @@ export class BusinessItem extends Component {
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
       return (
-        <div className='warning-message'>
-          {title.rendered}: is missing some information
+        <div className='warning-message debug content'>
+          <p>! {title.rendered}: some data is missing</p>
           <pre>
             <code>acf === false</code>
           </pre>
@@ -19,8 +19,8 @@ export class BusinessItem extends Component {
     // if for some reason ACF are not rendered it will output acf=''
     if (acf.licence_number === '') {
       return (
-        <div className='warning-message'>
-          {title.rendered}: is missing some information
+        <div className='warning-message debug content'>
+          <p>! {title.rendered}: some data is missing</p>
           <pre>
             <code>acf.licence_number === ''</code>
           </pre>
@@ -32,7 +32,7 @@ export class BusinessItem extends Component {
       <div className='card'>
         <div className='card-content'>
           <Link to={`/business/${slug}`}>
-            <h2 className='warning-message'>{title.rendered}</h2>
+            <h2 className='warning-message content'>{title.rendered}</h2>
           </Link>
           {/* <h2>{acf.business_name}</h2> */}
           <h4>

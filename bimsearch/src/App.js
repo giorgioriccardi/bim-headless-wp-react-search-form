@@ -14,7 +14,6 @@ export class App extends Component {
           <section className='section container content'>
             <header className='App-header'>
               <Header />
-
               {/* <h1 className='title'>Bulma styles</h1>
               <p className='subtitle'>
                 CSS framework based on{' '}
@@ -47,10 +46,7 @@ export class App extends Component {
                   Link
                 </a>
               </div> */}
-
-              {/* end .debug */}
             </header>
-            {/* <Businesses /> */}
             <Route exact path='/' component={Businesses} />
             <Route exact path='/business/:slug' component={BusinessPage} />
           </section>

@@ -29,7 +29,12 @@ export class BusinessPage extends Component {
     if (isLoaded) {
       return (
         <Fragment>
-          <Link to='/'>Home</Link>
+          <Link to='/'>
+            <span class='icon'>
+              <i class='fas fa-home'></i>
+            </span>
+            Back
+          </Link>
           <br />
           <h2>{business.title.rendered}</h2>
           <h2>{business.acf.licence_number}</h2>

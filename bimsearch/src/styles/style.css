@@ -2,6 +2,18 @@
   justify-content: center;
 }
 
-.warning {
+.warning-message {
   color: red;
+}
+
+.debug {
+  border: red solid 1px;
+}
+
+.card:nth-child(2n) {
+  background: #eee;
+}
+
+.content:not(:first-child) {
+  margin-top: 1.5rem;
 }

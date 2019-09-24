@@ -9,12 +9,14 @@ export class Header extends Component {
       <nav className='navbar is-primary'>
         <div className='container has-text-centered'>
           <div className='navbar-brand'>
-            <p className='is-size-3'>
+            <div className='is-size-4'>
               <Link to='/'>
-                <img src={logo} className='App-logo' alt='logo' />
-                SSWS - BIM Business Search Form with React SPA w/ headless WP
+                <figure className='image is-128x128'>
+                  <img src={logo} alt='logo' />
+                </figure>
+                <p>BIM Business Search Form</p>
               </Link>
-            </p>
+            </div>
           </div>
         </div>
       </nav>

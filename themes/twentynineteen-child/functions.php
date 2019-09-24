@@ -24,12 +24,13 @@ function ssws_enqueue_wp_child_theme()
 // https://snipcart.com/blog/reactjs-wordpress-rest-api-example
 // used: https://gist.github.com/giorgioriccardi/c3eb89900e747c15292a70a538b4f730
 
-function ssws_businesses_endpoint($request_data)
+function ssws_businesses_endpoint_posts($request_data)
 {
     $args = array(
         'post_type' => 'post',
         'posts_per_page' => -1,
         'numberposts' => -1,
+        'post_category' => array(),
     );
 
     $posts = get_posts($args);
@@ -47,6 +48,7 @@ function ssws_businesses_endpoint($request_data)
         $wpData[$key]['title'] = $post->post_title;
         $wpData[$key]['content'] = $post->post_content;
         $wpData[$key]['slug'] = $post->post_name;
+        $wpData[$key]['categories'] = $post->post_category;
         $wpData[$key]['acf'] = get_fields($post->ID);
         $key++;
     }
@@ -57,29 +59,51 @@ function ssws_businesses_endpoint_slug($slug)
 {
     $args = [
         'name' => $slug['slug'],
-        'post_type' => 'post',
     ];
-    $post = get_posts($args);
-    $wpData['id'] = $post[0]->ID;
-    $wpData['title'] = $post[0]->post_title;
-    $wpData['content'] = $post[0]->post_content;
     $wpData['slug'] = $post[0]->post_name;
-    $wpData['acf'] = get_fields($post[0]->ID);
 
     return $wpData;
 }
 
-add_action('rest_api_init', function () {
+function ssws_businesses_endpoint_categories($category)
+{
+    $args = array(
+        'post_category' => array(),
+    );
+
+    $categories = get_posts($args);
+
+    $wpData = [];
+    $key = 0;
+    foreach ($categories as $key => $category) {
+        $wpData[$key]['id'] = $category->ID;
+        $wpData[$key]['title'] = $category->post_title;
+        $wpData[$key]['slug'] = $category->post_name;
+        $wpData[$key]['post_categories'] = $category->post_category;
+        $key++;
+    }
+    return $wpData;
+}
+
+// Disable custom endpoints in favour of WP Rest API
+// add_action('rest_api_init', 'register_bim_rest_routes');
+function register_bim_rest_routes()
+{
     register_rest_route('bim-businesses/v1', '/posts', array(
         'methods' => 'GET',
-        'callback' => 'ssws_businesses_endpoint',
+        'callback' => 'ssws_businesses_endpoint_posts',
     ));
 
     register_rest_route('bim-businesses/v1', 'posts/(?P<slug>[a-zA-Z0-9-]+)', array(
         'methods' => 'GET',
         'callback' => 'ssws_businesses_endpoint_slug',
     ));
-});
+
+    register_rest_route('bim-businesses/v1', 'categories', array(
+        'methods' => 'GET',
+        'callback' => 'ssws_businesses_endpoint_categories',
+    ));
+}
 // /?rest_route=/bim-businesses/v1/posts
 
 // Export API Data to JSON, another method (BIM version)
@@ -87,7 +111,9 @@ add_action('publish_post', 'export_wp_rest_api_data_to_json', 10, 2);
 function export_wp_rest_api_data_to_json($ID, $post)
 {
     $wp_uri = get_site_url(); // http://bim-business-search.local
-    $bimEndpoint = '/?rest_route=/bim-businesses/v1/posts';
+    // $bimEndpoint = '/?rest_route=/bim-businesses/v1/posts'; // Disable custom endpoints in favour of WP Rest API
+    $bimEndpoint = '/wp-json/wp/v2/posts';
+
     $url = $wp_uri . $bimEndpoint; // http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts
     // $url = 'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'; // use this full path variable in case you want to use an absolute path
 

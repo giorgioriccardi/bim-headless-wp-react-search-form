@@ -18,6 +18,7 @@ A headless WP installation with a React frontend search form fetching data from 
 - update snippets and documentation
 - add note about switching ACF business_address from text to gmaps, having the address posted in the content by default so it can be easily copied over when the field is again a gmap.
 - the first form you create and you hook with CF7 to Post, it does not recognize the ACF fields; if it happens just create a dummy form create a dummy record, save it and the next form you create should recognize ACF fields.
+- write programmatic error handling for missing ACF fields values
 - ..
 - ...
 
@@ -112,7 +113,7 @@ add_action('rest_api_init', function () {
 });
 ```
 
-- add [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) plugin to show ACF endpoints in default WP rest
+- Optional: add [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) plugin to show ACF endpoints in default WP rest
 - add [Post My CF7 Form](https://wordpress.org/plugins/post-my-contact-form-7/) plugin
 - config the CF7 form to reflect the data structure and custom fields
 - create a react app within `wp-content`with `npx create-react-app bimsearch`

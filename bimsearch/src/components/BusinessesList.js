@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export class BusinessView extends Component {
   render() {
-    const { acf, title } = this.props.business; // id will become Licence #
+    const { acf, title } = this.props.business;
     // check that the business inputs did not have any issue with ACF
     // if for some reason ACF are not rendered it will output acf=false
     if (acf === false) {
@@ -30,7 +30,9 @@ export class BusinessView extends Component {
     // this error check has to be done programatically
     return (
       <div>
-        <h2 className='warning-message'>{title.rendered}</h2>
+        <Link to={`/business/${title.rendered}`}>
+          <h2 className='warning-message'>{title.rendered}</h2>
+        </Link>
         {/* <h2>{acf.business_name}</h2> */}
         <h4>
           Owner: <em>{acf.business_owner}</em>

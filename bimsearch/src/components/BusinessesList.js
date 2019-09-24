@@ -20,7 +20,7 @@ export class BusinessView extends Component {
     if (acf.licence_number === '') {
       return (
         <div className='warning-message'>
-          {title}: is missing some information
+          {title.rendered}: is missing some information
           <pre>
             <code>acf.licence_number === ''</code>
           </pre>
@@ -30,7 +30,7 @@ export class BusinessView extends Component {
     // this error check has to be done programatically
     return (
       <div>
-        <h2 className='warning-message'>{title}</h2>
+        <h2 className='warning-message'>{title.rendered}</h2>
         {/* <h2>{acf.business_name}</h2> */}
         <h4>
           Owner: <em>{acf.business_owner}</em>

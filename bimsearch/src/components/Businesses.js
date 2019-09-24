@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BusinessView from './BusinessView';
+import BusinessView from './BusinessesList';
 import axios from 'axios';
 
 export class Businesses extends Component {
@@ -14,7 +14,8 @@ export class Businesses extends Component {
       // .get('http://9210c8c3.ngrok.io/?rest_route=/bim-businesses/v1/posts') // test remote flywheel
       // .get('http://bim-business-search.local/wp-content/bimdata/bim_business_data_backup.json') // test local json data
       .get(
-        'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts'
+        // 'http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts' // Disable custom endpoints in favour of WP Rest API
+        'http://bim-business-search.local/wp-json/wp/v2/posts'
       )
       .then(response =>
         this.setState({

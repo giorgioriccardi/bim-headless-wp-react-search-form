@@ -11,7 +11,8 @@ export class BusinessPage extends Component {
   componentDidMount() {
     axios
       .get(
-        `http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts/${this.props.match.params.id}`
+        // `http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts/${this.props.match.params.id}` // Disable custom endpoints in favour of WP Rest API
+        `http://bim-business-search.local/wp-json/wp/v2/posts/${this.props.match.params.id}`
       )
       .then(res =>
         this.setState({
@@ -29,7 +30,7 @@ export class BusinessPage extends Component {
         <Fragment>
           <Link to='/'>Home</Link>
           <br />
-          <h2>{business.title}</h2>
+          <h2>{business.title.rendered}</h2>
           <h2>{business.acf.licence_number}</h2>
         </Fragment>
       );

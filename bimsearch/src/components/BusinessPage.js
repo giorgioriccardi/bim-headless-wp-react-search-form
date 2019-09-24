@@ -30,14 +30,19 @@ export class BusinessPage extends Component {
       return (
         <Fragment>
           <Link to='/'>
-            <span class='icon'>
-              <i class='fas fa-home'></i>
+            <span className='icon'>
+              <i className='fas fa-home'></i>
             </span>
             Back
           </Link>
-          <br />
           <h2>{business.title.rendered}</h2>
-          <h2>{business.acf.licence_number}</h2>
+          <h4>
+            Owner: <em>{business.acf.business_owner}</em>
+          </h4>
+          <p>Licence #: {business.acf.licence_number}</p>
+          <p>Address: {business.acf.business_address}</p>
+          {/* <div>GMAP address: {acf.business_address.address}</div> */}
+          {/* <small>The GMAP will be implemented at a later stage, eventually</small> */}
         </Fragment>
       );
     }

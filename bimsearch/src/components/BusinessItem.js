@@ -40,8 +40,6 @@ export class BusinessItem extends Component {
           </h4>
           <div>Licence #: {acf.licence_number}</div>
           <div>Address: {acf.business_address}</div>
-          {/* <div>GMAP address: {acf.business_address.address}</div> */}
-          {/* <p>The GMAP will be implemented at a later stage, eventually</p> */}
         </div>
       </div>
     );

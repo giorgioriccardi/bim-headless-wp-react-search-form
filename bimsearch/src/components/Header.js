@@ -6,16 +6,18 @@ export class Header extends Component {
     const logo =
       'https://www.seatoskywebsolutions.ca/wordpress/wp-content/uploads/2019/04/SSWS_logo_blue.png';
     return (
-      <Link to='/'>
-        <div>
-          <p>
-            <img src={logo} className='App-logo' alt='logo' />
-          </p>
-          <h1 className='App-title'>
-            SSWS - BIM Business Search Form with React SPA w/ headless WP
-          </h1>
+      <nav className='navbar is-primary'>
+        <div className='container has-text-centered'>
+          <div className='navbar-brand'>
+            <p className='is-size-3'>
+              <Link to='/'>
+                <img src={logo} className='App-logo' alt='logo' />
+                SSWS - BIM Business Search Form with React SPA w/ headless WP
+              </Link>
+            </p>
+          </div>
         </div>
-      </Link>
+      </nav>
     );
   }
 }

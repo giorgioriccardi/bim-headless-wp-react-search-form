@@ -1,0 +1,7 @@
+.navbar>.container {
+  justify-content: center;
+}
+
+.warning {
+  color: red;
+}

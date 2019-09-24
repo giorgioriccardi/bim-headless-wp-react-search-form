@@ -9,14 +9,15 @@ export class BusinessPage extends Component {
   };
 
   componentDidMount() {
+    const slug = this.props.match.params.slug;
     axios
       .get(
         // `http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts/${this.props.match.params.id}` // Disable custom endpoints in favour of WP Rest API
-        `http://bim-business-search.local/wp-json/wp/v2/posts/${this.props.match.params.id}`
+        `http://bim-business-search.local/wp-json/wp/v2/posts?slug=${slug}`
       )
       .then(response => {
         this.setState({
-          business: response.data,
+          business: response.data[0],
           isLoaded: true
         });
       })

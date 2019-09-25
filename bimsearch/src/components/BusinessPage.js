@@ -49,7 +49,7 @@ export class BusinessPage extends Component {
           <p>NAICS: {business.naics_code}</p>
           <p>Category: {business.categories}</p>
           <small className='greyText'>
-            Google Map will be implemented at a later stage, eventually
+            Google Map will be eventually implemented in a future release.
           </small>
           {/* <p>Address: {business.acf.business_address}</p> */}
           <p>Address: {business.acf.business_address.address}</p>

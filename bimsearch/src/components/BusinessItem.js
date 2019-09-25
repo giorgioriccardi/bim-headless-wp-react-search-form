@@ -39,7 +39,7 @@ export class BusinessItem extends Component {
             Owner: <em>{acf.business_owner}</em>
           </h4>
           <div>Licence #: {acf.licence_number}</div>
-          <div>Address: {acf.business_address}</div>
+          <div>Address: {acf.business_address.address}</div>
           <div>NAICS: {naics_code}</div>
           <div>Category: {categories}</div>
           <Link to={`/business/${slug}`}>

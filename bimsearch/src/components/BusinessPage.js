@@ -43,10 +43,10 @@ export class BusinessPage extends Component {
             Owner: <em>{business.acf.business_owner}</em>
           </h4>
           <p>Licence #: {business.acf.licence_number}</p>
-          <p>Address: {business.acf.business_address}</p>
+          {/* <p>Address: {business.acf.business_address}</p> */}
           <p>NAICS: {business.naics_code}</p>
           <p>Category: {business.categories}</p>
-          {/* <div>GMAP address: {acf.business_address.address}</div> */}
+          <div>GMAP address: {business.acf.business_address.address}</div>
           {/* <small>The GMAP will be implemented at a later stage, eventually</small> */}
           <hr />
           <Link to='/'>

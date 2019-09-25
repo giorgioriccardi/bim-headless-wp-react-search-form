@@ -43,11 +43,19 @@ export class BusinessPage extends Component {
             Owner: <em>{business.acf.business_owner}</em>
           </h5>
           <p>Licence #: {business.acf.licence_number}</p>
-          {/* <p>Address: {business.acf.business_address}</p> */}
+          <small className='greyText'>
+            Naics and Category will show a label instead of an ID#
+          </small>
           <p>NAICS: {business.naics_code}</p>
           <p>Category: {business.categories}</p>
-          <div>GMAP address: {business.acf.business_address.address}</div>
-          {/* <small>The GMAP will be implemented at a later stage, eventually</small> */}
+          <small className='greyText'>
+            Google Map will be implemented at a later stage, eventually
+          </small>
+          {/* <p>Address: {business.acf.business_address}</p> */}
+          <p>Address: {business.acf.business_address.address}</p>
+          <p>Phone #: {business.acf.business_phone}</p>
+          <p>Email: {business.acf.email_address}</p>
+          <p>Website: {business.acf.website_address}</p>
           <hr />
           <Link to='/' className='button'>
             <span className='icon'>
@@ -58,7 +66,11 @@ export class BusinessPage extends Component {
         </Fragment>
       );
     }
-    return <h3>Loading...</h3>;
+    return (
+      <button className='button is-primary is-large is-loading'>
+        Loading BIM data
+      </button>
+    );
   }
 }
 

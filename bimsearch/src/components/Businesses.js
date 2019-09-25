@@ -42,7 +42,11 @@ export class Businesses extends Component {
         </Fragment>
       );
     }
-    return <h3>Loading BIM Business Data...</h3>;
+    return (
+      <button className='button is-primary is-large is-loading'>
+        Loading BIM data
+      </button>
+    );
   }
 }
 

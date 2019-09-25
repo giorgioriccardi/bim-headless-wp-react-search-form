@@ -43,7 +43,7 @@ export class BusinessItem extends Component {
           <div>NAICS: {naics_code}</div>
           <div>Category: {categories}</div>
           <Link to={`/business/${slug}`}>
-            <small className='link'>See all details</small>
+            <small className='link'>See this business details >></small>
           </Link>
         </div>
       </div>

@@ -2,6 +2,11 @@
   justify-content: center;
 }
 
+.image.header-logo {
+  margin-top: 2em;
+  margin-bottom: 0em !important;
+}
+
 .warning-message {
   color: red;
 }

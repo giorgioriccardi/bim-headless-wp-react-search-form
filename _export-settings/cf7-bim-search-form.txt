@@ -1,0 +1,22 @@
+<label> Business Name
+    [text* business_name] </label>
+
+<label> Licence #
+    [number* licence_number] </label>
+
+<label> Address
+    [text business_address] </label>
+
+<label> Business Phone
+    [tel* business_phone placeholder "604-947-0631"] </label>
+
+<label> Owner
+    [text* business_owner] </label>
+
+<label> Email Address
+    [email* email_address placeholder akismet:author_email] </label>
+
+<label> Website Address
+    [url* website_address placeholder akismet:author_url] </label>
+
+[submit "Send"]

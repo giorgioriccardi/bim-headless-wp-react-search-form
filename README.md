@@ -19,6 +19,8 @@ A headless WP installation with a React frontend search form fetching data from 
 - add note about switching ACF business_address from text to gmaps, having the address posted in the content by default so it can be easily copied over when the field is again a gmap.
 - the first form you create and you hook with CF7 to Post, it does not recognize the ACF fields; if it happens just create a dummy form create a dummy record, save it and the next form you create should recognize ACF fields.
 - write programmatic error handling for missing ACF fields values
+- validate CF7 phone number field
+- make links for website, email, phone #
 - ..
 - ...
 

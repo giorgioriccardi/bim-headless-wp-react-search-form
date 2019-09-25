@@ -24,6 +24,9 @@ export class BusinessPage extends Component {
       .catch(error => console.log(error));
   }
 
+  // create a separate sub-component for naics_code and import it here
+  // https://developmentarc.gitbooks.io/react-indepth/content/life_cycle/birth/post_mount_with_component_did_mount.html
+
   render() {
     const { business, isLoaded } = this.state;
     if (isLoaded) {

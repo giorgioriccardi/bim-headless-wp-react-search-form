@@ -24,6 +24,11 @@
   color: red;
 }
 
+.greyText {
+  color: #999;
+  font-style: italic;
+}
+
 .debug {
   border: red solid 1px;
 }
@@ -34,6 +39,10 @@
 
 .content:not(:first-child) {
   margin-top: 1.5rem;
+}
+
+.content h2:hover {
+  color: #3273dc;
 }
 
 .floatRight {

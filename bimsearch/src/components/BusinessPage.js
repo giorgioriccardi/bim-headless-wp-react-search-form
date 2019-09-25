@@ -32,16 +32,16 @@ export class BusinessPage extends Component {
     if (isLoaded) {
       return (
         <Fragment>
-          <Link to='/' className='button'>
+          <Link to='/' className='button floatRight'>
             <span className='icon'>
               <i className='fas fa-home'></i>
             </span>
             Back
           </Link>
           <h2>{business.title.rendered}</h2>
-          <h4>
+          <h5>
             Owner: <em>{business.acf.business_owner}</em>
-          </h4>
+          </h5>
           <p>Licence #: {business.acf.licence_number}</p>
           {/* <p>Address: {business.acf.business_address}</p> */}
           <p>NAICS: {business.naics_code}</p>

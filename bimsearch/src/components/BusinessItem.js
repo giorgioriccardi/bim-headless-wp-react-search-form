@@ -35,13 +35,16 @@ export class BusinessItem extends Component {
             <h2 className='warning-message content'>{title.rendered}</h2>
           </Link>
           {/* <h2>{acf.business_name}</h2> */}
-          <h4>
+          <h5>
             Owner: <em>{acf.business_owner}</em>
-          </h4>
+          </h5>
           {/* make phone # a link */}
           <div>Phone #: {acf.business_phone}</div>
           <div>Licence #: {acf.licence_number}</div>
           <div>Address: {acf.business_address.address}</div>
+          <small className='greyText'>
+            Naics and Category will show a label instead of an ID#
+          </small>
           <div>NAICS: {naics_code}</div>
           <div>Category: {categories}</div>
           <Link to={`/business/${slug}`}>

@@ -45,6 +45,13 @@ export class BusinessPage extends Component {
           <p>Category: {business.categories}</p>
           {/* <div>GMAP address: {acf.business_address.address}</div> */}
           {/* <small>The GMAP will be implemented at a later stage, eventually</small> */}
+          <hr />
+          <Link to='/'>
+            <span className='icon'>
+              <i className='fas fa-home'></i>
+            </span>
+            Back
+          </Link>
         </Fragment>
       );
     }

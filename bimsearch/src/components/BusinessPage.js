@@ -32,7 +32,7 @@ export class BusinessPage extends Component {
     if (isLoaded) {
       return (
         <Fragment>
-          <Link to='/'>
+          <Link to='/' className='button'>
             <span className='icon'>
               <i className='fas fa-home'></i>
             </span>
@@ -49,7 +49,7 @@ export class BusinessPage extends Component {
           <div>GMAP address: {business.acf.business_address.address}</div>
           {/* <small>The GMAP will be implemented at a later stage, eventually</small> */}
           <hr />
-          <Link to='/'>
+          <Link to='/' className='button'>
             <span className='icon'>
               <i className='fas fa-home'></i>
             </span>

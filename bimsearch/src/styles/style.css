@@ -35,3 +35,11 @@
 .content:not(:first-child) {
   margin-top: 1.5rem;
 }
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}

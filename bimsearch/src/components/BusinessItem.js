@@ -38,12 +38,14 @@ export class BusinessItem extends Component {
           <h4>
             Owner: <em>{acf.business_owner}</em>
           </h4>
+          {/* make phone # a link */}
+          <div>Phone #: {acf.business_phone}</div>
           <div>Licence #: {acf.licence_number}</div>
           <div>Address: {acf.business_address.address}</div>
           <div>NAICS: {naics_code}</div>
           <div>Category: {categories}</div>
           <Link to={`/business/${slug}`}>
-            <small className='link'>See this business details >></small>
+            <small className='link'>... more business details >></small>
           </Link>
         </div>
       </div>

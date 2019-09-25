@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import BusinessItem from './BusinessItem';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export class Businesses extends Component {
   state = {
@@ -31,11 +32,14 @@ export class Businesses extends Component {
     const { businesses, isLoaded } = this.state;
     if (isLoaded) {
       return (
-        <div>
+        <Fragment>
           {businesses.map(business => (
             <BusinessItem key={business.id} business={business} />
           ))}
-        </div>
+          <Link to='/' className='button floatRight'>
+            <small className='link'>^ Up ^</small>
+          </Link>
+        </Fragment>
       );
     }
     return <h3>Loading BIM Business Data...</h3>;

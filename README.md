@@ -21,7 +21,6 @@ A headless WP installation with a React frontend search form fetching data from 
 - write programmatic error handling for missing ACF fields values
 - validate CF7 phone number field
 - make links for website, email, phone #
-- branch out custom route API in favour of default WP Rest API
 - ..
 - ...
 

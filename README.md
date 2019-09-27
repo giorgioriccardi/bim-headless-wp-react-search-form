@@ -22,6 +22,8 @@ A headless WP installation with a React frontend search form fetching data from 
 - validate CF7 phone number field
 - make links for website, email, phone #
 - branch out custom route API in favour of default WP Rest API
+- create backup of working `http://bim-business-search.local/?rest_route=/bim-businesses/v1/posts` custom API url
+- branch out working custom API into `bim-route` branch
 - ..
 - ...
 

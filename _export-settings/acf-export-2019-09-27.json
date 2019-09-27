@@ -1,0 +1,183 @@
+[
+    {
+        "key": "group_5d4efa06179b4",
+        "title": "Business",
+        "fields": [
+            {
+                "key": "field_5d8ae50bc1d10",
+                "label": "Business Name",
+                "name": "business_name",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "... Paint and Drywall Ltd.",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d893bafa0338",
+                "label": "Licence Number",
+                "name": "licence_number",
+                "type": "number",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": 1234,
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5d8bb30192066",
+                "label": "Licence Status",
+                "name": "licence_status",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "status": "status",
+                    "pending": "pending",
+                    "issued": "issued"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5d51b3f552521",
+                "label": "Business Address",
+                "name": "business_address",
+                "type": "google_map",
+                "instructions": "E.G. 981 Artisan Ln, Bowen Island, BC V0N 1G2, Canada\r\n<br \/> or 1041 Mt Gardner Rd, V0N 1G2",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "center_lat": "49.37936597934192",
+                "center_lng": "-123.34282868430705",
+                "zoom": 14,
+                "height": ""
+            },
+            {
+                "key": "field_5d8aef0c1bb83",
+                "label": "Business Phone",
+                "name": "business_phone",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "... 6049470631",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": ""
+            },
+            {
+                "key": "field_5d51b3dc8e205",
+                "label": "Business Owner",
+                "name": "business_owner",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "... Roberta Bondar",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5d8aefbbc3c8b",
+                "label": "Email Address",
+                "name": "email_address",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "... michael.cane@business.ca",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5d8af059307da",
+                "label": "Website Address",
+                "name": "website_address",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "... www.business.ca"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]

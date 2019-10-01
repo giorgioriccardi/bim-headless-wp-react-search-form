@@ -32,7 +32,7 @@ yarn.lock
 
 # Back End #
 #############
-.env
+# .env
 
 # @TODO writable paths
 wp-content/cache/
@@ -44,6 +44,7 @@ pantheon.upstream.yml
 
 # Packages #
 ############
+node_modules/
 *.7z
 *.dmg
 *.gz

@@ -1,14 +1,12 @@
 <template>
   <div class="sui-results-per-page">
     <div class="sui-results-per-page__label">Show</div>
-    <select
-      name="resultsPerPage"
-      :value="value"
-      @input="$emit('input', $event.target.value)"
-    >
+    <select name="resultsPerPage" :value="value" @input="$emit('input', $event.target.value)">
       <option :value="20">20</option>
       <option :value="40">40</option>
       <option :value="60">60</option>
+      <option :value="80">80</option>
+      <option :value="100">100</option>
     </select>
   </div>
 </template>

@@ -1,0 +1,50 @@
+/***************************/
+/* Product Review Design */
+/***************************/
+.reactive-product-review-list .reactiveProductReviewInfo {
+	margin-bottom: 30px;
+}
+
+.reactive-product-review-list .reactiveProductReviewInfo h4.post-title {
+	margin-bottom: 2px;
+	line-height: 1.3;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.reactive-product-review-list .reactiveProductReviewInfo .product-meta h5 {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: 5px;
+	font-size: 14px;
+}
+
+.reactive-product-review-list
+	.reactiveProductReviewInfo
+	.product-meta
+	h5::before {
+	content: '|';
+	margin-right: 6px;
+	color: #a0a0a0;
+	font-weight: 500;
+}
+
+.reactive-product-review-list
+	.reactiveProductReviewInfo
+	.product-meta
+	h5:first-child::before {
+	content: none;
+}
+
+.reactive-product-review-list .reactiveProductReviewInfo p.comment-data {
+	display: block;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	font-size: 15px;
+}

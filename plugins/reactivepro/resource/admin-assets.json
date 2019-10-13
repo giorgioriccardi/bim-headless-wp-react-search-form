@@ -1,0 +1,20 @@
+{
+  "re_generalSettings": {
+    "js": "re_generalSettings_e2f0c1.js"
+  },
+  "re_metaRestrictions": {
+    "js": "re_metaRestrictions_6f06cc.js"
+  },
+  "re_geoboxSettings": {
+    "js": "re_geoboxSettings_28a411.js"
+  },
+  "re_geoboxPreview": {
+    "js": "re_geoboxPreview_97ad56.js"
+  },
+  "re_gridBuilder": {
+    "js": "re_gridBuilder_578fd7.js"
+  },
+  "re_builder": {
+    "js": "re_builder_480e4a.js"
+  }
+}

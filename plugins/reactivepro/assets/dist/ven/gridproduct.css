@@ -1,0 +1,210 @@
+.reactiveGridType-product {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.reactiveGridType-product .reactiveGridImage {
+  height: 280px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.reactiveGridType-product .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reactiveGridType-product .reactiveGridImage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.35s;
+  background: rgba(0, 0, 0, 0);
+}
+.reactiveGridType-product .reactiveGridImage .reactiveImagePopup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reactiveGridType-product .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.reactiveGridType-product .reactiveGridImage .reactivePostLink {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  opacity: 0;
+  z-index: 2;
+  visibility: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.35s ease;
+  -ms-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.reactiveGridType-product .reactiveGridImage .reactivePostLink i {
+  font-size: 21px;
+  color: #fff;
+}
+.reactiveGridType-product .reactiveGridImage:hover .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.reactiveGridType-product .reactiveGridImage:hover .reactivePostLink {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-product .reactiveGridImage:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.reactiveGridType-product .reactiveGridContents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.reactiveGridType-product
+  .reactiveGridContents
+  .reactiveFlex
+  .reactiveProductTitle {
+  margin: 0;
+  line-height: 1;
+}
+.reactiveGridType-product
+  .reactiveGridContents
+  .reactiveFlex
+  .reactiveProductTitle
+  a {
+  font-size: 16px;
+  color: inherit;
+  line-height: 1.2;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.reactiveGridType-product
+  .reactiveGridContents
+  .reactiveFlex
+  .reactiveProductTitle
+  a:hover {
+  color: #0674ec;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .productRating {
+  display: flex;
+  flex-shrink: 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .productRating i {
+  font-size: 14px;
+  color: #0674ec;
+  margin-right: 2px;
+}
+.reactiveGridType-product
+  .reactiveGridContents
+  .reactiveFlex
+  .productRating
+  i:last-child {
+  margin-right: 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactivePrice {
+  font-size: 13px;
+  color: inherit;
+  margin: 0;
+}
+
+/* OWL CAROUSEL */
+.reactiveGridType-product .reactiveImagePopup .productRating {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.reactiveGridType-product h3.reactiveProductTitle {
+  margin-bottom: 0;
+}
+
+.reactiveGridType-product .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-product:hover .owl-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-product .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 4px 7px;
+  background: rgba(69, 69, 69, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 0.35s;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: rgba(69, 69, 69, 0.9);
+}
+
+.reactiveGridType-product .owl-nav .owl-prev {
+  border-radius: 0 3px 3px 0;
+}
+
+.reactiveGridType-product .owl-nav .owl-next {
+  border-radius: 3px 0 0 3px;
+}
+
+.reactiveGridType-product {
+  /* transition: visibility 0s, opacity 0.5s linear, tansform 0s; */
+}

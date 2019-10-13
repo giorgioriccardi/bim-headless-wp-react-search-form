@@ -1,0 +1,204 @@
+.reactiveGridType-wooCommerce {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage {
+  height: 280px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage.owl-carousel {
+  height: 280px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage.owl-carousel .reactiveImagePopup {
+  height: 280px;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating {
+  display: flex;
+  flex-shrink: 0;
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating i {
+  font-size: 18px;
+  color: #ff9c1c;
+  margin-right: 2px;
+  line-height: 1;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating i:last-child {
+  margin-right: 0;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.35s;
+  background: rgba(0, 0, 0, 0);
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup span {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+/*.reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup span i {
+  font-size: 24px;
+  color: #fff;
+}*/
+.reactiveGridType-wooCommerce .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .reactivePostLink {
+  opacity: 1;
+  visibility: visible;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .reactiveImagePopup span {
+  opacity: 1;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle {
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle a {
+  font-size: 17px;
+  color: inherit;
+  font-weight: 700;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle a:hover {
+  color: #a0ce4e;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents .reactivePrice {
+  font-size: 14px;
+  color: inherit;
+  margin-bottom: 0;
+}
+
+/* OWL CAROUSEL */
+
+.reactiveGridType-wooCommerce .reactiveImagePopup {
+  height: 260px;
+  overflow: hidden;
+  position: relative;
+}
+
+.reactiveGridType-wooCommerce .reactiveImagePopup .productRating {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.reactiveGridType-wooCommerce h3.reactiveProductTitle {
+  margin-bottom: 0;
+}
+
+.reactiveGridType-wooCommerce .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-wooCommerce:hover .owl-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-wooCommerce .owl-nav [class*=owl-] {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 4px 7px;
+  background: rgba(69, 69, 69, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 0.35s;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: rgba(69, 69, 69, 0.9);
+}
+
+.reactiveGridType-wooCommerce .owl-nav .owl-prev {
+  border-radius: 0 3px 3px 0;
+}
+
+.reactiveGridType-wooCommerce .owl-nav .owl-next {
+  border-radius: 3px 0 0 3px;
+}

@@ -1,0 +1,185 @@
+.reactiveGridTypeNcode {
+  margin-bottom: 36px;
+}
+
+.reactiveGridTypeNcode .reactiveGridImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+.reactiveGridTypeNcode .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reactiveGridTypeNcode .reactiveGridImage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  transition: background 0.2s ease-in-out;
+  transition-delay: 150ms;
+  background: rgba(0, 0, 0, 0);
+}
+.reactiveGridTypeNcode .reactiveGridImage:hover .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+.reactiveGridTypeNcode .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reactiveGridTypeNcode .reactiveGridImage .reactiveAddToCart {
+  background: #262729;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  transition: bottom 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  z-index: 2;
+}
+.reactiveGridTypeNcode .reactiveGridImage:hover .reactiveAddToCart {
+  bottom: 0;
+  color: #ffffff;
+}
+.reactiveGridTypeNcode .reactiveGridContents {
+  text-align: center;
+  padding: 18px 0 0;
+}
+.reactiveGridTypeNcode .reactiveGridContents .reactiveProductTitle {
+  margin: 0px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.reactiveGridTypeNcode .reactiveGridContents .reactiveProductTitle a {
+  color: #303133;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+
+.reactiveGridTypeNcode .reactiveGridContents .reactiveProductTitle a:hover {
+  color: #0674ec;
+}
+
+.reactiveGridTypeNcode .reactiveGridContents .reactiveProductPrice {
+  color: #303133;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/*
+.reactiveListView {
+  flex-wrap: wrap;
+}
+.reactiveGridBlock .reactiveGridTypeNcode {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode {
+  flex-direction: row;
+}
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridImage {
+  width: 270px;
+  height: 220px;
+}
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents {
+  width: 66.6667%;
+  text-align: left;
+}
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridImage .reactiveAddToCart {
+  display: none;
+}
+// .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents .reactiveAddToCart {
+//   background: #262729;
+//   color: #fff;
+//   transition: all 0.4s ease-in-out;
+//   text-transform: uppercase;
+//   font-size: 14px;
+//   text-align: center;
+//   font-weight: 400;
+//   letter-spacing: 1px;
+//   text-decoration: none;
+//   display: inline-block;
+//   padding: 10px 30px;
+//   max-width: 160px;
+//   margin-top: 30px;
+// }
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents .reactiveProductTitle {
+  margin-top: 0;
+}
+.reactiveGridBlock .reactiveGridTypeNcode .reactiveGridImage {
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.reactiveGridBlock .reactiveGridTypeNcode .reactiveGridContents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.reactiveGridBlock .reactiveGridTypeNcode .reactiveGridContents .reactiveAddToCart {
+  display: none;
+}
+.reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents {
+  padding-left: 30px;
+}
+@media (max-width: 560px) {
+  .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode {
+    flex-direction: column;
+  }
+  .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridImage {
+    width: 100%;
+    height: auto;
+  }
+  .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents .reactiveAddToCart {
+    max-width: 100%;
+  }
+  .reactiveGridBlock.reactiveListView .reactiveGridTypeNcode .reactiveGridContents .reactiveProductTitle {
+    margin-top: 10px;
+  }
+}*/

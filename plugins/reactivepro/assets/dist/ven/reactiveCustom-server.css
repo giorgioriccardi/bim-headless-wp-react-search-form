@@ -1,0 +1,596 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+.fusion-main-menu > ul > li {
+  padding-right: 40px;
+}
+
+/******** SCHOLAR OOB ************/
+.scholar-OOB-wrapper {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  margin-top: 45px;
+}
+
+.scholar-OOB-content .reactiveGridContents___ {
+  padding: 0;
+  margin: -2px;
+  width: calc(100% - 15px);
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.3);
+}
+
+.scholar-OOB-content  .reactiveSingleBox___ .reactiveNormSearchGridContents___ {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.scholar-OOB-content  .reactiveSingleBox___ .reuseSingleElement___ {
+  position: relative;
+  text-align: left;
+  padding: 15px 0 15px 15px;
+  height: 60px;
+}
+
+.scholar-OOB-content  .reactiveSingleBox___:last-child .reuseSingleElement___ {
+  padding: 0;
+}
+
+.scholar-OOB-content  .reactiveSingleBox___:nth-child(n-2) .reuseElementBlock___ {
+  border-right: 1px solid #e8e8e8;
+  padding-right: 15px;
+}
+
+.scholar-OOB-content .reuseLabelsWrapper___ {
+  margin-bottom: 0;
+}
+
+.scholar-OOB-content .reuseLabelsWrapper___ .reuseLabel___ {
+  display: block;
+  font-size: 12px;
+  color: #cc3333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat-Regular";
+  line-height: 12px;
+  margin: 0;
+}
+/*  FOR SCHOLAR JOB-BOARD COLOR */
+.scholar-OOB-content.job-board .reuseLabelsWrapper___ .reuseLabel___ {
+  color: #ecb510;
+}
+.scholar-OOB-content.job-board .reuseButton___ {
+  background: #ecb510;
+}
+/*  FOR SCHOLAR REAL-ESTATE COLOR  */
+.scholar-OOB-content.real-estate .reuseLabelsWrapper___ .reuseLabel___ {
+  color: #9c6;
+}
+.scholar-OOB-content.real-estate .reuseButton___ {
+  background: #9c6;
+}
+/*  FOR SCHOLAR LAWYER COLOR */
+.scholar-OOB-content.lawyer .reuseLabelsWrapper___ .reuseLabel___ {
+  color: #990000;
+}
+.scholar-OOB-content.lawyer .reuseButton___ {
+  background: #990000;
+}
+/*  FOR SCHOLAR DOCTOR COLOR  */
+.scholar-OOB-content.doctor .reuseLabelsWrapper___ .reuseLabel___ {
+  color: #66cccc;
+}
+.scholar-OOB-content.doctor .reuseButton___ {
+  background: #66cccc;
+}
+
+.scholar-OOB-content input[type=text].reuseInputField___ {
+  line-height: inherit;
+  border: 0;
+  padding-left: 0;
+  color: #000000;
+}
+
+.scholar-OOB-content .reuseMapAutoCompleteWrapper___:before {
+  display: none;
+}
+
+.scholar-OOB-content .reuseMapAutoCompleteWrapper___ .reuseMapAutoCompleteInput___ {
+  border: 0;
+  padding-left: 0;
+  height: auto;
+  font-size: 14px;
+  color: #000000;
+}
+
+.scholar-OOB-content .dd__selectControl {
+  border: 0;
+  padding: 0;
+  line-height: inherit;
+  color: #000000;
+}
+
+.scholar-OOB-content .dd__option:hover {
+  background-color: #f5f5f5;
+}
+
+.scholar-OOB-content .reuseButton___ {
+  width: 100%;
+  background: #cc3333;
+  color: #f5f5f5;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 0 2px 2px 0;
+  font-weight: 700;
+  line-height: inherit;
+  height: 60px;
+  text-transform: uppercase;
+}
+.hotel .scholar-OOB-content .reuseButton___ {
+  width: 100%;
+  background: #cc3333;
+}
+
+.admin-bar .pac-container {
+  margin: 0;
+}
+
+.pac-container .pac-item:nth-child(odd) {
+  background-color: #fff !important;
+}
+
+.pac-container .pac-item:hover {
+  background-color: #f5f5f5 !important;
+  color: #495c68 !important;
+}
+
+.pac-container .pac-item:hover .pac-item-query {
+  color: #495c68 !important;
+}
+
+/* WOOCOMMERCE GALLERY */
+.reactiveGridType-wooCommerce .reactiveImagePopup .productRating {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.reactiveGridType-wooCommerce h3.reactiveProductTitle {
+  margin-bottom: 0;
+}
+
+.reactiveGridType-wooCommerce .owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  opacity: hidden;
+  visibility: 0;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-wooCommerce:hover .owl-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-wooCommerce .owl-nav [class*=owl-] {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 4px 7px;
+  background: rgba(69, 69, 69, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 0.35s;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: rgba(69, 69, 69, 0.9);
+}
+
+.reactiveGridType-wooCommerce .owl-nav .owl-prev {
+  border-radius: 0 3px 3px 0;
+}
+
+.reactiveGridType-wooCommerce .owl-nav .owl-next {
+  border-radius: 3px 0 0 3px;
+}
+
+/**********/
+.reactiveGridType-wooCommerce {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage {
+  height: 280px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage.owl-carousel {
+  height: 280px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage.owl-carousel .reactiveImagePopup {
+  height: 280px;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating {
+  display: flex;
+  flex-shrink: 0;
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating i {
+  font-size: 18px;
+  color: #ff9c1c;
+  margin-right: 2px;
+  line-height: 1;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .productRating i:last-child {
+  margin-right: 0;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.35s;
+  background: rgba(0, 0, 0, 0);
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup span {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+/* .reactiveGridType-wooCommerce .reactiveGridImage .reactiveImagePopup span i {
+  font-size: 24px;
+  color: #fff;
+} */
+.reactiveGridType-wooCommerce .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .reactivePostLink {
+  opacity: 1;
+  visibility: visible;
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.reactiveGridType-wooCommerce .reactiveGridImage:hover .reactiveImagePopup span {
+  opacity: 1;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle {
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle a {
+  font-size: 17px;
+  color: inherit;
+  font-weight: 700;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-wooCommerce .reactiveGridContents .reactiveProductTitle a:hover {
+  color: #a0ce4e;
+}
+.reactiveGridType-wooCommerce .reactiveGridContents .reactivePrice {
+  font-size: 14px;
+  color: inherit;
+  margin-bottom: 0;
+}
+
+/************************
+GRID TYPE : PRODUCT
+***********************/
+.reactiveGridType-product {
+  display: flex;
+  flex-direction: column;
+}
+.reactiveGridType-product .reactiveGridImage {
+  height: 280px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.reactiveGridType-product .reactiveGridImage .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.35s;
+  background: rgba(0, 0, 0, 0);
+}
+.reactiveGridType-product .reactiveGridImage .reactiveImagePopup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reactiveGridType-product .reactiveGridImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease;
+}
+.reactiveGridType-product .reactiveGridImage .reactivePostLink {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+  visibility: 0;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+.reactiveGridType-product .reactiveGridImage .reactivePostLink i {
+  font-size: 21px;
+  color: #fff;
+}
+.reactiveGridType-product .reactiveGridImage:hover .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.reactiveGridType-product .reactiveGridImage:hover .reactivePostLink {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-product .reactiveGridImage:hover img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.reactiveGridType-product .reactiveGridContents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .reactiveProductTitle {
+  margin: 0;
+  line-height: 1.2;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .reactiveProductTitle a {
+  font-size: 17px;
+  color: inherit;
+  font-weight: 700;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .productRating {
+  display: flex;
+  flex-shrink: 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .productRating i {
+  font-size: 14px;
+  color: #ff9c1c;
+  margin-right: 2px;
+}
+.reactiveGridType-product .reactiveGridContents .reactiveFlex .productRating i:last-child {
+  margin-right: 0;
+}
+.reactiveGridType-product .reactiveGridContents .reactivePrice {
+  font-size: 14px;
+  color: inherit;
+  margin-bottom: 0;
+}
+
+/* OWL CAROUSEL */
+
+.reactiveGridType-product .reactiveImagePopup .productRating {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.reactiveGridType-product h3.reactiveProductTitle {
+  margin-bottom: 0;
+}
+
+.reactiveGridType-product .owl-nav {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s;
+}
+
+.reactiveGridType-product:hover .owl-nav {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reactiveGridType-product .owl-nav [class*=owl-] {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 4px 7px;
+  background: rgba(69, 69, 69, 0.7);
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0;
+  transition: all 0.35s;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: rgba(69, 69, 69, 0.9);
+}
+
+.reactiveGridType-product .owl-nav .owl-prev {
+  border-radius: 0 3px 3px 0;
+}
+
+.reactiveGridType-product .owl-nav .owl-next {
+  border-radius: 3px 0 0 3px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/*** Full Screen Map ***/
+.fullmap {
+  width: calc(100% + 60px) !important;
+}
+
+/*****
+LABEL POSITIONING
+*****/
+.inlineLabel .reactiveBarContents___ .reuseElementBlock___ {
+  display: flex;
+  align-items: center;
+}
+
+.inlineLabel .reactiveBarContents___ .reuseElementBlock___ .reuseLabelsWrapper___ {
+  width: auto;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+.inlineLabel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.inlineLabel .reuseLabel___ {
+  margin: 0;
+}
+
+.inlineLabel > div {
+  width: 100%;
+}
+
+/*   Fixed map    */
+.admin-bar .fixedmap {
+  position: fixed !important;
+  top: 80px;
+}
+
+.admin-bar .fixedmap .reactiveMapHeight___ {
+  height: calc(100vh - 95px) !important;
+}
+
+.fixedmap {
+  position: fixed !important;
+  top: 48px;
+}
+
+.fixedmap .reactiveMapHeight___ {
+  height: calc(100vh - 65px) !important;
+}
+
+/* Boxed Search on map */
+.boxedSearch {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  margin-top: -85px;
+  z-index: 99 !important;
+}
+
+.boxedSearch .reactiveGridContents___ {
+  padding: 0;
+}
+
+.boxedSearch .reactiveGridContentsInner___ {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}

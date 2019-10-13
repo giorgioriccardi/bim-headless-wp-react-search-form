@@ -1,0 +1,78 @@
+/***************************/
+/* User Search Grid Design */
+/***************************/
+.reactive-user-list a,
+.reactive-user-list a:hover {
+	display: block;
+	box-shadow: none;
+}
+
+.reactive-user-list .reactiveUserInfo .avatar-wrap {
+	overflow: hidden;
+	height: 250px;
+	border-radius: 3px;
+}
+
+.reactive-user-list .reactiveUserInfo img {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 0;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.reactive-user-list a:hover .reactiveUserInfo img {
+	opacity: 0.7;
+}
+
+.reactive-user-list .reactiveUserInfo h4,
+.reactive-group-user-list .user-group-info h4 {
+	display: block;
+	display: -webkit-box;
+	font-weight: 600;
+	margin-top: 7px;
+	font-size: 16px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: capitalize;
+}
+
+.reactive-user-list .reactiveUserInfo p {
+	font-size: 12px;
+}
+
+.reactiveUserInfo p strong {
+	color: #000;
+}
+
+/***************************/
+/* User List View Design */
+/***************************/
+.reactiveListView .reactive-user-listView .reactiveUserInfo {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+
+.reactiveListView .reactive-user-listView .reactiveUserInfo .avatar-wrap {
+	width: 135px;
+	height: 130px;
+	float: left;
+}
+
+.reactiveListView .reactive-user-listView .reactiveUserInfo .user-info {
+	width: calc(100% - 156px);
+	float: right;
+}
+
+.reactiveListView .reactive-user-listView .reactiveUserInfo .user-info h4 {
+	margin-top: 0;
+	margin-bottom: 5px;
+}

@@ -1,0 +1,1510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reactive\n"
+"POT-Creation-Date: 2017-11-19 04:03+0600\n"
+"PO-Revision-Date: 2017-11-19 04:10+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: reactive.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-template/reactive-geobox-html.php:15
+msgid "Type location"
+msgstr "Type locatie"
+
+#: admin/admin-template/reactive-geobox-html.php:22
+msgid "City"
+msgstr "Plaats"
+
+#: admin/admin-template/reactive-geobox-html.php:28
+msgid "Country"
+msgstr "Land"
+
+#: admin/admin-template/reactive-geobox-html.php:37
+msgid "State"
+msgstr "Provincie"
+
+#: admin/admin-template/reactive-geobox-html.php:45
+msgid "Zip code"
+msgstr "Postcode"
+
+#: admin/admin-template/reactive-geobox-html.php:51
+msgid "Latitude"
+msgstr "Latitude"
+
+#: admin/admin-template/reactive-geobox-html.php:57
+msgid "Longitude"
+msgstr "Longitude"
+
+#: admin/admin-template/reactive-settings.php:32
+msgid "Reactive Settings"
+msgstr "Reactieve instellingen"
+
+#: admin/admin-template/reactive-settings.php:37
+msgid "Google Map API Key"
+msgstr "Google maps API-sleutel"
+
+#: admin/admin-template/reactive-settings.php:49
+msgid "Map Country Region"
+msgstr "Land/Regio"
+
+#: admin/admin-template/reactive-settings.php:58
+msgid "Turn Off Google Map"
+msgstr "Google maps API-sleutel"
+
+#: admin/admin-template/reactive-settings.php:64
+msgid "Load Bootstrap Scripts From"
+msgstr "Laden van de Bootstrap Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:80
+msgid "Bootstrap Enable Disable Option"
+msgstr "Optie voor bootstrap inschakelen uitschakelen"
+
+#: admin/admin-template/reactive-settings.php:89
+msgid "Load FontAwesome Scripts From"
+msgstr "Laden FontAwesome Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:105
+msgid "Font Awesome Enable Disable Option"
+msgstr "Lettertype ontzagwekkende inschakelen uitschakelen"
+
+#: admin/admin-template/reactive-settings.php:114
+msgid "Load Jquery UI Scripts From"
+msgstr "Laden van Jquery UI Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:130
+msgid "Jquery UI CSS Enable Disable Option"
+msgstr "JQuery UI CSS inschakelen Disable optie"
+
+#: admin/admin-template/reactive-settings.php:139
+msgid "Load Isotope Scripts From"
+msgstr "Laden van de isotoop Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:155
+msgid "Isotope Enable Disable Option"
+msgstr "Optie isotoop inschakelen uitschakelen"
+
+#: admin/admin-template/reactive-settings.php:164
+msgid "Load Ion Range Scripts From"
+msgstr "Load Ion Range Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:180
+msgid "Ion Range Slider Enable Disable Option"
+msgstr "Ion Range Slider inschakelen uitschakelen"
+
+#: admin/admin-template/reactive-settings.php:189
+msgid "Load Magnefic Popup Scripts From"
+msgstr "Belasting Magnefic Popup Scripts uit"
+
+#: admin/admin-template/reactive-settings.php:205
+msgid "Magnefic Popup Enable Disable Option"
+msgstr "Magnefic Popup inschakelen uitschakelen"
+
+#: admin/admin-template/reactive-settings.php:214
+msgid "Geobox Enable"
+msgstr "GEObox inschakelen"
+
+#: admin/admin-template/reactive-settings.php:225
+msgid "Turn off Indexing Cron"
+msgstr "Uitschakelen Indexing Cron"
+
+#: admin/admin-template/reactive-settings.php:231
+msgid "Cron Schedule (min)"
+msgstr "Cron Schedule (min)"
+
+#: admin/admin-template/reactive-settings.php:240
+msgid "Save Changes"
+msgstr "Veranderingen opslaan"
+
+#: admin/admin-template/reactive-system-status.php:30
+msgid "The Recommened Minimum WP Memory Limit is 256M"
+msgstr "De geheugenlimiet Recommened Minimum WP is 256M"
+
+#: admin/admin-template/reactive-system-status.php:36
+msgid "Calculating…"
+msgstr "aan het berekenen ..."
+
+#: admin/admin-template/reactive-system-status.php:38
+msgid "The Recommened Minimum Server Memory Limit is 256M"
+msgstr "De geheugenlimiet Recommened Minimum Server wordt 256M"
+
+#: admin/admin-template/reactive-system-status.php:43
+msgid "The Recommened Minimum PHP version is 5.6.0"
+msgstr "De Recommened minimaal PHP versie is 5.6.0"
+
+#: admin/admin-template/reactive-system-status.php:51
+msgid "The Recommened Minimum Input Vars is 3000"
+msgstr "De Recommened Minimum Input Vars is 3000"
+
+#: admin/admin-template/reactive-system-status.php:59
+msgid "The Recommened Minimum Mysql version is 5.6.0 or greater"
+msgstr "De Recommened minimaal Mysql versie 5.6.0 is of groter"
+
+#: admin/class-re-admin-geobox.php:37
+msgid "Geobox"
+msgstr "GEObox"
+
+#: admin/class-re-admin-rebuilder.php:21 admin/class-re-visual-composer.php:25
+msgid "Reactive Builder"
+msgstr "Reactieve instellingen"
+
+#: admin/class-re-admin-rebuilder.php:32
+msgid "Grid Template"
+msgstr "Raster sjabloon"
+
+#: admin/class-re-admin-rebuilder.php:41
+msgid "Search Layouts"
+msgstr "Lay-out zoeken"
+
+#: admin/class-re-admin-rebuilder.php:52
+msgid "Category Template"
+msgstr "Categorie template"
+
+#: admin/class-re-admin-rebuilder.php:61
+msgid "Map Marker Template"
+msgstr "Kaart Marker sjabloon"
+
+#: admin/class-re-admin-rebuilder.php:70
+msgid "Map Info Window Template"
+msgstr "Kaart Info venster sjabloon"
+
+#: admin/class-re-admin-scripts.php:274 app/Scripts.php:223
+msgid "Post Type"
+msgstr "Berichttype"
+
+#: admin/class-re-admin-scripts.php:275 app/Scripts.php:224
+msgid "Please select any post type you want to add this taxonomy"
+msgstr "Selecteer elk bericht-type dat u wilt toevoegen van deze taxonomie"
+
+#: admin/class-re-admin-scripts.php:276 app/Scripts.php:225
+msgid "Enable Hierarchy"
+msgstr "Inschakelen van hiërarchie"
+
+#: admin/class-re-admin-scripts.php:277 app/Scripts.php:226
+msgid "If you want to enable the taxonomy hierarchy set true"
+msgstr ""
+"Als u wilt inschakelen van de hiërarchie van de taxonomie instellen waar"
+
+#: admin/class-re-admin-scripts.php:278 app/Scripts.php:227
+msgid "Post Formats"
+msgstr "Berichtformaten"
+
+#: admin/class-re-admin-scripts.php:279 app/Scripts.php:228
+msgid "Enable post formats into this post."
+msgstr "Schakel post formaten in deze post."
+
+#: admin/class-re-admin-scripts.php:280 app/Scripts.php:229
+msgid "Page Attributes"
+msgstr "Pagina Attributen"
+
+#: admin/class-re-admin-scripts.php:281 app/Scripts.php:230
+msgid "Enable page attributes into this post."
+msgstr "Paginakenmerken inschakelen in deze post."
+
+#: admin/class-re-admin-scripts.php:282 app/Scripts.php:231
+msgid "Revisions"
+msgstr "Revisies"
+
+#: admin/class-re-admin-scripts.php:283 app/Scripts.php:232
+msgid "Enable revisions into this post."
+msgstr "Inschakelen van wijzigingen in deze post."
+
+#: admin/class-re-admin-scripts.php:284 app/Scripts.php:233
+msgid "Comments"
+msgstr "Commentaar"
+
+#: admin/class-re-admin-scripts.php:285 app/Scripts.php:234
+msgid "Enable comments into this post."
+msgstr "Opmerkingen in dit bericht inschakelen."
+
+#: admin/class-re-admin-scripts.php:286 app/Scripts.php:235
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: admin/class-re-admin-scripts.php:287 app/Scripts.php:236
+msgid "Enable custom fields into this post."
+msgstr "Het inschakelen van aangepaste velden in dit bericht."
+
+#: admin/class-re-admin-scripts.php:288 app/Scripts.php:237
+msgid "Trackbacks"
+msgstr "Verstuur Trackbacks"
+
+#: admin/class-re-admin-scripts.php:289 app/Scripts.php:238
+msgid "Enable trackbacks into this post."
+msgstr "Trackbacks inschakelen in deze post."
+
+#: admin/class-re-admin-scripts.php:290 app/Scripts.php:239
+msgid "Excerpt"
+msgstr "Samenvatting"
+
+#: admin/class-re-admin-scripts.php:291 app/Scripts.php:240
+msgid "Enable excerpt into this post."
+msgstr "Uittreksel inschakelen in deze post."
+
+#: admin/class-re-admin-scripts.php:292 app/Scripts.php:241
+msgid "Thumbnail"
+msgstr "Uitgelichte afbeelding"
+
+#: admin/class-re-admin-scripts.php:293 app/Scripts.php:242
+msgid "Enable thumbnail into this post."
+msgstr "Inschakelen foto in deze post."
+
+#: admin/class-re-admin-scripts.php:294 app/Scripts.php:243
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/class-re-admin-scripts.php:295 app/Scripts.php:244
+msgid "Enable author into this post."
+msgstr "Auteur van de pagina in deze post."
+
+#: admin/class-re-admin-scripts.php:296 app/Scripts.php:245
+msgid "Editor"
+msgstr "Editor"
+
+#: admin/class-re-admin-scripts.php:297 app/Scripts.php:246
+msgid "Enable editor into this post."
+msgstr "Redacteur te laten in deze post."
+
+#: admin/class-re-admin-scripts.php:298 app/Scripts.php:247
+msgid "Title"
+msgstr "Titel"
+
+#: admin/class-re-admin-scripts.php:299 app/Scripts.php:248
+msgid "Enable title into this post."
+msgstr "Titel van de pagina in deze post."
+
+#: admin/class-re-admin-scripts.php:300 app/Scripts.php:249
+msgid "All Items"
+msgstr "Alle items"
+
+#: admin/class-re-admin-scripts.php:301 app/Scripts.php:250
+msgid "Singular Name"
+msgstr "Enkelvoudige Naam"
+
+#: admin/class-re-admin-scripts.php:302 app/Scripts.php:251
+msgid "Post Slug"
+msgstr "Bericht Slug"
+
+#: admin/class-re-admin-scripts.php:303 app/Scripts.php:252
+msgid "If want to change the default all items name, add the name here"
+msgstr ""
+"Als wilt wijzigen van de standaard alle items naam, de naam hier toevoegen"
+
+#: admin/class-re-admin-scripts.php:304 app/Scripts.php:253
+msgid "If want to change the default singular name, add the name here"
+msgstr ""
+"Als wilt wijzigen van de standaard enkelvoud naam, de naam hier toevoegen"
+
+#: admin/class-re-admin-scripts.php:305 app/Scripts.php:254
+msgid "If want to change the default post slug, add the slug here"
+msgstr ""
+"Als wilt wijzigen van de standaard post slak, het toevoegen van de witruimte "
+"rond de pagina hier"
+
+#: admin/class-re-admin-scripts.php:306 app/Scripts.php:255
+msgid "Menu Position"
+msgstr "Menupositie"
+
+#: admin/class-re-admin-scripts.php:307 app/Scripts.php:256
+msgid "Select the post type menu position."
+msgstr "Selecteer de post type menu positie."
+
+#: admin/class-re-admin-scripts.php:308 app/Scripts.php:257
+msgid "Menu Icon"
+msgstr "Menu icoon"
+
+#: admin/class-re-admin-scripts.php:309 app/Scripts.php:258
+msgid "Select a menu icon."
+msgstr "Selecteer menu icoon"
+
+#: admin/class-re-admin-scripts.php:310 app/Scripts.php:259
+msgid "Below First Separator"
+msgstr "Hieronder eerste scheidingsteken"
+
+#: admin/class-re-admin-scripts.php:311 app/Scripts.php:260
+msgid "Below Posts"
+msgstr "Onder de posten"
+
+#: admin/class-re-admin-scripts.php:312 app/Scripts.php:261
+msgid "Below Media"
+msgstr "Onder Media"
+
+#: admin/class-re-admin-scripts.php:313 app/Scripts.php:262
+msgid "Below Links"
+msgstr "Onderstaande Links"
+
+#: admin/class-re-admin-scripts.php:314 app/Scripts.php:263
+msgid "Below Pages"
+msgstr "Onderstaande pagina 's"
+
+#: admin/class-re-admin-scripts.php:315 app/Scripts.php:264
+msgid "Below Comments"
+msgstr "Onderstaande opmerkingen"
+
+#: admin/class-re-admin-scripts.php:316 app/Scripts.php:265
+msgid "Below Second Separator"
+msgstr "Hieronder de tweede scheidingsteken"
+
+#: admin/class-re-admin-scripts.php:317 app/Scripts.php:266
+msgid "Below Plugins"
+msgstr "Onder Plugins"
+
+#: admin/class-re-admin-scripts.php:318 app/Scripts.php:267
+msgid "Below Users"
+msgstr "Onder gebruikers"
+
+#: admin/class-re-admin-scripts.php:319 app/Scripts.php:268
+msgid "Below Tools"
+msgstr "Onderstaande Tools"
+
+#: admin/class-re-admin-scripts.php:320 app/Scripts.php:269
+msgid "Below Settings"
+msgstr "Onder instellingen"
+
+#: admin/class-re-admin-scripts.php:321 app/Scripts.php:270
+msgid "Default Icon"
+msgstr "Standaard Icoon"
+
+#: admin/class-re-admin-scripts.php:322 app/Scripts.php:271
+msgid "Upload Icon"
+msgstr "Upload pictogram"
+
+#: admin/class-re-admin-scripts.php:323 app/Scripts.php:272
+msgid "Icon Type"
+msgstr "Icoon type"
+
+#: admin/class-re-admin-scripts.php:324 app/Scripts.php:273
+msgid "Select the default icon type or upload a new."
+msgstr "Selecteer het pictogram standaardtype of upload een nieuwe."
+
+#: admin/class-re-admin-scripts.php:325 app/Scripts.php:274
+msgid "Upload Custom Icon"
+msgstr "Upload een eigen pictogram/icoon"
+
+#: admin/class-re-admin-scripts.php:326 app/Scripts.php:275
+msgid "You can upload any custom image icon."
+msgstr "U kunt het pictogram van een aangepaste afbeelding uploaden."
+
+#: admin/class-re-admin-scripts.php:327 admin/class-re-reuse-form.php:33
+#: app/Scripts.php:276
+msgid "Bundle Component"
+msgstr "Bundel Component"
+
+#: admin/class-re-admin-scripts.php:328 admin/class-re-reuse-form.php:34
+#: app/Scripts.php:277
+msgid "Pick Color"
+msgstr "Pik de kleur"
+
+#: admin/class-re-admin-scripts.php:329 admin/class-re-reuse-form.php:35
+#: app/Scripts.php:278
+msgid "No result found"
+msgstr "Niets gevonden"
+
+#: admin/class-re-admin-scripts.php:330 admin/class-re-reuse-form.php:36
+#: app/Scripts.php:279
+msgid "search"
+msgstr "zoeken"
+
+#: admin/class-re-admin-scripts.php:331 admin/class-re-reuse-form.php:37
+#: app/Scripts.php:280
+msgid "Open on selected hours"
+msgstr "Open op geselecteerde uren"
+
+#: admin/class-re-admin-scripts.php:332 admin/class-re-reuse-form.php:38
+#: app/Scripts.php:281
+msgid "Always open"
+msgstr "blijft lopen"
+
+#: admin/class-re-admin-scripts.php:333 admin/class-re-reuse-form.php:39
+#: app/Scripts.php:282
+msgid "No hours available"
+msgstr "Geen uren beschikbaar"
+
+#: admin/class-re-admin-scripts.php:334 admin/class-re-reuse-form.php:40
+#: app/Scripts.php:283
+msgid "Permanently closed"
+msgstr "Permanent gesloten"
+
+#: admin/class-re-admin-scripts.php:335 admin/class-re-reuse-form.php:41
+#: app/Scripts.php:284
+msgid "Monday"
+msgstr "maandag"
+
+#: admin/class-re-admin-scripts.php:336 admin/class-re-reuse-form.php:42
+#: app/Scripts.php:285
+msgid "Tuesday"
+msgstr "Disndag"
+
+#: admin/class-re-admin-scripts.php:337 admin/class-re-reuse-form.php:43
+#: app/Scripts.php:286
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#: admin/class-re-admin-scripts.php:338 admin/class-re-reuse-form.php:44
+#: app/Scripts.php:287
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: admin/class-re-admin-scripts.php:339 admin/class-re-reuse-form.php:45
+#: app/Scripts.php:288
+msgid "Friday"
+msgstr "Vrijdafg"
+
+#: admin/class-re-admin-scripts.php:340 admin/class-re-reuse-form.php:46
+#: app/Scripts.php:289
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: admin/class-re-admin-scripts.php:341 admin/class-re-reuse-form.php:47
+#: app/Scripts.php:290
+msgid "Sunday"
+msgstr "zondag"
+
+#: admin/class-re-admin-scripts.php:342 admin/class-re-reuse-form.php:48
+#: app/Scripts.php:291
+msgid "Wrong Password"
+msgstr "Onjuist wachtwoord"
+
+#: admin/class-re-admin-scripts.php:343 admin/class-re-reuse-form.php:49
+#: app/Scripts.php:292
+msgid "Password Matched"
+msgstr "Wachtwoord gekoppeld"
+
+#: admin/class-re-admin-scripts.php:344 admin/class-re-reuse-form.php:50
+#: app/Scripts.php:293
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: admin/class-re-admin-scripts.php:345 admin/class-re-reuse-form.php:51
+#: app/Scripts.php:294
+msgid "I currently work here"
+msgstr "Ik werk momenteel hier"
+
+#: admin/class-re-admin.php:40 admin/class-re-admin.php:48
+#: admin/class-re-admin.php:56 admin/class-re-admin.php:64
+#: admin/class-re-admin.php:72 admin/class-re-admin.php:80
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt niet genoeg rechten voor toegang tot deze pagina."
+
+#: admin/class-re-generator-metabox.php:21
+msgid "Location"
+msgstr "Locatie"
+
+#: admin/class-re-generator-metabox.php:31
+msgid "Rebuilder Settings"
+msgstr "Rebuilder instellingen"
+
+#: admin/class-re-generator-metabox.php:38
+msgid "Grid Template Code"
+msgstr "Sjablooncode"
+
+#: admin/class-re-generator-metabox.php:45
+msgid "Category Template Code"
+msgstr "Categorie template"
+
+#: admin/class-re-generator-metabox.php:52
+msgid "Map Marker Template Code"
+msgstr "Kaart van Marker sjablooncode"
+
+#: admin/class-re-generator-metabox.php:59
+msgid "Map Info Template Code"
+msgstr "Kaart Info sjablooncode"
+
+#: admin/class-re-generator-metabox.php:66
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/class-re-visual-composer.php:28
+msgid "Reactive PRO"
+msgstr "Reactieve PRO"
+
+#: admin/class-re-visual-composer.php:34
+msgid "Key"
+msgstr "Sleutelgetal"
+
+#: admin/class-re-visual-composer.php:37
+msgid "Create the builder shortcode from Reactive Builder"
+msgstr "Maken van de shortcode bouwer van reactieve Builder"
+
+#: admin/generator/class-re-post-type.php:97
+msgid "Add New "
+msgstr "Nieuwe toevoegen"
+
+#: admin/generator/class-re-post-type.php:98
+msgid "Edit "
+msgstr "Bewerken"
+
+#: admin/generator/class-re-post-type.php:99
+msgid "New "
+msgstr "Nieuw"
+
+#: admin/generator/class-re-post-type.php:100
+msgid "All "
+msgstr "Alles"
+
+#: admin/generator/class-re-post-type.php:101
+msgid "View "
+msgstr "Bekijken"
+
+#: admin/generator/class-re-post-type.php:102
+msgid "Search "
+msgstr "Zoeken"
+
+#: admin/generator/class-re-post-type.php:103
+#: admin/generator/class-re-post-type.php:104
+msgid "No "
+msgstr "Nee"
+
+#: app/Scripts.php:180 app/Scripts.php:196
+msgid "Save"
+msgstr "Bewaren"
+
+#: app/Scripts.php:181
+msgid "Edit"
+msgstr "Bewerken"
+
+#: app/Scripts.php:182
+msgid "Delete"
+msgstr "Verwijder"
+
+#: app/Scripts.php:183
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: app/Scripts.php:184
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: app/Scripts.php:185
+msgid "Apply Filter"
+msgstr "Filter Toepassen"
+
+#: app/Scripts.php:186
+msgid "Doesnt have any option for this component"
+msgstr "Doesnt hebben een optie voor dit onderdeel"
+
+#: app/Scripts.php:187
+msgid "Please Add Some Options"
+msgstr "Voeg enkele opties"
+
+#: app/Scripts.php:188
+msgid "results found "
+msgstr "resultaten gevonden"
+
+#: app/Scripts.php:189
+msgid "result found "
+msgstr "Niets gevonden"
+
+#: app/Scripts.php:190
+msgid "clear"
+msgstr "Wissen"
+
+#: app/Scripts.php:191
+msgid "Get All"
+msgstr "Krijgen alle"
+
+#: app/Scripts.php:192
+msgid "My Location"
+msgstr "Mijn Locatie"
+
+#: app/Scripts.php:193
+msgid "Browser Geolocation Error !"
+msgstr "Browser Geolocation fout!"
+
+#: app/Scripts.php:194
+msgid "Timeout."
+msgstr "Duurde te lang."
+
+#: app/Scripts.php:195
+msgid "Position Unavailable."
+msgstr "Positie niet beschikbaar."
+
+#: app/Scripts.php:197
+msgid "More Filters"
+msgstr "Meer filters"
+
+#: app/Scripts.php:198
+msgid "Save Template"
+msgstr "Template bewaren"
+
+#: app/Scripts.php:199
+msgid "Save Template As"
+msgstr "TEMPLATE BEWARE?"
+
+#: app/Scripts.php:200
+msgid "Add Box"
+msgstr "Box toevoegen"
+
+#: app/Scripts.php:201
+msgid "GLOBAL SETTINGS"
+msgstr "Algemene instellingen"
+
+#: app/Scripts.php:202
+msgid "Admin View"
+msgstr "Beheerder"
+
+#: app/Scripts.php:203
+msgid "User View"
+msgstr "Weergave van de gebruiker"
+
+#: app/Scripts.php:204
+msgid "Block"
+msgstr "Blokkeren"
+
+#: app/Scripts.php:205
+msgid "Global"
+msgstr "Algemeen"
+
+#: app/Scripts.php:206
+msgid "Settings"
+msgstr "Instellingen"
+
+#: app/Scripts.php:207
+msgid "Add Bar Fields"
+msgstr "Bar velden toevoegen"
+
+#: app/Scripts.php:208
+msgid "Add Search Fields"
+msgstr "Zoek velden"
+
+#: app/Scripts.php:209
+msgid "Add Widget"
+msgstr "Widget toevoegen"
+
+#: app/Scripts.php:210
+msgid "Edit Search Block"
+msgstr "Blok zoeken"
+
+#: app/Scripts.php:211
+msgid "Edit Bar Block"
+msgstr "Blok van de bewerkbalk"
+
+#: app/Scripts.php:212
+msgid "Edit Widget"
+msgstr "Widget bewerken"
+
+#: app/Scripts.php:213
+msgid "Are you sure?"
+msgstr "Weet u het zeker?"
+
+#: app/Scripts.php:214
+msgid "You will not be able to recover this Block"
+msgstr "U zal niet zitten kundig voor herstellen van dit blok"
+
+#: app/Scripts.php:215
+msgid "Yes, delete it!"
+msgstr "Ja, verwijder het!"
+
+#: app/Scripts.php:216
+msgid "No, cancel delete!"
+msgstr "Cancel verwijderen"
+
+#: app/Scripts.php:217
+msgid "Deleted!"
+msgstr "Verwijderd!"
+
+#: app/Scripts.php:218
+msgid "Your Reactive Block has been deleted."
+msgstr "Uw reactieve blok is verwijderd."
+
+#: app/Scripts.php:219
+msgid "Cancelled!"
+msgstr "Geannuleerd"
+
+#: app/Scripts.php:220
+msgid "Your Reactive Block is safe :)"
+msgstr "Uw reactieve blok is veilig :)"
+
+#: app/Scripts.php:295
+msgid "No Post found"
+msgstr "Geen berichten gevonden"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "DELETE"
+msgstr "VERWIJDEREN"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "GET"
+msgstr "GET"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "HEAD"
+msgstr "HEAD"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "OPTIONS"
+msgstr "Opties"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "PATCH"
+msgstr "Patch"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "POST"
+msgstr "Bericht"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "PUT"
+msgstr "Put"
+
+#: index.php:24
+msgid ""
+"Sorry this plugin use some <b>PHP VERSION 5.4</b> functionality. If you want "
+"to use this plugin please update your server <b>PHP VERSION 5.4</b> or "
+"higher."
+msgstr ""
+"Sorry deze plugin gebruiken sommige <b>PHP versie 5.4</b> -functionaliteit. "
+"Als u wilt gebruik maken van deze plugin kunt u uw server <b>PHP versie 5.4</"
+"b> bijwerken of hoger."
+
+#: parsers.php:42 parsers.php:72 parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "Er is een probleem opgetreden tijdens het lezen van dit WXR-bestand"
+
+#: parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Details worden hierboven weergegeven. De importeur zal nu een andere parser "
+"proberen..."
+
+#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Dit lijkt niet een WXR bestand, ontbrekende / ongeldige WXR versienummers"
+
+#: reactive-importer.php:122 reactive-importer.php:131
+#: reactive-importer.php:182 reactive-importer.php:186
+#: reactive-importer.php:195
+msgid "Sorry, there has been an error."
+msgstr "Sorry, er is een error opgetreden."
+
+#: reactive-importer.php:123
+msgid "The file does not exist, please try again."
+msgstr "Dit bestand bestaat niet, probeer het nog eens."
+
+#: reactive-importer.php:166
+msgid "All done."
+msgstr "Klaar."
+
+#: reactive-importer.php:166
+msgid "Have fun!"
+msgstr "Veel plezier!"
+
+#: reactive-importer.php:167
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"Vergeet niet om de wachtwoorden en rollen van de geïmporteerde gebruikers te "
+"updaten."
+
+#: reactive-importer.php:187
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Het export bestand kon niet worden gevonden in <code>%s</code>. Het lijkt "
+"erop dat dit veroorzaakt is door een toestemming probleem."
+
+#: reactive-importer.php:203
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Het WXR bestand (versie %s) wordt mogelijk niet ondersteund door de "
+"importer. Overweeg om het bij te werken."
+
+#: reactive-importer.php:228
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Importeren van auteur %s is mislukt. Deze berichten worden toegeschreven aan "
+"de huidige gebruiker."
+
+#: reactive-importer.php:254
+msgid "Assign Authors"
+msgstr "Auteurs toewijzen"
+
+#: reactive-importer.php:255
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Om het makkelijker voor je te maken om de geïmporteerde inhoud te bewerken "
+"en op te slaan, kan je een auteur opnieuw toewijzen aan een bestaande "
+"gebruiker van deze site. Je kan bijvoorbeeld alle entries als <code>admin</"
+"code>s entries importeren."
+
+#: reactive-importer.php:257
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Als er een nieuwe gebruiker aangemaakt is in WordPress, wordt er een "
+"willekeurig wachtwoord gegenereerd en wordt de rol van de nieuwe gebruiker "
+"als %s ingesteld. Het handmatig wijzigen van de details voor deze nieuwe "
+"gebruiker is gewenst."
+
+#: reactive-importer.php:267
+msgid "Import Attachments"
+msgstr "Import bijlagen"
+
+#: reactive-importer.php:270
+msgid "Download and import file attachments"
+msgstr "Download en importeer bestand bijlagen"
+
+#: reactive-importer.php:287
+msgid "Import author:"
+msgstr "Auteur importeren:"
+
+#: reactive-importer.php:298
+msgid "or create new user with login name:"
+msgstr "of maak een nieuwe loginnaam aan:"
+
+#: reactive-importer.php:301
+msgid "as a new user:"
+msgstr "als een nieuwe gebruiker:"
+
+#: reactive-importer.php:309
+msgid "assign posts to an existing user:"
+msgstr "berichten toewijzen aan een bestaande gebruiker:"
+
+#: reactive-importer.php:311
+msgid "or assign posts to an existing user:"
+msgstr "of berichten toewijzen aan een bestaande gebruiker:"
+
+#: reactive-importer.php:312
+msgid "- Select -"
+msgstr "- Selecteer -"
+
+#: reactive-importer.php:362
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Kon geen nieuwe gebruiker voor %s aanmaken. Deze berichten worden "
+"toegeschreven aan de huidige gebruiker."
+
+#: reactive-importer.php:414
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Importeren van categorie %s is mislukt"
+
+#: reactive-importer.php:457
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Importeren van post tag %s is mislukt"
+
+#: reactive-importer.php:506 reactive-importer.php:750
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Importeren is mislukt %s %s"
+
+#: reactive-importer.php:617
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Importeren mislukt &#8220;%s&#8221;: Ongeldig bericht type %s"
+
+#: reactive-importer.php:654
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; bestaat al."
+
+#: reactive-importer.php:716
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Importeren mislukt %s &#8220;%s&#8221;"
+
+#: reactive-importer.php:881
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Menu item overgeslagen in verband met ontbrekende menu slug"
+
+#: reactive-importer.php:888
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Menu item overgeslagen in verband met ongeldige menu slug: %s"
+
+#: reactive-importer.php:951
+msgid "Fetching attachments is not enabled"
+msgstr "Bijlagen ophalen is niet ingeschakeld"
+
+#: reactive-importer.php:964
+msgid "Invalid file type"
+msgstr "Ongeldig bestandstype"
+
+#: reactive-importer.php:1008
+msgid "Remote server did not respond"
+msgstr "Externe server reageert niet"
+
+#: reactive-importer.php:1014
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Externe server geeft foutmelding %1$d %2$s"
+
+#: reactive-importer.php:1021
+msgid "Remote file is incorrect size"
+msgstr "Extern bestand heeft onjuist formaat"
+
+#: reactive-importer.php:1026
+msgid "Zero size file downloaded"
+msgstr "Leeg bestand gedownload"
+
+#: reactive-importer.php:1032
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Extern bestand is te groot, limiet is %s"
+
+#: reactive-importer.php:1131
+msgid "Import WordPress"
+msgstr "Importeer WordPress"
+
+#: reactive-importer.php:1138
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Er is een nieuwe versie van de importer beschikbaar. Update deze alsjeblieft "
+"naar versie %s om te zorgen voor comptabiliteit met nieuwere uitvoer "
+"bestanden."
+
+#: reactive-importer.php:1153
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Hallo! Upload uw WordPress eXtended RSS (WXR) bestand en we importeren de "
+"berichten, pagina’s, reacties, aangepaste velden, categorieën en tags naar "
+"deze site."
+
+#: reactive-importer.php:1154
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Kies een WXR (.xml) bestand om te uploaden, klik daarna op Upload bestand en "
+"Importeer."
+
+#: reactive-importer.php:1228
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Importeer <strong>berichten, pagina’s, reacties, aangepaste velden, "
+"categorieën en tags</strong> vanuit een WordPress uitvoer bestand."
+
+#: reactive-templates/shortcodes/builder.php:8
+#: reactive-templates/shortcodes/builder.php:95
+#: reactive-templates/shortcodes/builder.php:99
+msgid "Please build your shortcode from reactive builder"
+msgstr "Gelieve uw shortcode bouwen van reactieve builder"
+
+#: vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php:422
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Elke %d minuten"
+
+#~ msgid "Please select post types for data restriction"
+#~ msgstr "Selecteer bericht typen voor beperking van de gegevens"
+
+#~ msgid "Please select a post type"
+#~ msgstr "Selecteer een pakkettype"
+
+#~ msgid "Add Post Types"
+#~ msgstr "Bericht types"
+
+#~ msgid ""
+#~ "Select any checkbox inside the accoirdion for restricting data from front-"
+#~ "end search panel. If you enable a checkbox this will automatically "
+#~ "restrict your private data from the search panel, you don't want to "
+#~ "share. e.g. for woocommerce you will need to disable the '_file_paths' "
+#~ "for downloadable products."
+#~ msgstr ""
+#~ "Elke Vink binnen de accoirdion voor het beperken van de gegevens van "
+#~ "front-end zoekpaneel. Als u een selectievakje inschakelen dit zal "
+#~ "automatisch uw privégegevens te beperken van het deelvenster zoeken, u "
+#~ "niet wilt delen. bijvoorbeeld voor woocommerce moet u uitschakelen van de "
+#~ "'_file_paths' voor downloadbare producten."
+
+#~ msgid "Enter an unique integer key. e.g. \""
+#~ msgstr "Voer een uniek geheel getal sleutel. bijvoorbeeld\""
+
+#~ msgid "Empty Term"
+#~ msgstr "wanneer Leeg!"
+
+#~ msgid "Options"
+#~ msgstr "Optie"
+
+#~ msgid "Grid"
+#~ msgstr "Metselwerk rasterindeling"
+
+#~ msgid "Widgets"
+#~ msgstr "Widgets"
+
+#~ msgid "Choose Grid Layout"
+#~ msgstr "Lay-out kiezen"
+
+#~ msgid "Select Type"
+#~ msgstr "Selecteer type"
+
+#~ msgid "Search"
+#~ msgstr "Zoek gehele website"
+
+#~ msgid "Map"
+#~ msgstr "Map"
+
+#~ msgid "Users"
+#~ msgstr "Leden"
+
+#~ msgid "Change Map Layout:"
+#~ msgstr "Wijzigen layout"
+
+#~ msgid "Change Height:"
+#~ msgstr "Rijhoogte wijzigen:"
+
+#~ msgid "Layout"
+#~ msgstr "Opmaak"
+
+#~ msgid "Column"
+#~ msgstr "Kolom type"
+
+#~ msgid "Desktop HD Size"
+#~ msgstr "Grootte van het bureaublad HD"
+
+#~ msgid "Desktop Size"
+#~ msgstr "Grootte van het bureaublad"
+
+#~ msgid "Tablet Size"
+#~ msgstr "De grootte van de Tablet PC"
+
+#~ msgid "Mobile size"
+#~ msgstr "Mobiele grootte"
+
+#~ msgid "Sorting"
+#~ msgstr "Sorteert"
+
+#~ msgid "Top bar"
+#~ msgstr "Top balk"
+
+#~ msgid "View Changer"
+#~ msgstr "Weergave-wisselaar"
+
+#~ msgid "Bottom bar"
+#~ msgstr "Onderkant Bar BG"
+
+#~ msgid "Bar appearance"
+#~ msgstr "Bar uiterlijk"
+
+#~ msgid "Number Of Post:"
+#~ msgstr "Nummer van bericht"
+
+#~ msgid "Change Grid Layout:"
+#~ msgstr "Wijzigen layout"
+
+#~ msgid "Post type:"
+#~ msgstr "Content type:"
+
+#~ msgid "Please select sorting attributes"
+#~ msgstr "Selecteer sorteren kenmerken"
+
+#~ msgid "Show or Hide the Topbar"
+#~ msgstr "Weergeven of verbergen van het activiteitenonderdeel"
+
+#~ msgid "Show or Hide the Topbar Pagination"
+#~ msgstr "Weergeven of verbergen van het activiteitenonderdeel paginering"
+
+#~ msgid "Show or Hide the Search Filter Attributes"
+#~ msgstr "Weergeven of verbergen van de zoekkenmerken Filter"
+
+#~ msgid "Show or Hide the Sorting Option"
+#~ msgstr "Weergeven of verbergen van de sorteeroptie"
+
+#~ msgid "Show or Hide the View Changer"
+#~ msgstr "Weergeven of verbergen van de wisselaar van de weergave"
+
+#~ msgid "Show or Hide the Bottombar"
+#~ msgstr "Weergeven of verbergen van de Bottombar"
+
+#~ msgid "Show or Hide the Bottombar Pagination"
+#~ msgstr "Weergeven of verbergen van de Bottombar paginering"
+
+#~ msgid "Show or Hide the Bottombar Loadmore"
+#~ msgstr "Weergeven of verbergen van de Bottombar Loadmore"
+
+#~ msgid "Image Select"
+#~ msgstr "type selecteren"
+
+#~ msgid "Radio"
+#~ msgstr "Radio vakje (enkele keuze)"
+
+#~ msgid "Select"
+#~ msgstr "Kies"
+
+#~ msgid "Check Box"
+#~ msgstr "Keuzevak"
+
+#~ msgid "Size Box"
+#~ msgstr "Toon prijzen Flip Box"
+
+#~ msgid "Color Box"
+#~ msgstr "Toon prijzen Flip Box"
+
+#~ msgid "Scroll Box"
+#~ msgstr "Schuifbalk"
+
+#~ msgid "Text"
+#~ msgstr "Metin "
+
+#~ msgid "Combo Box"
+#~ msgstr "Toon prijzen Flip Box"
+
+#~ msgid "Tags"
+#~ msgstr "Steekwoorden"
+
+#~ msgid "Range Input"
+#~ msgstr "Bereik Input"
+
+#~ msgid "Reset"
+#~ msgstr "Resetten"
+
+#~ msgid "Data"
+#~ msgstr "Data"
+
+#~ msgid "Calendar"
+#~ msgstr "Agenda"
+
+#~ msgid "Zoom"
+#~ msgstr "Voer het zoomniveau in  in Google maps"
+
+#~ msgid "Appearance"
+#~ msgstr "Uiterlijke weergave"
+
+#~ msgid "Please Enter the Title"
+#~ msgstr "Voer de titel in."
+
+#~ msgid "Please Enter the SubTitle"
+#~ msgstr "Geef de ondertitel"
+
+#~ msgid "Please select a data type"
+#~ msgstr "Selecteer een pakkettype"
+
+#~ msgid "Please choose a select type"
+#~ msgstr "Kies een select type"
+
+#~ msgid "Please Enter the Custom CSS Class"
+#~ msgstr "Geef de aangepaste CSS-klasse"
+
+#~ msgid "Change Categorey Layout:"
+#~ msgstr "De opmaak van de Categorey wijzigen:"
+
+#~ msgid "Number Of Categorey:"
+#~ msgstr "Aantal Categorey:"
+
+#~ msgid "Loadmore Button Link:"
+#~ msgstr "Loadmore knop-Link:"
+
+#~ msgid "Load More"
+#~ msgstr "Toon Meer"
+
+#~ msgid "Show LoadMore Button:"
+#~ msgstr "Toon LoadMore knop:"
+
+#~ msgid "Select Marker Template"
+#~ msgstr "Selecteer Marker sjabloon"
+
+#~ msgid "Select Icon Template"
+#~ msgstr "Selecteer template"
+
+#~ msgid "List"
+#~ msgstr "Terug naar blog overzicht"
+
+#~ msgid "Choose Default View Type"
+#~ msgstr "Kies standaardweergavetype"
+
+#~ msgid "Show Histogram:"
+#~ msgstr "Histogram weergeven"
+
+#~ msgid "Show Number Of Items:"
+#~ msgstr "Aantal Items weergeven:"
+
+#~ msgid "Set Column:"
+#~ msgstr "Kolom instellen:"
+
+#~ msgid "Show Toggle Option:"
+#~ msgstr "Optie weergeven/uitschakelen:"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Block Orientation"
+#~ msgstr "Blokkeer huurdata"
+
+#~ msgid "Vertical"
+#~ msgstr "Verticaal"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontaal"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Dropdown"
+#~ msgstr "Vervolgkeuze"
+
+#~ msgid "Custom Class"
+#~ msgstr "Aangepaste CSS class"
+
+#~ msgid "Template Setting"
+#~ msgstr "Sjabloon instelling"
+
+#~ msgid "Do you want to show the result with Ajax"
+#~ msgstr "Wilt u het resultaat met Ajax Toon"
+
+#~ msgid "Select a theme"
+#~ msgstr "Selecteer een onderwerp in het linker gedeelte."
+
+#~ msgid "Select Categorey Template"
+#~ msgstr "Selecteer de sjabloon Categorey"
+
+#~ msgid "Please select a post type first from appearance settings"
+#~ msgstr "Selecteer een type bericht eerst in instellingen voor vormgeving"
+
+#~ msgid "Welcome to Reactive"
+#~ msgstr "Welkom bij reactieve"
+
+#~ msgid ""
+#~ "We are so excited to have you on board. Here are a few steps to maximize "
+#~ "your experience."
+#~ msgstr ""
+#~ "We zijn zo opgewonden om u aan boord te hebben. Hier zijn een paar "
+#~ "stappen aan het maximaliseren van uw ervaring."
+
+#~ msgid "First step"
+#~ msgstr "Eerste stap"
+
+#~ msgid "Now you can create your SearchPage"
+#~ msgstr "Nu kunt u uw zoekpagina"
+
+#~ msgid "Second step"
+#~ msgstr "Tweede stap"
+
+#~ msgid "Add as your wish, build your page with style"
+#~ msgstr "Toevoegen als je wilt, het bouwen van uw pagina met stijl"
+
+#~ msgid "Third step"
+#~ msgstr "Derde stap"
+
+#~ msgid "Add search component and release the beast"
+#~ msgstr "-Zoekonderdeel toevoegen en laat het beest"
+
+#~ msgid "Forth step"
+#~ msgstr "Weer stap"
+
+#~ msgid ""
+#~ "You will have total control over your data, add unlimited Taxonomy / "
+#~ "Metadata as search attribute"
+#~ msgstr ""
+#~ "Hebt u totale controle over uw gegevens, onbeperkt Taxonomy toevoegen / "
+#~ "metagegevens als zoekkenmerk"
+
+#~ msgid "Ready to go"
+#~ msgstr "Aan de slag"
+
+#~ msgid "Please follow the "
+#~ msgstr "Volg de"
+
+#~ msgid "link"
+#~ msgstr "link"
+
+#~ msgid " for further queries , If you need any "
+#~ msgstr "voor verdere vragen, als u nodig hebt"
+
+#~ msgid "help"
+#~ msgstr "hulp"
+
+#~ msgid " let us know. thanks"
+#~ msgstr "laat het ons weten. Bedankt"
+
+#~ msgid "Skip"
+#~ msgstr "Overslaan"
+
+#~ msgid "Next"
+#~ msgstr "Volgende"
+
+#~ msgid "Finish"
+#~ msgstr "Afronden"
+
+#~ msgid "Previous"
+#~ msgstr "Vorige"
+
+#~ msgid "More"
+#~ msgstr "Meer"
+
+#~ msgid "Pagination Here"
+#~ msgstr "Paginering hier"
+
+#~ msgid "Oops, No Post Found"
+#~ msgstr "Oeps, geen Post gevonden"
+
+#~ msgid "Get your Location"
+#~ msgstr "Uw locatie"
+
+#~ msgid "No attributes found"
+#~ msgstr "Geen kenmerken gevonden"
+
+#~ msgid "Search..."
+#~ msgstr "Zoeken..."
+
+#~ msgid "Please select Toogle Button On/Off"
+#~ msgstr "Selecteer Toogle knop on/off"
+
+#~ msgid "Please select Calender Pop Type up/down"
+#~ msgstr "Selecteer kalender Pop Type omhoog/omlaag"
+
+#~ msgid "Please select Calender View Type right/left"
+#~ msgstr "Selecteer het weergavetype Calender rechts/links"
+
+#~ msgid "Please Enter the MaxValue"
+#~ msgstr "Voer de maxwaarde"
+
+#~ msgid "Please Enter the MinValue"
+#~ msgstr "Voer de MinValue"
+
+#~ msgid "Please Enter the Button Text"
+#~ msgstr "Voer de tekst van de knop"
+
+#~ msgid "Please Enter the Button Style e.g. btn btn-primary"
+#~ msgstr "Voer de knopstijl BV btn btn-primaire"
+
+#~ msgid "Please Enter the Custom CSS ClassName"
+#~ msgstr "Geef de aangepaste CSS ClassName"
+
+#~ msgid "Please select a view type"
+#~ msgstr "Selecteer een pakket"
+
+#~ msgid "Enter any custom class Name"
+#~ msgstr "Voer een aangepaste klasse naam"
+
+#~ msgid "Class name for filter count"
+#~ msgstr "De naam van de klasse voor filter telling"
+
+#~ msgid "Class name for sorting option"
+#~ msgstr "De naam van de klasse voor het sorteren van de optie"
+
+#~ msgid "Class name for view changer"
+#~ msgstr "De naam van de klasse voor weergave changer"
+
+#~ msgid "Class name for topbar pagination"
+#~ msgstr "De naam van de klasse voor activiteitenonderdeel paginering"
+
+#~ msgid "Class name for bottombar pagination"
+#~ msgstr "De naam van de klasse voor bottombar paginering"
+
+#~ msgid "Class name for bottombar loadmore"
+#~ msgstr "De naam van de klasse voor bottombar loadmore"
+
+#~ msgid "title"
+#~ msgstr "titel"
+
+#~ msgid "Show Item Color Name"
+#~ msgstr "De naam van de kleur van het Item weergeven"
+
+#~ msgid "Add Block"
+#~ msgstr "Nieuwe blok toevoegen"
+
+#~ msgid "Toogle"
+#~ msgstr "Toogle"
+
+#~ msgid "Panel"
+#~ msgstr "Paneel"
+
+#~ msgid "Help"
+#~ msgstr "Hulp"
+
+#~ msgid "Preview"
+#~ msgstr "Voorbeeld"
+
+#~ msgid "Toogle Show More"
+#~ msgstr "Toogle Toon meer"
+
+#~ msgid "Please enter range unit"
+#~ msgstr "Geef bereik eenheid"
+
+#~ msgid "Select Number of options in load More Mode"
+#~ msgstr "Aantal opties in belasting meer modus selecteren"
+
+#~ msgid "Enter Any Custom Grid Wrapper Class Name"
+#~ msgstr "Voer de naam van een aangepast raster Wrapper-klasse"
+
+#~ msgid "Custom Class Name for Categorey"
+#~ msgstr "De naam van de aangepaste klasse voor Categorey"
+
+#~ msgid "Custom Class Name for MAP"
+#~ msgstr "De naam van de aangepaste klasse voor kaart"
+
+#~ msgid "Map Radius"
+#~ msgstr "Kaart Radius"
+
+#~ msgid "Bar"
+#~ msgstr "WP Admin bar voor verbergen"
+
+#~ msgid "Isotope Grid Column"
+#~ msgstr "Isotoop rasterkolom"
+
+#~ msgid "Select Isotope Template"
+#~ msgstr "Selecteer isotoop sjabloon"
+
+#~ msgid "Linear Checkbox"
+#~ msgstr "Lineaire Checkbox"
+
+#~ msgid "Enter Any Custom Isotope Grid Wrapper Class Name"
+#~ msgstr "Voer de naam van een aangepaste isotoop raster Wrapper klasse"
+
+#~ msgid "Enter Any Custom Isotope Bar Wrapper Class Name"
+#~ msgstr ""
+#~ "Voer eventuele aangepaste isotoop Bar de naam van de klasse van de Wrapper"
+
+#~ msgid "Isotope Grid"
+#~ msgstr "Isotoop raster"
+
+#~ msgid "Enter Radious(In Km)"
+#~ msgstr "Voer een straal (In Km)"
+
+#~ msgid "Pre Query"
+#~ msgstr "Pre-Query"
+
+#~ msgid "Reactive"
+#~ msgstr "Reactive"
+
+#~ msgid "http://redqteam.com/demo/plugins/reactive"
+#~ msgstr "http://redqteam.com/demo/plugins/reactive"
+
+#~ msgid "Searching & Filtering WordPress Plugin"
+#~ msgstr "Searching & Filtering WordPress Plugin"
+
+#~ msgid "RedQ Team"
+#~ msgstr "RedQ Team"
+
+#~ msgid "http://redqteam.com"
+#~ msgstr "http://redqteam.com"

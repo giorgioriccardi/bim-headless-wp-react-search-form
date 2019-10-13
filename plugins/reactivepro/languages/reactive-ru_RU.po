@@ -1,0 +1,1509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reactive\n"
+"POT-Creation-Date: 2017-11-19 04:10+0600\n"
+"PO-Revision-Date: 2017-11-19 04:18+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: reactive.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-template/reactive-geobox-html.php:15
+msgid "Type location"
+msgstr "Введите расположение"
+
+#: admin/admin-template/reactive-geobox-html.php:22
+msgid "City"
+msgstr "город"
+
+#: admin/admin-template/reactive-geobox-html.php:28
+msgid "Country"
+msgstr "Страна"
+
+#: admin/admin-template/reactive-geobox-html.php:37
+msgid "State"
+msgstr "Страна"
+
+#: admin/admin-template/reactive-geobox-html.php:45
+msgid "Zip code"
+msgstr "Почтовый индекс"
+
+#: admin/admin-template/reactive-geobox-html.php:51
+msgid "Latitude"
+msgstr "Широта (Latitude)"
+
+#: admin/admin-template/reactive-geobox-html.php:57
+msgid "Longitude"
+msgstr "Долгота (Longitude)"
+
+#: admin/admin-template/reactive-settings.php:32
+msgid "Reactive Settings"
+msgstr "Реактивный параметры"
+
+#: admin/admin-template/reactive-settings.php:37
+msgid "Google Map API Key"
+msgstr "Ключ Google API Карты"
+
+#: admin/admin-template/reactive-settings.php:49
+msgid "Map Country Region"
+msgstr "Страна/Регион"
+
+#: admin/admin-template/reactive-settings.php:58
+msgid "Turn Off Google Map"
+msgstr "Ключ Google API Карты"
+
+#: admin/admin-template/reactive-settings.php:64
+msgid "Load Bootstrap Scripts From"
+msgstr "Загрузить загрузчик сценариев от"
+
+#: admin/admin-template/reactive-settings.php:80
+msgid "Bootstrap Enable Disable Option"
+msgstr "Параметр начальной загрузки включить отключить"
+
+#: admin/admin-template/reactive-settings.php:89
+msgid "Load FontAwesome Scripts From"
+msgstr "Загрузить сценарии FontAwesome"
+
+#: admin/admin-template/reactive-settings.php:105
+msgid "Font Awesome Enable Disable Option"
+msgstr "Отключить параметр шрифта устрашающий включить"
+
+#: admin/admin-template/reactive-settings.php:114
+msgid "Load Jquery UI Scripts From"
+msgstr "Загрузить Jquery UI скрипты от"
+
+#: admin/admin-template/reactive-settings.php:130
+msgid "Jquery UI CSS Enable Disable Option"
+msgstr "JQuery UI CSS позволяют отключить опцию"
+
+#: admin/admin-template/reactive-settings.php:139
+msgid "Load Isotope Scripts From"
+msgstr "Загрузить сценарии изотоп от"
+
+#: admin/admin-template/reactive-settings.php:155
+msgid "Isotope Enable Disable Option"
+msgstr "Параметр отключить включить изотоп"
+
+#: admin/admin-template/reactive-settings.php:164
+msgid "Load Ion Range Scripts From"
+msgstr "Диапазон нагрузки Ион скрипты от"
+
+#: admin/admin-template/reactive-settings.php:180
+msgid "Ion Range Slider Enable Disable Option"
+msgstr "Ион диапазона ползунок включить отключить опцию"
+
+#: admin/admin-template/reactive-settings.php:189
+msgid "Load Magnefic Popup Scripts From"
+msgstr "Сценарии загрузки сияющая Popup от"
+
+#: admin/admin-template/reactive-settings.php:205
+msgid "Magnefic Popup Enable Disable Option"
+msgstr "Сияющая Popup включить отключить опцию"
+
+#: admin/admin-template/reactive-settings.php:214
+msgid "Geobox Enable"
+msgstr "Включить Geobox"
+
+#: admin/admin-template/reactive-settings.php:225
+msgid "Turn off Indexing Cron"
+msgstr "Отключить индексирование Cron"
+
+#: admin/admin-template/reactive-settings.php:231
+msgid "Cron Schedule (min)"
+msgstr "Cron расписание (мин)"
+
+#: admin/admin-template/reactive-settings.php:240
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: admin/admin-template/reactive-system-status.php:30
+msgid "The Recommened Minimum WP Memory Limit is 256M"
+msgstr "Рекоммендуется минимум WP памяти предел составляет 256M"
+
+#: admin/admin-template/reactive-system-status.php:36
+msgid "Calculating…"
+msgstr "Расчет"
+
+#: admin/admin-template/reactive-system-status.php:38
+msgid "The Recommened Minimum Server Memory Limit is 256M"
+msgstr "Рекоммендуется минимум сервера памяти предел составляет 256M"
+
+#: admin/admin-template/reactive-system-status.php:43
+msgid "The Recommened Minimum PHP version is 5.6.0"
+msgstr "Рекоммендуется минимум PHP версии является 5.6.0"
+
+#: admin/admin-template/reactive-system-status.php:51
+msgid "The Recommened Minimum Input Vars is 3000"
+msgstr "Рекоммендуется минимум ввода Vars-3000"
+
+#: admin/admin-template/reactive-system-status.php:59
+msgid "The Recommened Minimum Mysql version is 5.6.0 or greater"
+msgstr "Рекоммендуется минимум Mysql версии является 5.6.0 или больше"
+
+#: admin/class-re-admin-geobox.php:37
+msgid "Geobox"
+msgstr "Geobox"
+
+#: admin/class-re-admin-rebuilder.php:21 admin/class-re-visual-composer.php:25
+msgid "Reactive Builder"
+msgstr "Реактивный строитель"
+
+#: admin/class-re-admin-rebuilder.php:32
+msgid "Grid Template"
+msgstr "Шаблон сетки"
+
+#: admin/class-re-admin-rebuilder.php:41
+msgid "Search Layouts"
+msgstr "Найти макет"
+
+#: admin/class-re-admin-rebuilder.php:52
+msgid "Category Template"
+msgstr "Шаблон Категории"
+
+#: admin/class-re-admin-rebuilder.php:61
+msgid "Map Marker Template"
+msgstr "Шаблон маркер карта"
+
+#: admin/class-re-admin-rebuilder.php:70
+msgid "Map Info Window Template"
+msgstr "Шаблон окна информация карта"
+
+#: admin/class-re-admin-scripts.php:274 app/Scripts.php:223
+msgid "Post Type"
+msgstr "Тип поста"
+
+#: admin/class-re-admin-scripts.php:275 app/Scripts.php:224
+msgid "Please select any post type you want to add this taxonomy"
+msgstr ""
+"Пожалуйста выберите любой пост типа, необходимо добавить этот таксономии"
+
+#: admin/class-re-admin-scripts.php:276 app/Scripts.php:225
+msgid "Enable Hierarchy"
+msgstr "Включить иерархию"
+
+#: admin/class-re-admin-scripts.php:277 app/Scripts.php:226
+msgid "If you want to enable the taxonomy hierarchy set true"
+msgstr "Если вы хотите включить иерархии таксономии, установите значение true"
+
+#: admin/class-re-admin-scripts.php:278 app/Scripts.php:227
+msgid "Post Formats"
+msgstr "Форматы записей"
+
+#: admin/class-re-admin-scripts.php:279 app/Scripts.php:228
+msgid "Enable post formats into this post."
+msgstr "Включение должности форматов в этот пост."
+
+#: admin/class-re-admin-scripts.php:280 app/Scripts.php:229
+msgid "Page Attributes"
+msgstr "Атрибуты страницы"
+
+#: admin/class-re-admin-scripts.php:281 app/Scripts.php:230
+msgid "Enable page attributes into this post."
+msgstr "Включение атрибутов страницы в этот пост."
+
+#: admin/class-re-admin-scripts.php:282 app/Scripts.php:231
+msgid "Revisions"
+msgstr "Редакции"
+
+#: admin/class-re-admin-scripts.php:283 app/Scripts.php:232
+msgid "Enable revisions into this post."
+msgstr "Разрешить изменения в этот пост."
+
+#: admin/class-re-admin-scripts.php:284 app/Scripts.php:233
+msgid "Comments"
+msgstr "Комментарии"
+
+#: admin/class-re-admin-scripts.php:285 app/Scripts.php:234
+msgid "Enable comments into this post."
+msgstr "Включите комментарии на этот пост."
+
+#: admin/class-re-admin-scripts.php:286 app/Scripts.php:235
+msgid "Custom Fields"
+msgstr "Настраиваемые поля"
+
+#: admin/class-re-admin-scripts.php:287 app/Scripts.php:236
+msgid "Enable custom fields into this post."
+msgstr "Включение настраиваемых полей в этой должности."
+
+#: admin/class-re-admin-scripts.php:288 app/Scripts.php:237
+msgid "Trackbacks"
+msgstr "Обратные ссылки"
+
+#: admin/class-re-admin-scripts.php:289 app/Scripts.php:238
+msgid "Enable trackbacks into this post."
+msgstr "Разрешить обратные ссылки на этот пост."
+
+#: admin/class-re-admin-scripts.php:290 app/Scripts.php:239
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: admin/class-re-admin-scripts.php:291 app/Scripts.php:240
+msgid "Enable excerpt into this post."
+msgstr "Включите отрывок в этот пост."
+
+#: admin/class-re-admin-scripts.php:292 app/Scripts.php:241
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: admin/class-re-admin-scripts.php:293 app/Scripts.php:242
+msgid "Enable thumbnail into this post."
+msgstr "Включите эскиз в этот пост."
+
+#: admin/class-re-admin-scripts.php:294 app/Scripts.php:243
+msgid "Author"
+msgstr "Автор"
+
+#: admin/class-re-admin-scripts.php:295 app/Scripts.php:244
+msgid "Enable author into this post."
+msgstr "Включите автор в этой должности."
+
+#: admin/class-re-admin-scripts.php:296 app/Scripts.php:245
+msgid "Editor"
+msgstr "Редактор"
+
+#: admin/class-re-admin-scripts.php:297 app/Scripts.php:246
+msgid "Enable editor into this post."
+msgstr "Включите редактор в этот пост."
+
+#: admin/class-re-admin-scripts.php:298 app/Scripts.php:247
+msgid "Title"
+msgstr "Название"
+
+#: admin/class-re-admin-scripts.php:299 app/Scripts.php:248
+msgid "Enable title into this post."
+msgstr "Включите название в этот пост."
+
+#: admin/class-re-admin-scripts.php:300 app/Scripts.php:249
+msgid "All Items"
+msgstr "Все задания"
+
+#: admin/class-re-admin-scripts.php:301 app/Scripts.php:250
+msgid "Singular Name"
+msgstr "Название в единственном числе"
+
+#: admin/class-re-admin-scripts.php:302 app/Scripts.php:251
+msgid "Post Slug"
+msgstr "Краткое описание поста"
+
+#: admin/class-re-admin-scripts.php:303 app/Scripts.php:252
+msgid "If want to change the default all items name, add the name here"
+msgstr ""
+"Если необходимо изменить значение по умолчанию все элементы имя, добавьте "
+"имя здесь"
+
+#: admin/class-re-admin-scripts.php:304 app/Scripts.php:253
+msgid "If want to change the default singular name, add the name here"
+msgstr "Если хотите изменить сингулярных имя по умолчанию, добавьте имя здесь"
+
+#: admin/class-re-admin-scripts.php:305 app/Scripts.php:254
+msgid "If want to change the default post slug, add the slug here"
+msgstr ""
+"Если хотите изменить слизень сообщение по умолчанию, добавьте слизень здесь"
+
+#: admin/class-re-admin-scripts.php:306 app/Scripts.php:255
+msgid "Menu Position"
+msgstr "Позиция меню"
+
+#: admin/class-re-admin-scripts.php:307 app/Scripts.php:256
+msgid "Select the post type menu position."
+msgstr "Выбрать положение меню."
+
+#: admin/class-re-admin-scripts.php:308 app/Scripts.php:257
+msgid "Menu Icon"
+msgstr "Меню иконки"
+
+#: admin/class-re-admin-scripts.php:309 app/Scripts.php:258
+msgid "Select a menu icon."
+msgstr "Выберите меню"
+
+#: admin/class-re-admin-scripts.php:310 app/Scripts.php:259
+msgid "Below First Separator"
+msgstr "Ниже первого сепаратора"
+
+#: admin/class-re-admin-scripts.php:311 app/Scripts.php:260
+msgid "Below Posts"
+msgstr "Ниже должности"
+
+#: admin/class-re-admin-scripts.php:312 app/Scripts.php:261
+msgid "Below Media"
+msgstr "Ниже медиа"
+
+#: admin/class-re-admin-scripts.php:313 app/Scripts.php:262
+msgid "Below Links"
+msgstr "Ссылки ниже"
+
+#: admin/class-re-admin-scripts.php:314 app/Scripts.php:263
+msgid "Below Pages"
+msgstr "Ниже страниц"
+
+#: admin/class-re-admin-scripts.php:315 app/Scripts.php:264
+msgid "Below Comments"
+msgstr "Комментарии ниже"
+
+#: admin/class-re-admin-scripts.php:316 app/Scripts.php:265
+msgid "Below Second Separator"
+msgstr "Ниже второй разделитель"
+
+#: admin/class-re-admin-scripts.php:317 app/Scripts.php:266
+msgid "Below Plugins"
+msgstr "Ниже плагины"
+
+#: admin/class-re-admin-scripts.php:318 app/Scripts.php:267
+msgid "Below Users"
+msgstr "Ниже пользователей"
+
+#: admin/class-re-admin-scripts.php:319 app/Scripts.php:268
+msgid "Below Tools"
+msgstr "Ниже инструменты"
+
+#: admin/class-re-admin-scripts.php:320 app/Scripts.php:269
+msgid "Below Settings"
+msgstr "Ниже параметры"
+
+#: admin/class-re-admin-scripts.php:321 app/Scripts.php:270
+msgid "Default Icon"
+msgstr "Значек по умолчанию"
+
+#: admin/class-re-admin-scripts.php:322 app/Scripts.php:271
+msgid "Upload Icon"
+msgstr "Загрузить иконку"
+
+#: admin/class-re-admin-scripts.php:323 app/Scripts.php:272
+msgid "Icon Type"
+msgstr "Тип Иконки"
+
+#: admin/class-re-admin-scripts.php:324 app/Scripts.php:273
+msgid "Select the default icon type or upload a new."
+msgstr "Выберите тип значка по умолчанию, или загрузить новый."
+
+#: admin/class-re-admin-scripts.php:325 app/Scripts.php:274
+msgid "Upload Custom Icon"
+msgstr "Загрузить пользов. иконку"
+
+#: admin/class-re-admin-scripts.php:326 app/Scripts.php:275
+msgid "You can upload any custom image icon."
+msgstr "Вы можете загружать любые пользовательские изображения значка."
+
+#: admin/class-re-admin-scripts.php:327 admin/class-re-reuse-form.php:33
+#: app/Scripts.php:276
+msgid "Bundle Component"
+msgstr "Комплект компонент"
+
+#: admin/class-re-admin-scripts.php:328 admin/class-re-reuse-form.php:34
+#: app/Scripts.php:277
+msgid "Pick Color"
+msgstr "Выберите цвет"
+
+#: admin/class-re-admin-scripts.php:329 admin/class-re-reuse-form.php:35
+#: app/Scripts.php:278
+msgid "No result found"
+msgstr "Результатов не найдено"
+
+#: admin/class-re-admin-scripts.php:330 admin/class-re-reuse-form.php:36
+#: app/Scripts.php:279
+msgid "search"
+msgstr "поиск"
+
+#: admin/class-re-admin-scripts.php:331 admin/class-re-reuse-form.php:37
+#: app/Scripts.php:280
+msgid "Open on selected hours"
+msgstr "Открыть на определенные часы"
+
+#: admin/class-re-admin-scripts.php:332 admin/class-re-reuse-form.php:38
+#: app/Scripts.php:281
+msgid "Always open"
+msgstr "Всегда открыто:"
+
+#: admin/class-re-admin-scripts.php:333 admin/class-re-reuse-form.php:39
+#: app/Scripts.php:282
+msgid "No hours available"
+msgstr "Нет %s доступных часов!"
+
+#: admin/class-re-admin-scripts.php:334 admin/class-re-reuse-form.php:40
+#: app/Scripts.php:283
+msgid "Permanently closed"
+msgstr "Постоянно закрыт"
+
+#: admin/class-re-admin-scripts.php:335 admin/class-re-reuse-form.php:41
+#: app/Scripts.php:284
+msgid "Monday"
+msgstr "Понедельник"
+
+#: admin/class-re-admin-scripts.php:336 admin/class-re-reuse-form.php:42
+#: app/Scripts.php:285
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: admin/class-re-admin-scripts.php:337 admin/class-re-reuse-form.php:43
+#: app/Scripts.php:286
+msgid "Wednesday"
+msgstr "Среда"
+
+#: admin/class-re-admin-scripts.php:338 admin/class-re-reuse-form.php:44
+#: app/Scripts.php:287
+msgid "Thursday"
+msgstr "четвер"
+
+#: admin/class-re-admin-scripts.php:339 admin/class-re-reuse-form.php:45
+#: app/Scripts.php:288
+msgid "Friday"
+msgstr "Пятница"
+
+#: admin/class-re-admin-scripts.php:340 admin/class-re-reuse-form.php:46
+#: app/Scripts.php:289
+msgid "Saturday"
+msgstr "Суббота"
+
+#: admin/class-re-admin-scripts.php:341 admin/class-re-reuse-form.php:47
+#: app/Scripts.php:290
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: admin/class-re-admin-scripts.php:342 admin/class-re-reuse-form.php:48
+#: app/Scripts.php:291
+msgid "Wrong Password"
+msgstr "Неправильный пароль"
+
+#: admin/class-re-admin-scripts.php:343 admin/class-re-reuse-form.php:49
+#: app/Scripts.php:292
+msgid "Password Matched"
+msgstr "Пароль соответствует"
+
+#: admin/class-re-admin-scripts.php:344 admin/class-re-reuse-form.php:50
+#: app/Scripts.php:293
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: admin/class-re-admin-scripts.php:345 admin/class-re-reuse-form.php:51
+#: app/Scripts.php:294
+msgid "I currently work here"
+msgstr "Я в настоящее время здесь работают"
+
+#: admin/class-re-admin.php:40 admin/class-re-admin.php:48
+#: admin/class-re-admin.php:56 admin/class-re-admin.php:64
+#: admin/class-re-admin.php:72 admin/class-re-admin.php:80
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для редактирования шаблонов этого сайта."
+
+#: admin/class-re-generator-metabox.php:21
+msgid "Location"
+msgstr "Локация"
+
+#: admin/class-re-generator-metabox.php:31
+msgid "Rebuilder Settings"
+msgstr "Параметры ремонтника"
+
+#: admin/class-re-generator-metabox.php:38
+msgid "Grid Template Code"
+msgstr "Шаблон сетки"
+
+#: admin/class-re-generator-metabox.php:45
+msgid "Category Template Code"
+msgstr "Шаблон Категории"
+
+#: admin/class-re-generator-metabox.php:52
+msgid "Map Marker Template Code"
+msgstr "Карта код шаблона маркер"
+
+#: admin/class-re-generator-metabox.php:59
+msgid "Map Info Template Code"
+msgstr "Карта код шаблона информация"
+
+#: admin/class-re-generator-metabox.php:66
+msgid "Shortcode"
+msgstr "шорткод"
+
+#: admin/class-re-visual-composer.php:28
+msgid "Reactive PRO"
+msgstr "Реактивный PRO"
+
+#: admin/class-re-visual-composer.php:34
+msgid "Key"
+msgstr "Ключ"
+
+#: admin/class-re-visual-composer.php:37
+msgid "Create the builder shortcode from Reactive Builder"
+msgstr "Создание построитель shortcode из реактивной строитель"
+
+#: admin/generator/class-re-post-type.php:97
+msgid "Add New "
+msgstr "Добавить новый"
+
+#: admin/generator/class-re-post-type.php:98
+msgid "Edit "
+msgstr "Изменить"
+
+#: admin/generator/class-re-post-type.php:99
+msgid "New "
+msgstr "Новый"
+
+#: admin/generator/class-re-post-type.php:100
+msgid "All "
+msgstr "Все"
+
+#: admin/generator/class-re-post-type.php:101
+msgid "View "
+msgstr "Посмотреть"
+
+#: admin/generator/class-re-post-type.php:102
+msgid "Search "
+msgstr "Поиск"
+
+#: admin/generator/class-re-post-type.php:103
+#: admin/generator/class-re-post-type.php:104
+msgid "No "
+msgstr "Нет"
+
+#: app/Scripts.php:180 app/Scripts.php:196
+msgid "Save"
+msgstr "Сохранить"
+
+#: app/Scripts.php:181
+msgid "Edit"
+msgstr "Изменить"
+
+#: app/Scripts.php:182
+msgid "Delete"
+msgstr "Удалить"
+
+#: app/Scripts.php:183
+msgid "Add"
+msgstr "Добавить"
+
+#: app/Scripts.php:184
+msgid "Cancel"
+msgstr "Отмена"
+
+#: app/Scripts.php:185
+msgid "Apply Filter"
+msgstr "Применить фильтр"
+
+#: app/Scripts.php:186
+msgid "Doesnt have any option for this component"
+msgstr "Оленья кожа у любой вариант для этого компонента"
+
+#: app/Scripts.php:187
+msgid "Please Add Some Options"
+msgstr "Пожалуйста, добавьте некоторые опции"
+
+#: app/Scripts.php:188
+msgid "results found "
+msgstr "результатов найдено"
+
+#: app/Scripts.php:189
+msgid "result found "
+msgstr "Результат найден"
+
+#: app/Scripts.php:190
+msgid "clear"
+msgstr "Четкие параметры поиска"
+
+#: app/Scripts.php:191
+msgid "Get All"
+msgstr "Чтобы получить все"
+
+#: app/Scripts.php:192
+msgid "My Location"
+msgstr "Моя локация"
+
+#: app/Scripts.php:193
+msgid "Browser Geolocation Error !"
+msgstr "Географическое положение ошибка браузера!"
+
+#: app/Scripts.php:194
+msgid "Timeout."
+msgstr "Время ожидания"
+
+#: app/Scripts.php:195
+msgid "Position Unavailable."
+msgstr "Позиция недоступна"
+
+#: app/Scripts.php:197
+msgid "More Filters"
+msgstr "Фильтры"
+
+#: app/Scripts.php:198
+msgid "Save Template"
+msgstr "Сохранить шаблон"
+
+#: app/Scripts.php:199
+msgid "Save Template As"
+msgstr "Сохранить шаблон"
+
+#: app/Scripts.php:200
+msgid "Add Box"
+msgstr "Добавить  блок"
+
+#: app/Scripts.php:201
+msgid "GLOBAL SETTINGS"
+msgstr "Общие настройки"
+
+#: app/Scripts.php:202
+msgid "Admin View"
+msgstr "Admin Посмотреть"
+
+#: app/Scripts.php:203
+msgid "User View"
+msgstr "Вид пользователя"
+
+#: app/Scripts.php:204
+msgid "Block"
+msgstr "Блок"
+
+#: app/Scripts.php:205
+msgid "Global"
+msgstr "Глобальный"
+
+#: app/Scripts.php:206
+msgid "Settings"
+msgstr "настройки"
+
+#: app/Scripts.php:207
+msgid "Add Bar Fields"
+msgstr "Добавить бар поля"
+
+#: app/Scripts.php:208
+msgid "Add Search Fields"
+msgstr "Поля Поиска"
+
+#: app/Scripts.php:209
+msgid "Add Widget"
+msgstr "Добавить Виджет"
+
+#: app/Scripts.php:210
+msgid "Edit Search Block"
+msgstr "Поиск Блока"
+
+#: app/Scripts.php:211
+msgid "Edit Bar Block"
+msgstr "Панель редактирования блока"
+
+#: app/Scripts.php:212
+msgid "Edit Widget"
+msgstr "Изменить виджет"
+
+#: app/Scripts.php:213
+msgid "Are you sure?"
+msgstr "Ты уверен?"
+
+#: app/Scripts.php:214
+msgid "You will not be able to recover this Block"
+msgstr "Вы не сможете восстановить этот блок"
+
+#: app/Scripts.php:215
+msgid "Yes, delete it!"
+msgstr "Да, удалить!"
+
+#: app/Scripts.php:216
+msgid "No, cancel delete!"
+msgstr "Нет, отменить удаление!"
+
+#: app/Scripts.php:217
+msgid "Deleted!"
+msgstr "Удалено!"
+
+#: app/Scripts.php:218
+msgid "Your Reactive Block has been deleted."
+msgstr "Ваш реактивный блок был удален."
+
+#: app/Scripts.php:219
+msgid "Cancelled!"
+msgstr "Отменено!"
+
+#: app/Scripts.php:220
+msgid "Your Reactive Block is safe :)"
+msgstr "Ваш реактивный блок является безопасным :)"
+
+#: app/Scripts.php:295
+msgid "No Post found"
+msgstr "Запись не найдена"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "DELETE"
+msgstr "УДАЛИТЬ"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "GET"
+msgstr "Вон"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "HEAD"
+msgstr "Напор"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "OPTIONS"
+msgstr "ДОПОЛНИТЕЛЬНЫЕ ОПЦИИ"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "PATCH"
+msgstr "Патч"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "POST"
+msgstr "ПОСТ"
+
+#: assets/dist/js/re_forntend_vendor.beb07c.js:1
+msgid "PUT"
+msgstr "Ставить"
+
+#: index.php:24
+msgid ""
+"Sorry this plugin use some <b>PHP VERSION 5.4</b> functionality. If you want "
+"to use this plugin please update your server <b>PHP VERSION 5.4</b> or "
+"higher."
+msgstr ""
+"Извините этот плагин использовать некоторые функции <b>PHP версии 5.4</b> . "
+"Если вы хотите использовать этот плагин обновите свой сервер <b>PHP версии "
+"5.4</b> или выше."
+
+#: parsers.php:42 parsers.php:72 parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "There was an error when reading this WXR file"
+
+#: parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+
+#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+
+#: reactive-importer.php:122 reactive-importer.php:131
+#: reactive-importer.php:182 reactive-importer.php:186
+#: reactive-importer.php:195
+msgid "Sorry, there has been an error."
+msgstr "Произошла ошибка."
+
+#: reactive-importer.php:123
+msgid "The file does not exist, please try again."
+msgstr "Файл не существует."
+
+#: reactive-importer.php:166
+msgid "All done."
+msgstr "Все сделано."
+
+#: reactive-importer.php:166
+msgid "Have fun!"
+msgstr "Хороших впечатлений!"
+
+#: reactive-importer.php:167
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Remember to update the passwords and roles of imported users."
+
+#: reactive-importer.php:187
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+
+#: reactive-importer.php:203
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+
+#: reactive-importer.php:228
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+
+#: reactive-importer.php:254
+msgid "Assign Authors"
+msgstr "Assign Authors"
+
+#: reactive-importer.php:255
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Чтобы сделать редактирование и сохранение импортируемого содержимого более "
+"легким, вы можете присвоить авторство импортируемого элемента существующему "
+"пользователю данного сайта. Например, вы можете импортировать все записи за "
+"авторством <code>admin</code>."
+
+#: reactive-importer.php:257
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+
+#: reactive-importer.php:267
+msgid "Import Attachments"
+msgstr "Import Attachments"
+
+#: reactive-importer.php:270
+msgid "Download and import file attachments"
+msgstr "Импорт файла"
+
+#: reactive-importer.php:287
+msgid "Import author:"
+msgstr "Import author:"
+
+#: reactive-importer.php:298
+msgid "or create new user with login name:"
+msgstr "Создать нового пользователя"
+
+#: reactive-importer.php:301
+msgid "as a new user:"
+msgstr "Новый пользователь"
+
+#: reactive-importer.php:309
+msgid "assign posts to an existing user:"
+msgstr "assign posts to an existing user:"
+
+#: reactive-importer.php:311
+msgid "or assign posts to an existing user:"
+msgstr "назначить сообщения существующему пользователю:"
+
+#: reactive-importer.php:312
+msgid "- Select -"
+msgstr "- Выбрать -"
+
+#: reactive-importer.php:362
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Не удалось создать нового пользователя для %s. Его записи будут присвоены "
+"текущему пользователю."
+
+#: reactive-importer.php:414
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Не удалось импортировать рубрику %s"
+
+#: reactive-importer.php:457
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Failed to import post tag %s"
+
+#: reactive-importer.php:506 reactive-importer.php:750
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Failed to import %s %s"
+
+#: reactive-importer.php:617
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+"Не удалось импортировать запись &#8220;%s&#8221;: недопустимый тип записи %s"
+
+#: reactive-importer.php:654
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; already exists."
+
+#: reactive-importer.php:716
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Не удалось импортировать запись %s: &#8220;%s&#8221;"
+
+#: reactive-importer.php:881
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Menu item skipped due to missing menu slug"
+
+#: reactive-importer.php:888
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Пункт меню пропущен из-за неверного названия меню в формате url: %s"
+
+#: reactive-importer.php:951
+msgid "Fetching attachments is not enabled"
+msgstr "GPG-шифрование не активировано"
+
+#: reactive-importer.php:964
+msgid "Invalid file type"
+msgstr "Неверные тип файла."
+
+#: reactive-importer.php:1008
+msgid "Remote server did not respond"
+msgstr "Удаленный сервер не отвечает по файлу: %s"
+
+#: reactive-importer.php:1014
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Удаленный сервер возвратил ответ с ошибкой %1$d %2$s"
+
+#: reactive-importer.php:1021
+msgid "Remote file is incorrect size"
+msgstr "Remote file is incorrect size"
+
+#: reactive-importer.php:1026
+msgid "Zero size file downloaded"
+msgstr "Zero size file downloaded"
+
+#: reactive-importer.php:1032
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Remote file is too large, limit is %s"
+
+#: reactive-importer.php:1131
+msgid "Import WordPress"
+msgstr "импорт пользователей WordPress"
+
+#: reactive-importer.php:1138
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+
+#: reactive-importer.php:1153
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+
+#: reactive-importer.php:1154
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Выберите файл WXR для загрузки, затем нажмите Загрузить файл и импортировать."
+
+#: reactive-importer.php:1228
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Импорт записей, страниц, комментариев, произвольных полей, рубрик и меток из "
+"файла экспорта RusOrg."
+
+#: reactive-templates/shortcodes/builder.php:8
+#: reactive-templates/shortcodes/builder.php:95
+#: reactive-templates/shortcodes/builder.php:99
+msgid "Please build your shortcode from reactive builder"
+msgstr "Пожалуйста, построить свой короткий номер от реактивной строитель"
+
+#: vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php:422
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Каждые %d минут"
+
+#~ msgid "Please select post types for data restriction"
+#~ msgstr "Пожалуйста, выберите типы пост для ограничения данных"
+
+#~ msgid "Please select a post type"
+#~ msgstr "Пожалуйста, выберите тип записи"
+
+#~ msgid "Add Post Types"
+#~ msgstr "Добавить страницу…"
+
+#~ msgid ""
+#~ "Select any checkbox inside the accoirdion for restricting data from front-"
+#~ "end search panel. If you enable a checkbox this will automatically "
+#~ "restrict your private data from the search panel, you don't want to "
+#~ "share. e.g. for woocommerce you will need to disable the '_file_paths' "
+#~ "for downloadable products."
+#~ msgstr ""
+#~ "Установите любой флажок внутри accoirdion для ограничения данных из "
+#~ "панели внешнего поиска. Если включить флажок это будет автоматически "
+#~ "ограничивать ваши личные данные от панели поиска, вы не хотите "
+#~ "поделиться. например для woocommerce вам нужно будет отключить "
+#~ "«_file_paths» для загружаемых продуктов."
+
+#~ msgid "Enter an unique integer key. e.g. \""
+#~ msgstr "Введите уникальный целочисленный ключ. Например»"
+
+#~ msgid "Empty Term"
+#~ msgstr "Пустой срок"
+
+#~ msgid "Options"
+#~ msgstr "Настройки"
+
+#~ msgid "Grid"
+#~ msgstr "Только картинки без описания"
+
+#~ msgid "Widgets"
+#~ msgstr "Виджет"
+
+#~ msgid "Choose Grid Layout"
+#~ msgstr "Выбор макета"
+
+#~ msgid "Select Type"
+#~ msgstr "Один из типов публикации должен быть выбран"
+
+#~ msgid "Search"
+#~ msgstr "Поиск (кнопка подтверждения)"
+
+#~ msgid "Map"
+#~ msgstr "Мероприятия на карте"
+
+#~ msgid "Users"
+#~ msgstr "Юзеры"
+
+#~ msgid "Change Map Layout:"
+#~ msgstr "Изменить макет"
+
+#~ msgid "Change Height:"
+#~ msgstr "Изменение высоты:"
+
+#~ msgid "Layout"
+#~ msgstr "Лэйаут"
+
+#~ msgid "Column"
+#~ msgstr "Столбец "
+
+#~ msgid "Desktop HD Size"
+#~ msgstr "Размер рабочего стола HD"
+
+#~ msgid "Desktop Size"
+#~ msgstr "Полная ширина"
+
+#~ msgid "Tablet Size"
+#~ msgstr "Полная ширина"
+
+#~ msgid "Mobile size"
+#~ msgstr "Полная ширина"
+
+#~ msgid "Sorting"
+#~ msgstr "Сортировка"
+
+#~ msgid "Top bar"
+#~ msgstr "Верхняя панель"
+
+#~ msgid "View Changer"
+#~ msgstr "Просмотреть"
+
+#~ msgid "Bottom bar"
+#~ msgstr "Нижняя панель"
+
+#~ msgid "Bar appearance"
+#~ msgstr "бар"
+
+#~ msgid "Number Of Post:"
+#~ msgstr "Номер записи"
+
+#~ msgid "Change Grid Layout:"
+#~ msgstr "Изменить пароль:"
+
+#~ msgid "Post type:"
+#~ msgstr "Тип записи:"
+
+#~ msgid "Please select sorting attributes"
+#~ msgstr "Пожалуйста, выберите тип Поста"
+
+#~ msgid "Show or Hide the Topbar"
+#~ msgstr "Скрыть"
+
+#~ msgid "Show or Hide the Topbar Pagination"
+#~ msgstr "Отображение или скрытие Topbar разбиения на страницы"
+
+#~ msgid "Show or Hide the Search Filter Attributes"
+#~ msgstr "Отображение или скрытие атрибутов фильтра поиска"
+
+#~ msgid "Show or Hide the Sorting Option"
+#~ msgstr "Показать или скрыть поле сортировки"
+
+#~ msgid "Show or Hide the View Changer"
+#~ msgstr "Показать или скрыть представление смены"
+
+#~ msgid "Show or Hide the Bottombar"
+#~ msgstr "Скрыть"
+
+#~ msgid "Show or Hide the Bottombar Pagination"
+#~ msgstr "Отображение или скрытие страниц Bottombar"
+
+#~ msgid "Show or Hide the Bottombar Loadmore"
+#~ msgstr "Отображение или скрытие Bottombar Loadmore"
+
+#~ msgid "Image Select"
+#~ msgstr "Выбрать изображение"
+
+#~ msgid "Radio"
+#~ msgstr "Радио-кнопка"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "Check Box"
+#~ msgstr "Флажок"
+
+#~ msgid "Size Box"
+#~ msgstr "Полная ширина"
+
+#~ msgid "Map Seach"
+#~ msgstr "Карта поиска"
+
+#~ msgid "Color Box"
+#~ msgstr "Красный цвет блока"
+
+#~ msgid "Scroll Box"
+#~ msgstr "Выделите Коробка"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Combo Box"
+#~ msgstr "Показать интерфейс"
+
+#~ msgid "Tags"
+#~ msgstr "Метки"
+
+#~ msgid "Range Input"
+#~ msgstr "Диапазон"
+
+#~ msgid "Reset"
+#~ msgstr "Сброс "
+
+#~ msgid "Data"
+#~ msgstr "Данные"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendar"
+
+#~ msgid "Zoom"
+#~ msgstr "Увеличить изображение"
+
+#~ msgid "Appearance"
+#~ msgstr "Внешний вид"
+
+#~ msgid "Please Enter the Title"
+#~ msgstr "Пожалуйста, введите заголовок"
+
+#~ msgid "Please Enter the SubTitle"
+#~ msgstr "Подзаголовок"
+
+#~ msgid "Please select a data type"
+#~ msgstr "Пожалуйста, выберите тип Поста"
+
+#~ msgid "Please choose a select type"
+#~ msgstr "Пожалуйста, выберите тип Поста"
+
+#~ msgid "Please Enter the Custom CSS Class"
+#~ msgstr "Пожалуйста, введите пользовательский CSS-класс"
+
+#~ msgid "Change Categorey Layout:"
+#~ msgstr "Измените макет Categorey:"
+
+#~ msgid "Number Of Categorey:"
+#~ msgstr "Количество Categorey:"
+
+#~ msgid "Loadmore Button Link:"
+#~ msgstr "Loadmore кнопку Ссылка:"
+
+#~ msgid "Load More"
+#~ msgstr "Загрузить ещё"
+
+#~ msgid "Show LoadMore Button:"
+#~ msgstr "Показать цены"
+
+#~ msgid "Select Marker Template"
+#~ msgstr "Тип шаблона электронной почты"
+
+#~ msgid "Select Icon Template"
+#~ msgstr "Иконка страницы"
+
+#~ msgid "List"
+#~ msgstr "Лист"
+
+#~ msgid "Choose Default View Type"
+#~ msgstr "Выбрать тип представления по умолчанию"
+
+#~ msgid "Show Histogram:"
+#~ msgstr "Показать гистограммы:"
+
+#~ msgid "Show Number Of Items:"
+#~ msgstr "Проверяет, что значение является числом"
+
+#~ msgid "Set Column:"
+#~ msgstr "Установить значение"
+
+#~ msgid "Show Toggle Option:"
+#~ msgstr "Показать цены"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Block Orientation"
+#~ msgstr "Блок Аренда Даты"
+
+#~ msgid "Vertical"
+#~ msgstr "Вертикальный"
+
+#~ msgid "Horizontal"
+#~ msgstr "Горизонтальный"
+
+#~ msgid "Default"
+#~ msgstr "По-умолчанию"
+
+#~ msgid "Dropdown"
+#~ msgstr "В выпадающем списке"
+
+#~ msgid "Custom Class"
+#~ msgstr "Пользовательский класс"
+
+#~ msgid "Template Setting"
+#~ msgstr "Настройки шаблона"
+
+#~ msgid "Do you want to show the result with Ajax"
+#~ msgstr "Вы хотите показать результат с помощью Ajax"
+
+#~ msgid "Select a theme"
+#~ msgstr "Выберите тему."
+
+#~ msgid "Select Categorey Template"
+#~ msgstr "Выберите шаблон Categorey"
+
+#~ msgid "Please select a post type first from appearance settings"
+#~ msgstr ""
+#~ "Пожалуйста, сначала выберите сообщение типа из настроек внешнего вида"
+
+#~ msgid "Welcome to Reactive"
+#~ msgstr "Добро пожаловать к реактивной"
+
+#~ msgid ""
+#~ "We are so excited to have you on board. Here are a few steps to maximize "
+#~ "your experience."
+#~ msgstr ""
+#~ "Мы так рады видеть вас на борту. Вот несколько шагов, чтобы "
+#~ "максимизировать ваш опыт."
+
+#~ msgid "First step"
+#~ msgstr "Первый шаг"
+
+#~ msgid "Now you can create your SearchPage"
+#~ msgstr "Теперь вы можете создать свой SearchPage"
+
+#~ msgid "Second step"
+#~ msgstr "Второй шаг"
+
+#~ msgid "Add as your wish, build your page with style"
+#~ msgstr "Добавить как ваше желание, построить вашу страницу со стилем"
+
+#~ msgid "Third step"
+#~ msgstr "Третий шаг"
+
+#~ msgid "Add search component and release the beast"
+#~ msgstr "Добавить компонент поиска и освободить зверя"
+
+#~ msgid "Forth step"
+#~ msgstr "Четвертый шаг"
+
+#~ msgid ""
+#~ "You will have total control over your data, add unlimited Taxonomy / "
+#~ "Metadata as search attribute"
+#~ msgstr ""
+#~ "Вы будете иметь полный контроль над данными, добавить неограниченное "
+#~ "таксономии / метаданные как атрибут поиска"
+
+#~ msgid "Ready to go"
+#~ msgstr "Всегда готов"
+
+#~ msgid "Please follow the "
+#~ msgstr "Пожалуйста, следуйте"
+
+#~ msgid "link"
+#~ msgstr "ссылка"
+
+#~ msgid " for further queries , If you need any "
+#~ msgstr "для дальнейших запросов, если вам нужны какие-либо"
+
+#~ msgid "help"
+#~ msgstr "помощь"
+
+#~ msgid " let us know. thanks"
+#~ msgstr "Дайте нам знаете. Спасибо"
+
+#~ msgid "Skip"
+#~ msgstr "пропустить"
+
+#~ msgid "Next"
+#~ msgstr "Следующий"
+
+#~ msgid "Finish"
+#~ msgstr "Конец"
+
+#~ msgid "Previous"
+#~ msgstr "წინა"
+
+#~ msgid "More"
+#~ msgstr "Читать"
+
+#~ msgid "Pagination Here"
+#~ msgstr "Отображение или скрытие Topbar разбиения на страницы"
+
+#~ msgid "Oops, No Post Found"
+#~ msgstr "К сожалению ни одна должность не найден"
+
+#~ msgid "Get your Location"
+#~ msgstr "ДАННЫЕ О ВАШЕМ МЕСТОПОЛОЖЕНИИ"
+
+#~ msgid "No attributes found"
+#~ msgstr "Атрибуты не найдены"
+
+#~ msgid "Search..."
+#~ msgstr "Поиск..."
+
+#~ msgid "Please select Toogle Button On/Off"
+#~ msgstr "Пожалуйста, выберите Toogle кнопку вкл/выкл"
+
+#~ msgid "Please select Calender Pop Type up/down"
+#~ msgstr "Пожалуйста, выберите тип календаря Pop вверх/вниз"
+
+#~ msgid "Please select Calender View Type right/left"
+#~ msgstr "Пожалуйста, выберите тип представления календаря вправо/влево"
+
+#~ msgid "Please Enter the MaxValue"
+#~ msgstr "Пожалуйста, введите значение MaxValue"
+
+#~ msgid "Please Enter the MinValue"
+#~ msgstr "Пожалуйста, введите значение MinValue"
+
+#~ msgid "Please Enter the Button Text"
+#~ msgstr "Пожалуйста, введите текст кнопки"
+
+#~ msgid "Please Enter the Button Style e.g. btn btn-primary"
+#~ msgstr "Пожалуйста, введите стиль кнопки например БТН БТН первичный"
+
+#~ msgid "Please Enter the Custom CSS ClassName"
+#~ msgstr "Пожалуйста, введите пользовательские CSS ClassName"
+
+#~ msgid "Please select a view type"
+#~ msgstr "Пожалуйста, выберите тарифный план публикации"
+
+#~ msgid "Enter any custom class Name"
+#~ msgstr "Введите имя любого пользовательского класса"
+
+#~ msgid "Class name for filter count"
+#~ msgstr "Имя класса для фильтра фото"
+
+#~ msgid "Class name for sorting option"
+#~ msgstr "Имя класса для сортировки параметра"
+
+#~ msgid "Class name for view changer"
+#~ msgstr "Имя класса для смены представления"
+
+#~ msgid "Class name for topbar pagination"
+#~ msgstr "Имя класса для topbar разбиения на страницы"
+
+#~ msgid "Class name for bottombar pagination"
+#~ msgstr "Имя класса для bottombar разбиения на страницы"
+
+#~ msgid "Class name for bottombar loadmore"
+#~ msgstr "Имя класса для bottombar loadmore"
+
+#~ msgid "title"
+#~ msgstr "заголовок"
+
+#~ msgid "Show Item Color Name"
+#~ msgstr "Показать имя цвета элемента"
+
+#~ msgid "Add Block"
+#~ msgstr "Добавить блок"
+
+#~ msgid "Toogle"
+#~ msgstr "Toogle"
+
+#~ msgid "Panel"
+#~ msgstr "Панель"
+
+#~ msgid "Help"
+#~ msgstr "Помощь"
+
+#~ msgid "Preview"
+#~ msgstr "Предварительный просмотр объявления"
+
+#~ msgid "Toogle Show More"
+#~ msgstr "Toogle Показать больше"
+
+#~ msgid "Please enter range unit"
+#~ msgstr "Введите единицу диапазона"
+
+#~ msgid "Select Number of options in load More Mode"
+#~ msgstr "Выберите количество вариантов нагрузки более режим"
+
+#~ msgid "Enter Any Custom Grid Wrapper Class Name"
+#~ msgstr "Введите любое имя класса обертки пользовательской сетки"
+
+#~ msgid "Custom Class Name for Categorey"
+#~ msgstr "Имя пользовательского класса для Categorey"
+
+#~ msgid "Custom Class Name for MAP"
+#~ msgstr "Имя пользовательского класса для карты"
+
+#~ msgid "Map Radius"
+#~ msgstr "Карта радиус"
+
+#~ msgid "Bar"
+#~ msgstr "Столбец"
+
+#~ msgid "Isotope Grid Column"
+#~ msgstr "Изотопа столбец сетки"
+
+#~ msgid "Select Isotope Template"
+#~ msgstr "Выберите шаблон изотопа"
+
+#~ msgid "Linear Checkbox"
+#~ msgstr "Линейный флажок"
+
+#~ msgid "Enter Any Custom Isotope Grid Wrapper Class Name"
+#~ msgstr "Введите любое имя класса обертки сетки пользовательских изотопа"
+
+#~ msgid "Enter Any Custom Isotope Bar Wrapper Class Name"
+#~ msgstr "Введите любые пользовательские изотопа бар имя класса обертки"
+
+#~ msgid "Isotope Grid"
+#~ msgstr "Изотопа сетка"
+
+#~ msgid "Enter Radious(In Km)"
+#~ msgstr "Введите Radious (в км)"
+
+#~ msgid "Pre Query"
+#~ msgstr "Предварительного запроса"
+
+#~ msgid "Reactive"
+#~ msgstr "Reactive"
+
+#~ msgid "http://redqteam.com/demo/plugins/reactive"
+#~ msgstr "http://redqteam.com/demo/plugins/reactive"
+
+#~ msgid "Searching & Filtering WordPress Plugin"
+#~ msgstr "Searching & Filtering WordPress Plugin"
+
+#~ msgid "RedQ Team"
+#~ msgstr "RedQ Team"
+
+#~ msgid "http://redqteam.com"
+#~ msgstr "http://redqteam.com"

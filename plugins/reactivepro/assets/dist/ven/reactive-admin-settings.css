@@ -1,0 +1,319 @@
+.reactive-row {
+	 margin-right: 0rem;
+	 margin-left: 0rem;
+}
+.re_geobox_settings_{
+	width: 50%;
+	background: #fff;
+	padding: 56px 50px 80px 80px;
+	margin: 100px auto !important;
+}
+
+.reactive_meta_restriction{
+	background: #fff;
+	width: 50%;
+	margin: 100px auto !important;
+	padding: 69px;
+	border-bottom: 2px solid #ddd;
+}
+
+ .reactive_meta_restriction .reuseElementBlock___{
+ 	width: 420px;
+ }
+
+.reactive_meta_restriction .reuseButton___{
+	width: 150px;
+}
+
+.rq-image-grid {
+  position: relative;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  background: #fff;
+}
+.rq-image-grid a {
+  text-decoration: none;
+  margin-top: 25px;
+}
+.rq-image-grid a {
+  cursor: pointer;
+}
+.rq-image-grid a:hover {
+  color: #c6c5c5;
+}
+.category-normal {
+  width: 100%;
+  height: 250px;
+  background: #fff;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all .3s ease;
+}
+.category-normal h5 {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+.category-normal p {
+  margin: 0;
+  color: #666;
+  padding: 6px 30px;
+  text-align: center;
+}
+.re-addons-btn {
+  width: 50%;
+  margin-left: 23%;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  border-radius: 0;
+  background-color: #E74C3C;
+  color: #FFFFFF;
+  height: 40px;
+  line-height: 40px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.rq-addons-text p {
+  padding-top: 25px;
+  padding-left: 20px;
+  float: none;
+  font-size: 18px;
+  color: #7D7D7D;
+  padding-bottom: 15px;
+}
+
+/* --------------------------------------------------
+  :: System Status
+  ---------------------------------------------------*/
+#toplevel_page_reactive-menu .wp-first-item a .update-plugins {
+  position: relative;
+  top: -3px;
+  left: 5px;
+}
+.pending-errors {
+  color: #d54e21;
+  padding-left: 5px;
+  position: relative;
+  top: 2px;
+  font-size: 16px;
+}
+
+.reactive-trick h1{
+  font-size: 23px;
+  font-weight: 400;
+  margin: 0;
+  padding: 9px 0 4px;
+  line-height: 29px;
+}
+.reactive-wrap {
+  padding: 20px !important;
+  max-width: none !important;
+}
+.reactive-wrap.postbox {
+  margin-top: 40px;
+}
+.reactive-wrap.postbox > * {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reactive-wrap.postbox h2 {
+  font-size: 2em !important;
+  margin: 1em 0 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+.reactive-wrap h1 {
+  display: inline-block;
+}
+.reactive-wrap h1 span.reactive-name {
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.reactive-wrap .reactive-version {
+  font-size: 12px;
+  color: white;
+  background-color: #32373c;
+  display: inline-block;
+  line-height: 13px;
+  padding: 6px;
+  margin-left: 20px;
+  vertical-align: middle;
+  top: 0px;
+  position: relative;
+  border-radius: 4px;
+}
+.reactive-wrap .about-text {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+.reactive-wrap h2 .nav-tab {
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px 15px 10px;
+  margin: 0;
+}
+.reactive-wrap h2 .nav-tab.nav-tab-active {
+  background-color: white;
+}
+.reactive-wrap h2.nav-tab-wrapper {
+  border: none;
+  padding: 0;
+  margin-top: 25px;
+}
+.reactive-wrap h2.nav-tab-wrapper .nav-tab {
+  border: none;
+  background: transparent;
+}
+.reactive-wrap h2.nav-tab-wrapper .nav-tab:focus {
+  box-shadow: none;
+}
+.reactive-wrap h2.nav-tab-wrapper .nav-tab.nav-tab-active {
+  background: white;
+}
+.reactive-wrap table {
+  margin-bottom: 1.5em;
+}
+.reactive-wrap table th {
+  font-weight: 700;
+  padding: 9px;
+}
+.reactive-wrap table td {
+  padding: 9px;
+  font-size: 14px;
+}
+.reactive-wrap table td mark.yes {
+  color: #7ad03a;
+  background: 0 0;
+}
+.reactive-wrap table td code {
+  font-size: 13px;
+}
+.reactive-wrap table tr:nth-child(2n) td,
+.reactive-wrap table tr:nth-child(2n) th {
+  background: #f9f9f9;
+}
+.reactive-wrap table.widefat {
+  border: 0px;
+  padding: 20px;
+}
+.reactive-wrap table#status tbody::before {
+  content: '';
+  display: block;
+  height: 10px;
+}
+.reactive-wrap table .iframe-dummy-container {
+  position: relative;
+}
+.reactive-wrap table .iframe-dummy {
+  padding-top: 50%;
+}
+.reactive-wrap table#support,
+.reactive-wrap table#documentation,
+.reactive-wrap table#tutorials {
+  padding: 0px;
+  margin: 0;
+}
+.reactive-wrap table#support iframe,
+.reactive-wrap table#documentation iframe,
+.reactive-wrap table#tutorials iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.reactive-wrap table .ewpt-item-list .thumbnail {
+  float: left;
+  margin-right: 20px;
+}
+.reactive-wrap table .ewpt-item-list .item-details button {
+  display: block;
+  margin-top: 10px;
+}
+.reactive-wrap .error {
+  color: red;
+  background: none;
+}
+.reactive-wrap .error i {
+  font-weight: 900;
+  font-size: 15px;
+}
+.reactive-wrap .recommened {
+  color: red;
+  background: none;
+}
+.reactive-wrap .recommened i {
+  font-weight: 900;
+  font-size: 15px;
+}
+.reactive-wrap mark b {
+  word-break: break-all;
+  font-size: 12px;
+}
+.reactive-wrap .error-badge {
+  pointer-events: none;
+  color: red;
+  padding-left: 10px;
+}
+.reactive-wrap .error-badge i {
+  position: relative;
+  top: 6px;
+  font-size: 25px;
+  line-height: 0px;
+}
+.reactive-wrap .recommened-badge {
+  pointer-events: none;
+  color: red;
+  padding-left: 10px;
+}
+.reactive-wrap .recommened-badge i {
+  position: relative;
+  top: 6px;
+  font-size: 25px;
+  line-height: 0px;
+}
+.reactive-wrap .notice:not(.notice-tracktico),
+.reactive-wrap .updated {
+  display: none;
+}
+.reactive-wrap .tracktico-active,
+.reactive-wrap .tracktico-not-active {
+  display: inline-block;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px !important;
+  padding: 4px 15px !important;
+  margin-right: 15px !important;
+  top: 1px;
+  position: relative;
+}
+.reactive-wrap .tracktico-active {
+  background-color: #44D244;
+}
+.reactive-wrap .tracktico-not-active {
+  background-color: #FD4A38;
+}
+.reactive-wrap .deactivate-button {
+  display: inline-block;
+}
+.reactive-wrap .deactivate-button #submit {
+  vertical-align: baseline;
+}
+.reactive-wrap .tracktico-title {
+  display: none;
+}

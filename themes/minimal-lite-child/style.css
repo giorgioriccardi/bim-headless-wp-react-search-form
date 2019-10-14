@@ -1,0 +1,16 @@
+/*
+Theme Name: SSWS Minimal-lite Child
+Theme URI: https://en-gb.wordpress.org/themes/minimal-lite/
+Author: Giorgio Riccardi
+Author URI: https://ssws.ca
+Description: WordPress Minimal-lite child theme.
+Template: minimal-lite
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: minimal-lite-child
+*/
+
+.debug {
+  border: red solid thin;
+}

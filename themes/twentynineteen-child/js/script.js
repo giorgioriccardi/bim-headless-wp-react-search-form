@@ -1,2 +1,2 @@
 /* Javascript */
-console.log('Giorgio 2019 child theme js');
+console.log('SSWS 2019 child theme js');

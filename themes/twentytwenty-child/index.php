@@ -18,7 +18,7 @@ get_header();
 ?>
 
 <main id="site-content" role="main">
-<h1>Giorgio child index.php</h1>
+<h1>SSWS child index.php test</h1>
 	<?php
 
 $archive_title = '';

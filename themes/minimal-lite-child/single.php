@@ -13,7 +13,7 @@ get_header();?>
 		<main id="main" class="site-main">
 
             <div>
-                <p>business_name <?php the_field('business_name');?></p>
+                <p>business_name: <?php the_field('business_name');?></p>
                 <p>licence_number: <?php the_field('licence_number');?></p>
                 <p>licence_status: <?php the_field('licence_status');?></p>
                 <p>business_phone: <?php the_field('business_phone');?></p>

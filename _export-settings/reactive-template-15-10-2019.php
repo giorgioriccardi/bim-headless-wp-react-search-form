@@ -17,6 +17,17 @@
               <div class="product-review-info">
                 <# if(post.post_title) { #>
                     <div class="post-title">{{ post.post_title }}</div>
+                    <div>
+                        <p>business_name: {{ post.meta.business_name }}</p>
+                        <p>licence_number: {{ post.meta.licence_number }}</p>
+                        <p>licence_status: {{ post.meta.licence_status }}</p>
+                        <p>business_phone: {{ post.meta.business_phone }}</p>
+                        <p>business_owner: {{ post.meta.business_owner }}</p>
+                        <p>email_address: {{ post.meta.email_address }}</p>
+                        <p>website_address: {{ post.meta.website_address }}</p>
+                        <p>business_address: {{ post.meta.business_address }}</p>
+                        <p>naics_code: custom taxonomy tag</p>
+                    </div>
                 <# } #>
 
                 <# if(post.comment_author || post.comment_date) { #>

@@ -3,8 +3,8 @@
 Contributors: Thememattic
 
 Requires at least: 4.0
-Tested up to: 5.1.1
-Stable tag: 1.0.4
+Tested up to: 5.2
+Stable tag: 1.0.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -113,6 +113,9 @@ Source: https://fonts.google.com/specimen/Abril+Fatface
 License: Open Font License http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
 
 == Changelog =
+
+= 1.0.5 - Oct 15 2019 =
+=Fixed the issues on minified scripts=
 
 = 1.0.4 - July 19 2019 =
 =Fixed the Quote format issue as required=

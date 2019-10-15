@@ -13,12 +13,15 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo('charset'); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <?php wp_head(); ?>
     </head>
 <body <?php body_class(); ?>>
-
+<?php if (function_exists('wp_body_open')) {
+    wp_body_open();
+}
+?>
     <?php
     $enable_preloader = minimal_lite_get_option('enable_preloader', true);
     $style = 'style="display:none"';
@@ -33,7 +36,6 @@
                     <div class="object" id="first_object"></div>
                     <div class="object" id="second_object"></div>
                     <div class="object" id="third_object"></div>
-
                 </div>
             </div>
         </div>

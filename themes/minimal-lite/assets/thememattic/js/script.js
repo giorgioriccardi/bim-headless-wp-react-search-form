@@ -304,7 +304,7 @@
         },
 
         n.thememattic_matchheight = function () {
-            jQuery('.theiaStickySidebar', 'body').parent().theiaStickySidebar({
+            jQuery('.widget-area').theiaStickySidebar({
                 additionalMarginTop: 30
             });
         },

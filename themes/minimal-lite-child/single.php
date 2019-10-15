@@ -47,7 +47,7 @@ get_header();?>
                 <p>business_address: <?php the_field('business_address');?></p>
                 <p>naics_code:
 <?php
-// Loop example
+// SSWS Loop example
 // $terms = get_terms( 'naics_code', 'name' );
 // if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
 //     echo '<ul>';

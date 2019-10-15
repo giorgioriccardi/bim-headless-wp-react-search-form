@@ -12,15 +12,17 @@ get_header();?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-        <p>business_name <?php the_field('business_name');?></p>
-<p>licence_number: <?php the_field('licence_number');?></p>
-<p>licence_status: <?php the_field('licence_status');?></p>
-<p>business_phone: <?php the_field('business_phone');?></p>
-<p>business_owner: <?php the_field('business_owner');?></p>
-<p>email_address: <?php the_field('email_address');?></p>
-<p>website_address: <?php the_field('website_address');?></p>
-<p>business_address: <?php the_field('business_address');?></p>
-<p>naics_code: custom taxonomy tag</p>
+            <div>
+                <p>business_name <?php the_field('business_name');?></p>
+                <p>licence_number: <?php the_field('licence_number');?></p>
+                <p>licence_status: <?php the_field('licence_status');?></p>
+                <p>business_phone: <?php the_field('business_phone');?></p>
+                <p>business_owner: <?php the_field('business_owner');?></p>
+                <p>email_address: <?php the_field('email_address');?></p>
+                <p>website_address: <?php the_field('website_address');?></p>
+                <p>business_address: <?php the_field('business_address');?></p>
+                <p>naics_code: custom taxonomy tag</p>
+            </div>
 
 		<?php
 while (have_posts()): the_post();

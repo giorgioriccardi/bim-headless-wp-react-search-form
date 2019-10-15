@@ -16,7 +16,15 @@ get_header();?>
                 <p>business_name: <?php the_field('business_name');?></p>
                 <p>licence_number: <?php the_field('licence_number');?></p>
                 <p>licence_status: <?php the_field('licence_status');?></p>
-                <p>business_phone: <?php the_field('business_phone');?></p>
+                <p>business_phone: <?php //the_field('business_phone');?>
+                    <a
+                        class=""
+                        href="tel:<?php the_field('business_phone');?>"
+                        target="_blank"
+                        title="<?php the_field('business_phone');?>">
+                        <?php the_field('business_phone');?>
+                    </a>
+                </p>
                 <p>business_owner: <?php the_field('business_owner');?></p>
                 <p>email_address: <?php // the_field('email_address');?>
                     <a

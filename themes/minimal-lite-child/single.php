@@ -21,23 +21,24 @@ get_header();?>
                 <p>email_address: <?php the_field('email_address');?></p>
                 <p>website_address: <?php the_field('website_address');?></p>
                 <p>business_address: <?php the_field('business_address');?></p>
-                <em>naics_code:
-                <?php 
-                // $terms = get_terms( 'naics_code', 'name' );
-                // if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-                //     echo '<ul>';
-                //     foreach ( $terms as $term ) {
-                //         echo '<li>' . $term->name . '</li>';
-                //     }
-                //     echo '</ul>';
-                // }
-                $args = array('number' => '1',);
-$terms = get_terms('naics_code', $args );
-foreach( $terms as $term ){
-  echo  $term->name ;
+                <p>naics_code:
+<?php
+// Loop example
+// $terms = get_terms( 'naics_code', 'name' );
+// if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
+//     echo '<ul>';
+//     foreach ( $terms as $term ) {
+//         echo '<li>' . $term->name . '</li>';
+//     }
+//     echo '</ul>';
+// }
+$args = array('number' => '1');
+$terms = get_terms('naics_code', $args);
+foreach ($terms as $term) {
+    echo $term->name;
 }
-                ?>
-                </em>
+?>
+                </p>
             </div>
 
 		<?php

@@ -26,7 +26,7 @@
                         <p>email_address: {{ post.meta.email_address }}</p>
                         <p>website_address: {{ post.meta.website_address }}</p>
                         <p>business_address: {{ post.meta.business_address }}</p>
-                        <p>naics_code: custom taxonomy tag</p>
+                        <p>naics_code: {{ post.terms.naics_code[0].name }}</p>
                     </div>
                 <# } #>
 

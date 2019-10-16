@@ -13,10 +13,10 @@ get_header();?>
 		<main id="main" class="site-main">
 
             <div>
-                <p>business_name: <?php the_field('business_name');?></p>
-                <p>licence_number: <?php the_field('licence_number');?></p>
-                <p>licence_status: <?php the_field('licence_status');?></p>
-                <p>business_phone: <?php //the_field('business_phone');?>
+                <p>Business Name: <?php the_field('business_name');?></p>
+                <p>Licence Number: <?php the_field('licence_number');?></p>
+                <p>Licence Status: <?php the_field('licence_status');?></p>
+                <p>Business Phone #: <?php //the_field('business_phone');?>
                     <a
                         class=""
                         href="tel:<?php the_field('business_phone');?>"
@@ -25,8 +25,8 @@ get_header();?>
                         <?php the_field('business_phone');?>
                     </a>
                 </p>
-                <p>business_owner: <?php the_field('business_owner');?></p>
-                <p>email_address: <?php // the_field('email_address');?>
+                <p>Owner: <?php the_field('business_owner');?></p>
+                <p>Email: <?php // the_field('email_address');?>
                     <a
                         class=""
                         href="mailto:<?php the_field('email_address');?>"
@@ -35,7 +35,7 @@ get_header();?>
                         <?php the_field('email_address');?>
                     </a>
                 </p>
-                <p>website_address: <?php // the_field('website_address');?>
+                <p>Website: <?php // the_field('website_address');?>
                     <a
                         class=""
                         href="<?php echo esc_url(get_field('website_address')); ?>"
@@ -44,8 +44,13 @@ get_header();?>
                         <?php echo esc_html(get_field('website_address')); ?>
                     </a>
                 </p>
-                <p>business_address: <?php the_field('business_address');?></p>
-                <p>naics_code:
+                <p>Address:
+<?php // the_field('business_address');
+$map_location = get_field('business_address');
+echo $map_location['address'];
+?>
+                </p>
+                <p>NAICS:
 <?php
 // SSWS Loop example
 // $terms = get_terms( 'naics_code', 'name' );
@@ -56,17 +61,27 @@ get_header();?>
 //     }
 //     echo '</ul>';
 // }
-$args = array('number' => '1');
-$terms = get_terms('naics_code', $args);
+?>
+<?php
+// !Only works for the first item of the loop
+// $args = array('number' => '1');
+// $terms = get_terms('naics_code', $args);
+// foreach ($terms as $term) {
+//     $term_link = get_term_link($term);
+//     // echo $term->name;
+//     echo '<a href="' . esc_url($term_link) . '">' . $term->name . '</a>';
+// }
+?>
+
+<?php
+$terms = get_the_terms($post->ID, 'naics_code');
 foreach ($terms as $term) {
-    $term_link = get_term_link($term);
-    // echo $term->name;
-    echo '<a href="' . esc_url($term_link) . '">' . $term->name . '</a>';
+    $termlinks = get_term_link($term);
+    echo '<a href="' . $termlinks . '" title="' . $term->description . '">' . $term->name . ' - ' . $term->description . '</a>';
 }
 ?>
 
-<!-- <em>
-SSWS naics_code loop with links: -->
+<!-- SSWS naics_code loop with link -->
 <?php
 // $terms = get_terms('naics_code');
 // echo '<ul>';
@@ -82,7 +97,6 @@ SSWS naics_code loop with links: -->
 // }
 // echo '</ul>';
 ?>
-<!-- </em> -->
                 </p>
             </div>
 

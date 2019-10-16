@@ -16,3 +16,41 @@ function ssws_enqueue_wp_child_theme()
     //This is your child theme js file = js/script.js
     // wp_enqueue_script('child-js', get_stylesheet_directory_uri() . '/js/script.js', array('jquery'), '1.0', true);
 }
+
+add_action('init', 'ssws_change_post_object');
+// Change dashboard Posts to Businesses
+function ssws_change_post_object()
+{
+    $get_post_type = get_post_type_object('post');
+    $labels = $get_post_type->labels;
+    $labels->name = 'Businesses';
+    $labels->singular_name = 'Business';
+    $labels->add_new = 'Add Business';
+    $labels->add_new_item = 'Add Business';
+    $labels->edit_item = 'Edit Business';
+    $labels->new_item = 'Business';
+    $labels->view_item = 'View Business';
+    $labels->search_items = 'Search Businesses';
+    $labels->not_found = 'No Businesses found';
+    $labels->not_found_in_trash = 'No Businesses found in Trash';
+    $labels->all_items = 'All Businesses';
+    $labels->menu_name = 'Businesses';
+    $labels->name_admin_bar = 'Business';
+}
+
+// Change dashboard admin icons
+function replace_admin_menu_icons_css()
+{
+    ?>
+    <style>
+        .dashicons-admin-post::before {
+            content: "";
+            background-image: url('/wp-content/themes/minimal-lite-child/assets/images/menu-icon@2x.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        }
+    </style>
+    <?php
+}
+add_action('admin_head', 'replace_admin_menu_icons_css');

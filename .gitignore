@@ -14,7 +14,7 @@ uploads/
 # plugins/debug-bar/
 # plugins/developer/
 # plugins/show-current-template/
-# plugins/
+plugins/
 plugins/reactivepro/
 plugins/wp-migrate-db-pro/	
 mu-plugins/local-by-flywheel-demo-urls.php

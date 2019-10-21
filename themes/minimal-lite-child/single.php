@@ -16,7 +16,7 @@ get_header();?>
                 <p>Business Name: <?php the_field('business_name');?></p>
                 <p>Licence Number: <?php the_field('licence_number');?></p>
                 <p>Licence Status: <?php the_field('licence_status');?></p>
-                <p>Business Phone #: <?php //the_field('business_phone');?>
+                <p>Phone #: <?php //the_field('business_phone');?>
                     <a
                         class=""
                         href="tel:<?php the_field('business_phone');?>"

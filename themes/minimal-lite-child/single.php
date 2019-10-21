@@ -40,6 +40,7 @@ get_header();?>
                         class=""
                         href="<?php echo esc_url(get_field('website_address')); ?>"
                         target="_blank"
+                        rel=”nofollow”
                         title="<?php echo esc_html(get_field('website_address')); ?>">
                         <?php echo esc_html(get_field('website_address')); ?>
                     </a>

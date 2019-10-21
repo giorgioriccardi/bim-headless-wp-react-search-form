@@ -117,10 +117,10 @@ while (have_posts()): the_post();
     do_action('minimal_lite_before_single_nav');
 
     the_post_navigation(array(
-        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('Next', 'minimal-lite') . '</span> ' .
+        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __('>', 'minimal-lite') . '</span> ' .
         '<span class="screen-reader-text">' . __('Next post:', 'minimal-lite') . '</span> ' .
         '<span class="post-title">%title</span>',
-        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('Previous', 'minimal-lite') . '</span> ' .
+        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __('<', 'minimal-lite') . '</span> ' .
         '<span class="screen-reader-text">' . __('Previous post:', 'minimal-lite') . '</span> ' .
         '<span class="post-title">%title</span>',
     ));

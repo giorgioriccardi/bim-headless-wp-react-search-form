@@ -54,3 +54,26 @@ function replace_admin_menu_icons_css()
     <?php
 }
 add_action('admin_head', 'replace_admin_menu_icons_css');
+
+/********************************************************/
+// inject_formatted_phone
+/********************************************************/
+if (!function_exists('ssws_inject_formatted_phone')) {
+    add_action('wp_footer', 'ssws_inject_formatted_phone');
+    function ssws_inject_formatted_phone()
+    {
+        ?>
+            <script>
+                jQuery(document).ready(function($) {
+                    // Custom jQuery goes here
+                    console.info('SSWS start ssws_inject_formatted_phone');
+                    $('.formatted_phone').text(function(i, text) {
+                        // console.log(text);
+                        console.log('formatted_phone done via function.php');
+                        return text.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+                    });
+                });
+            </script>
+        <?php
+}
+}

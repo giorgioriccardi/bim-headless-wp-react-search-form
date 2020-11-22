@@ -1,23 +1,18 @@
 # WordPress #
 ############
+wp-admin
+wp-includes
+cache/
+mu-plugins/
+plugins/
+themes/twentynineteen/
+themes/twentytwenty
+themes/minimal-lite
+uploads/
+wflogs/
 wp-config-local.php
 wp-cli.local.yml
 wp-content/uploads
-uploads/
-# themes/twentynineteen/
-# plugins/advanced-custom-fields/
-# plugins/post-my-contact-form-7/
-# plugins/ssws-wordpress-plugin-snippets-collection
-# plugins/contact-form-7/
-# plugins/acf-to-rest-api/
-# plugins/cf7-google-map/
-# plugins/debug-bar/
-# plugins/developer/
-# plugins/show-current-template/
-plugins/
-plugins/reactivepro/
-plugins/wp-migrate-db-pro/	
-mu-plugins/local-by-flywheel-demo-urls.php
 wp-content/blogs.dir/
 wp-content/upgrade/
 wp-content/backup-db/
@@ -26,15 +21,10 @@ wp-content/backupwordpress-*/
 wp-content/managewp/backups/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
+advanced-cache.php
 sitemap.xml
 sitemap.xml.gz
 *.log
-package-lock.json
-yarn.lock
-
-# Back End #
-#############
-# .env
 
 # @TODO writable paths
 wp-content/cache/
@@ -46,7 +36,6 @@ pantheon.upstream.yml
 
 # Packages #
 ############
-node_modules/
 *.7z
 *.dmg
 *.gz
@@ -57,6 +46,7 @@ node_modules/
 *.tar
 *.zip
 *.tgz
+!wp-includes/**/*.gz
 
 # Logs and databases #
 ######################
@@ -67,7 +57,6 @@ node_modules/
 ######################
 .DS_Store*
 ehthumbs.db
-Icon?
 Thumbs.db
 ._*
 
@@ -77,16 +66,4 @@ Thumbs.db
 
 # SASS #
 ##########
-.sass-cache/
-*.css.map
-
-# Front End #
-#############
-# Files injected by scripts/update-env.py:
-/.babelrc
-/.eslintrc
-/.editorconfig
-/.sass-lint.yml
-/.pre-commit-config.yaml
-/scripts/update-env.py
-README-frontend.md
+.sass-cache

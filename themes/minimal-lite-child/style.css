@@ -1,16 +1,369 @@
 /*
-Theme Name: SSWS Minimal-lite Child
-Theme URI: https://en-gb.wordpress.org/themes/minimal-lite/
-Author: Giorgio Riccardi
-Author URI: https://ssws.ca
-Description: WordPress Minimal-lite child theme.
+Theme Name: BIM Business Search
+Theme URI: https://live-bim-businesses.pantheonsite.io/
+Author: Sea to Sky Web Solutions Ltd.
+Author URI: https://www.seatoskywebsolutions.ca/
+Description: BIM Business Search based on WordPress Minimal-Lite theme.
 Template: minimal-lite
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 1.0.0
+Version: 1.7.3
 Text Domain: minimal-lite-child
 */
+
+/* COLORS: 
+dark-blue: #47788a;
+light-blue: #71AFC4;
+orange: #F8B435;
+green: #9AAF50;
+
+*/
+
+@import url('./MyFontsWebfontsKit.css');
 
 .debug {
   border: red solid thin;
 }
+
+.thememattic-icon.ion-ios-search {
+  /* display: none; */
+}
+
+.ion-ios-moon,
+.thememattic-icon.ion-ios-search {
+  color: #fff !important;
+}
+
+.thememattic-icon.ion-ios-search {
+  font-size: 1.5em;
+}
+
+.site * {
+  font-family: 'Larsseit';
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Larsseit' !important;
+}
+
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input,
+div.asl_w .probox .proinput input::placeholder,
+.asl_nores_header,
+body .site .widget-title {
+  font-family: 'MrDodo-Regular' !important;
+}
+
+body .secondary-font {
+  font-family: 'Larsseit' !important;
+  line-height: 2;
+}
+
+/* styles for Reactive form, not the Ajax Lite Search */
+/* Medium Devices, Desktops */
+/* @media only screen and (min-width: 992px) {
+  .reactive-product-review-list.reactive-product-review-gridView:nth-child(4n
+      + 1),
+  .reactive-product-review-list.reactive-product-review-gridView:nth-child(4n
+      + 4) {
+    background-color: #f7f7f7;
+  }
+} */
+
+/* Small Devices */
+/* @media only screen and (max-width: 991px) {
+  .reactive-product-review-list.reactive-product-review-gridView:nth-child(2n
+      + 1) {
+    background-color: #f7f7f7;
+  }
+} */
+
+/* .night-mode */
+/* Medium Devices, Desktops */
+/* @media only screen and (min-width: 992px) {
+  .night-mode
+    .reactive-product-review-list.reactive-product-review-gridView:nth-child(4n
+      + 1),
+  .night-mode
+    .reactive-product-review-list.reactive-product-review-gridView:nth-child(4n
+      + 4) {
+    background-color: #000;
+  }
+} */
+
+/* Small Devices */
+/* @media only screen and (max-width: 991px) {
+  .night-mode
+    .reactive-product-review-list.reactive-product-review-gridView:nth-child(2n
+      + 1) {
+    background-color: #000;
+  }
+} */
+/* end styles for Reactive form, not the Ajax Lite Search */
+
+/* origin: https://www.bowenislandmunicipality.ca/themes/bowenisland/css/screen.css */
+
+/* ==========================================================================
+HEADER
+========================================================================== */
+body .site .site-title {
+  font-size: 1.9em !important;
+  padding-top: .5em;
+}
+/* logo and title on mobile */
+@media only screen and (max-width: 767px) {
+  .custom-logo {
+    max-width: 70%;
+  }
+  body .site .site-title {
+    font-size: 1em !important;
+  }
+  .site-header-secondary .main-header {
+    padding: 20px 0;
+  }
+}
+
+header#thememattic-header,
+header#thememattic-header .main-header {
+  background: rgba(0, 0, 0, 0.8);
+}
+/* ==========================================================================
+end HEADER
+========================================================================== */
+
+/* ==========================================================================
+CONTENT
+========================================================================== */
+.single header.entry-header {
+  display: none;
+}
+
+.single h1.entry-title {
+  color: #9aaf50;
+  margin-bottom: 0;
+}
+
+a.tags-list {
+  text-transform: capitalize;
+}
+
+a {
+  color: #71afc4;
+}
+
+/* post navigation */
+.nav-links .post-title {
+  display: none;
+}
+
+.post-navigation a {
+  padding: 1% 1%;
+  color: #71afc4 !important;
+}
+.meta-nav:hover {
+  color: #9aaf50;
+}
+
+.single .post-navigation .nav-previous:hover a::before,
+.single .post-navigation .nav-next:hover a::before {
+  background-color: transparent;
+}
+
+.post-navigation .nav-previous:hover a::before,
+.post-navigation .nav-next:hover a::before {
+  background-color: transparent;
+  opacity: 0.8;
+}
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+  background-color: transparent;
+  border: #eaeaea thin solid;
+  width: 20%;
+  float: left;
+  margin: 0px 10px;
+}
+.nav-next .meta-nav {
+  text-align: right;
+}
+.meta-nav {
+  margin: 0px 10px;
+  line-height: 2;
+}
+/* show sidebar post nav only on mobile */
+/* Small Devices */
+/* .mobile-yes {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .mobile-yes {
+    display: inline-block;
+  }
+} */
+/* end post navigation */
+
+/* print me */
+.printomatic {
+  position: relative;
+  left: 50%;
+}
+
+@media only screen and (min-width: 991px) {
+  .site-content .printomatic {
+    position: inherit;
+    float: right;
+    padding: 1em;
+  }
+}
+
+.printomatic:hover {
+  opacity: 0.8;
+}
+
+.print-me-container {
+  margin: 0 0 1.5em;
+}
+/* no display on mobile */
+@media only screen and (max-width: 767px) {
+  .print-me-container {
+    display: none;
+  }
+}
+/* end print me */
+
+/* search results text */
+.search h1.entry-title span {
+  color: #9aaf50;
+}
+/* search input text */
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input {
+  color: #9aaf50 !important;
+}
+
+/* hide body content for single post and post list excerpt */
+article .entry-content p {
+  /* display: none; */
+}
+
+/* ajax button loader */
+body .ajax-loader {
+  border-color: #71AFC4 !important;
+}
+
+
+/* ==========================================================================
+end CONTENT
+========================================================================== */
+
+/* ==========================================================================
+FOOTER
+========================================================================== */
+
+/* grc */
+
+/* footer,
+.footer-widget-area {
+  background-color: #000 !important;
+} */
+.site-copyright {
+  background-color: #000;
+  border-color: #000 !important;
+  color: #fff;
+}
+
+.socialMediaAndEmailSignup {
+  width: 100%;
+  text-align: center;
+}
+.socialMediaAndEmailSignup .socialMedia ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.socialMediaAndEmailSignup .socialMedia ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.socialMediaAndEmailSignup .emailSignup {
+  padding: 20px 0;
+  text-align: center;
+}
+.socialMediaAndEmailSignup .emailSignup form {
+  display: inline-block;
+  width: 300px;
+  height: 45px;
+  border-radius: 0px;
+  border: 2px solid #fff;
+  background: #dcd3cd;
+}
+@media only screen and (max-width: 600px) {
+  .socialMediaAndEmailSignup .emailSignup form {
+    width: 100%;
+  }
+}
+.socialMediaAndEmailSignup .emailSignup form input[type='email'] {
+  float: left;
+  height: 100%;
+  border: none;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  background: none;
+  color: #897868;
+}
+@media only screen and (max-width: 600px) {
+  .socialMediaAndEmailSignup .emailSignup form input[type='email'] {
+    float: none;
+    display: block;
+  }
+}
+.socialMediaAndEmailSignup .emailSignup form input[type='submit'] {
+  float: right;
+  height: 100%;
+  border: none;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  color: #fff;
+  background: #897868;
+}
+@media only screen and (max-width: 600px) {
+  .socialMediaAndEmailSignup .emailSignup form input[type='submit'] {
+    float: none;
+    display: block;
+    margin: 8px auto 0 auto;
+  }
+}
+
+.socialMedia a:hover {
+  opacity: 0.8;
+}
+
+footer .col-md-4 {
+  text-align: center;
+}
+
+/* footer links */
+footer a {
+  color: #47788a !important;
+}
+footer a:hover {
+  color: #9aaf50 !important;
+}
+
+/* scroll up link */
+#scroll-up {
+  background: transparent;
+}
+/* ==========================================================================
+end FOOTER
+========================================================================== */
+
+/* SSWS custom temp styles */

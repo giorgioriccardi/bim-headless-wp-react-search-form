@@ -9,50 +9,40 @@
 
 get_header();?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<div id="primary" class="content-area">
+    <main id="main" class="site-main">
 
-            <div>
-                <p>Business Name: <?php the_field('business_name');?></p>
-                <p>Licence Number: <?php the_field('licence_number');?></p>
-                <p>Licence Status: <?php the_field('licence_status');?></p>
-                <p>Phone #: <?php //the_field('business_phone');?>
-                    <a
-                        class=""
-                        href="tel:<?php the_field('business_phone');?>"
-                        target="_blank"
-                        title="Call <?php the_field('business_name');?> at <?php the_field('business_phone');?>">
-                        <?php the_field('business_phone');?>
-                    </a>
-                </p>
-                <p>Owner: <?php the_field('business_owner');?></p>
-                <p>Email: <?php // the_field('email_address');?>
-                    <a
-                        class=""
-                        href="mailto:<?php the_field('email_address');?>"
-                        target="_blank"
-                        title="<?php the_field('email_address');?>">
-                        <?php the_field('email_address');?>
-                    </a>
-                </p>
-                <p>Website: <?php // the_field('website_address');?>
-                    <a
-                        class=""
-                        href="<?php echo esc_url(get_field('website_address')); ?>"
-                        target="_blank"
-                        rel=”nofollow”
-                        title="<?php echo esc_html(get_field('website_address')); ?>">
-                        <?php echo esc_html(get_field('website_address')); ?>
-                    </a>
-                </p>
-                <p>Address:
-<?php // the_field('business_address');
+        <div id="business-data">
+            <!-- <p>Business Name: <?php // the_field('business_name');?></p> -->
+            <p>Licence Number: <?php the_field('licence_number');?></p>
+            <p>Licence Status: <?php the_field('licence_status');?></p>
+            <p>Phone #: <?php //the_field('business_phone');?>
+                <a class="formatted_phone" href="tel:<?php the_field('business_phone');?>" target="_blank"
+                    title="Call <?php the_field('business_name');?> at <?php the_field('business_phone');?>">
+                    <?php the_field('business_phone');?>
+                </a>
+            </p>
+            <p>Owner: <?php the_field('business_owner');?></p>
+            <p>Email: <?php // the_field('email_address');?>
+                <a class="" href="mailto:<?php the_field('email_address');?>" target="_blank"
+                    title="<?php the_field('email_address');?>">
+                    <?php the_field('email_address');?>
+                </a>
+            </p>
+            <p>Website: <?php // the_field('website_address');?>
+                <a class="" href="<?php echo esc_url(get_field('website_address')); ?>" target="_blank" rel=”nofollow”
+                    title="<?php echo esc_html(get_field('website_address')); ?>">
+                    <?php echo esc_html(get_field('website_address')); ?>
+                </a>
+            </p>
+            <p>Address:
+                <?php // the_field('business_address');
 $map_location = get_field('business_address');
 echo $map_location['address'];
 ?>
-                </p>
-                <p>NAICS:
-<?php
+            </p>
+            <p>NAICS:
+                <?php
 // SSWS Loop example
 // $terms = get_terms( 'naics_code', 'name' );
 // if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
@@ -63,7 +53,7 @@ echo $map_location['address'];
 //     echo '</ul>';
 // }
 ?>
-<?php
+                <?php
 // !Only works for the first item of the loop
 // $args = array('number' => '1');
 // $terms = get_terms('naics_code', $args);
@@ -74,7 +64,7 @@ echo $map_location['address'];
 // }
 ?>
 
-<?php
+                <?php
 $terms = get_the_terms($post->ID, 'naics_code');
 foreach ($terms as $term) {
     $termlinks = get_term_link($term);
@@ -82,8 +72,8 @@ foreach ($terms as $term) {
 }
 ?>
 
-<!-- SSWS naics_code loop with link -->
-<?php
+                <!-- SSWS naics_code loop with link -->
+                <?php
 // $terms = get_terms('naics_code');
 // echo '<ul>';
 // foreach ($terms as $term) {
@@ -98,16 +88,24 @@ foreach ($terms as $term) {
 // }
 // echo '</ul>';
 ?>
-                </p>
-            </div>
+            </p>
+        </div>
 
-		<?php
+        <?php
 while (have_posts()): the_post();
 
     $format = get_post_format();
     $format = (false === $format) ? 'single' : $format;
 
     get_template_part('template-parts/content', $format);
+
+    // PRINT-O-MATIC
+    ?>
+        <article class="print-me-container">
+            <?php echo do_shortcode( '[print-me]' ); ?>
+        </article>
+        <?php
+    // https://plugins.twinpictures.de/plugins/print-o-matic/documentation/
 
     /**
      * Hook minimal_lite_before_single_nav
@@ -133,8 +131,8 @@ while (have_posts()): the_post();
 endwhile; // End of the loop.
 ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+    </main><!-- #main -->
+</div><!-- #primary -->
 
 <?php
 $page_layout = minimal_lite_get_page_layout();

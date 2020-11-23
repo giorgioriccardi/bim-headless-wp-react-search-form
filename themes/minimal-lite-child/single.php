@@ -46,6 +46,18 @@ get_header(); ?>
                 echo $map_location['address'];
                 ?>
             </p>
+            <!-- SSWS 11/2020 -->
+            <p>Designated Individual Name:
+                <?php the_field('designated_individual_name'); ?>
+            </p>
+            <p>Designated Individual Phone Number: <?php //the_field('designated_individual_phone_number');
+                                                    ?>
+                <a class="formatted_phone" href="tel:<?php the_field('designated_individual_phone_number'); ?>"
+                    target="_blank"
+                    title="Call <?php the_field('designated_individual_name'); ?> at <?php the_field('designated_individual_phone_number'); ?>">
+                    <?php the_field('designated_individual_phone_number'); ?>
+                </a>
+            </p>
             <p>NAICS:
                 <?php
                 // SSWS Loop example

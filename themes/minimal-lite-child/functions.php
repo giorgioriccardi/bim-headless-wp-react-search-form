@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
     console.info('SSWS start ssws_inject_formatted_phone');
     $('.formatted_phone').text(function(i, text) {
         // console.log(text);
-        console.log('formatted_phone done via function.php');
+        console.log('formatted_phone done via functions.php');
         return text.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
     });
 });
@@ -190,3 +190,23 @@ function filter_next_and_prev_post_where($original)
 // 2020 BIM Business Search Child Theme Functions
 /********************************************************/
 /********************************************************/
+
+/********************************************************/
+// BIM Search if condition for certain categories
+/********************************************************/
+// add_filter('the_content', 'ssws_add_content');
+function ssws_add_content($content)
+{
+
+    $cat_id   = get_cat_ID('accommodations');
+    $children = get_term_children($cat_id, 'category');
+
+    $ssws_custom_text = '<h1>Accomodation</h1>';
+
+    // if (is_single() && has_term('accommodations', 'category')) {
+    // if (has_category('accommodations', $post->ID)) {
+    if (is_single() && (has_category($cat_id) || has_category($children))) {
+        $content .= $ssws_custom_text;
+    }
+    return $content;
+}

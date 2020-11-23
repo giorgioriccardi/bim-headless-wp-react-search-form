@@ -71,6 +71,8 @@ get_header(); ?>
 
                 <?php
                 $terms = get_the_terms($post->ID, 'naics_code');
+                // SSWS 11/2020
+                // https://thisinterestsme.com/invalid-argument-supplied-for-foreach/
                 if (is_array($posts)) {
                     foreach ($terms as $term) {
                         $termlinks = get_term_link($term);

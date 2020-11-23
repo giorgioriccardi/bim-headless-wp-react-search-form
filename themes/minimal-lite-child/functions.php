@@ -190,17 +190,3 @@ function filter_next_and_prev_post_where($original)
 // 2020 BIM Business Search Child Theme Functions
 /********************************************************/
 /********************************************************/
-
-/********************************************************/
-// BIM search if condition for certain categories
-/********************************************************/
-// INSERT INTO `wp_terms` VALUES (14,'Home-Based Business - Non-Public Access','home-based-business-non-public-access',0);
-// <?php
-//     // if ( has_term( 'home-based-business-non-public-access', 'category' ) ) {
-?>
-<!-- <div class='debug'> -->
-<!-- <p>ssws "Home-Based Business - Non-Public Access"</p> -->
-<!-- </div> -->
-<?php
-// }
-?>
